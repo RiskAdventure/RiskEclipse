@@ -34,6 +34,118 @@ package com.ite.riskadventureSPRING.controller;
 			return "experiencias";
 			
 		}
+		@GetMapping("/agua")
+		public String inicio2(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "agua";
+			
+		}
+		@GetMapping("/aire")
+		public String inicio3(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "aire";
+			
+		}
+		@GetMapping("/tierra")
+		public String inicio4(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "tierra";
+			
+		}
+		@GetMapping("/articulos")
+		public String inicio5(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "articulos";
+			
+		}
+		@GetMapping("/aviso_legal")
+		public String inicio6(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "aviso_legal";
+			
+		}
+		@GetMapping("/blog")
+		public String inicio7(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "blog";
+			
+		}
+		@GetMapping("/carrito")
+		public String inicio8(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "carrito";
+			
+		}
+		@GetMapping("/contacto")
+		public String inicio9(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "contacto";
+			
+		}
+		@GetMapping("/cookies")
+		public String inicio10(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "cookies";
+			
+		}
+		@GetMapping("/eventos")
+		public String inicio11(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "eventos";
+			
+		}
+		@GetMapping("/login")
+		public String inicio12(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "login";
+			
+		}
+		@GetMapping("/nosotros")
+		public String inicio13(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "nosotros";
+			
+		}
+		@GetMapping("/packs")
+		public String inicio14(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "packs";
+			
+		}
+		@GetMapping("/politica_privacidad")
+		public String inicio15(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "politica_privacidad";
+			
+		}
+		@GetMapping("/registro")
+		public String inicio16(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "registro";
+			
+		}
+		@GetMapping("/vermasblog")
+		public String inicio17(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "vermasblog";
+			
+		}
 		
 
 	

@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,7 +26,7 @@
 <div class="container">
   <div class="row" id="logo">
     <div class="col-md-1">
-      <a href="../html/index.php"><img src="../imagenes/favicon_risk.png"></a>
+      <a href="../html/index"><img src="../imagenes/favicon_risk.png"></a>
     </div>
     <div class="col-md-10" id="texto">
       <p>login RISK ADVENTURE </p>
@@ -66,7 +69,7 @@
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					¿Aún no tienes una cuenta?<a href="registro.php">Regístrate</a>
+					¿Aún no tienes una cuenta?<a href="registro">Regístrate</a>
 				</div>
 				
 			</div>

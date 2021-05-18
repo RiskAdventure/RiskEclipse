@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,8 +30,8 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-                <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
-                <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                <a href="carrito"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                <a href="login"><i class="fas fa-user" id="login" title="login"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
@@ -46,19 +49,19 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
-                      <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog.php">BLOG</a></li>
-                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                      <li><a id="home" href="index">HOME</a></li>
+                      <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
+                      <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
+                      <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
+                      <li><a id="blog" href="blog">BLOG</a></li>
+                      <li><a id="contacto" href="contacto">CONTACTO</a></li>
                     </ul>
                   </div>
             </nav>
@@ -246,9 +249,9 @@
             <!-- efecto bolitas---COMÚN-->
 
             <!--enlaces a aviso legal, política de privacidad y cookies-->
-            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso
-                    Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> |
-                <a href="cookies.php" id="cookies"> Cookies</a>
+            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso
+                    Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Política de privacidad</a> |
+                <a href="cookies" id="cookies"> Cookies</a>
             </div>
         </footer>
         <script type="text/javascript" src="../js/eventos.js"></script>

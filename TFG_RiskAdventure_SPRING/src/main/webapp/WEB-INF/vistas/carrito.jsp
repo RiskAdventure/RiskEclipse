@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,24 +28,24 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-                <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
-                <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                <a href="carrito"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                <a href="login"><i class="fas fa-user" id="login" title="login"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
           <div class="row" id="logo_menu">
           <!-- logo-->
-          <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
+          <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index"><img src="../imagenes/header_logo.png" id="logo"/> </div>
             <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
             <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                 <ul>
                   <li ><a id="home" href="index.php">HOME</a></li>
-                  <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                  <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                  <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                  <li ><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                  <li ><a id="blog" href="blog.php">BLOG</a></li>
-                  <li ><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                  <li ><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
+                  <li ><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
+                  <li ><a id="packs" href="packs">PACKS & GRUPOS</a></li>
+                  <li ><a id="sobre" href="nosotros">NOSOTROS</a></li>
+                  <li ><a id="blog" href="blog">BLOG</a></li>
+                  <li ><a id="contacto" href="contacto">CONTACTO</a></li>
                 </ul>
             </nav>
           </div>
@@ -116,7 +119,7 @@
                                     <!-- efecto bolitas---COMÚN-->  
           
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Política de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/carrito.js"></script> <!--Enlace externo a archivo JS-->
     </div> 

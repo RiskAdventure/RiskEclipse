@@ -1,18 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Experiencias de Agua</title><!-- título-->
+    <title>Experiencias de Aire</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Artículos, blog, experiencias, lectura, recomendaciones"><!-- palabras clave-->
-    <meta name="description" content="Más artículos de nuestra guía de experiencias, podrás buscar entre un montón de experiencias únicas de multiaventura, deporte en entornos rurales y de ciudad."><!-- descripción-->
+    <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
+    <meta name="description" content="Elige tu experiencia  de Aire y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de aire."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/articulos.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/wind.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 <body>
@@ -26,8 +29,8 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-                <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
-                <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                <a href="carrito"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                <a href="login"><i class="fas fa-user" id="login" title="login"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
@@ -45,19 +48,19 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
                       <li><a id="home" href="index.php">HOME</a></li>
-                      <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog.php">BLOG</a></li>
-                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                      <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
+                      <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
+                      <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
+                      <li><a id="blog" href="blog">BLOG</a></li>
+                      <li><a id="contacto" href="contacto">CONTACTO</a></li>
                     </ul>
                   </div>
             </nav>
@@ -65,6 +68,36 @@
         </header>
 
         <!-- SECTION-->
+        <section class="row" id="imagenes" >
+          <div class="col-md-12 col-xs-12 col-xm-12" id="aire">
+             <img src="../imagenes/mas_wind.jpg" alt="Más experiencias Aire" title="Más Aire"></img>
+             <a href="aire.php"></a>
+          </div>
+
+        </section>
+
+        <section class="row justify-content-center">
+            <div id=textoaire class="col-md-12">
+                <div>EXPERIENCIAS DE AIRE</div>
+            </div>
+            <div id="texto" class="col-md-12">
+                <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los pájaros,... todas las actividades que te harán
+                  sentirte en libertar... Sientete como un pájaro con nuestras experiencias en el Aire.
+                </div>
+            </div>
+        </section>  
+
+        <hr>
+
+
+        <hr>
+
+        <article class="row">
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
+              <a href="agua.php"><div>IR A AGUA</div></a>
+            </div>            
+        </article>
        
        
         <!-- efecto bolitas----COMÚN-->  
@@ -144,11 +177,11 @@
             <!-- efecto bolitas---COMÚN-->
 
             <!--enlaces a aviso legal, política de privacidad y cookies-->
-            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso
-                    Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> |
-                <a href="cookies.php" id="cookies"> Cookies</a></div>
+            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso
+                    Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Política de privacidad</a> |
+                <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
-        <script type="text/javascript" src="../js/blog.js"></script>
+        <script type="text/javascript" src="../js/experiencias.js"></script>
         <!--Enlace externo a archivo JS-->
     </div>
 </body>
