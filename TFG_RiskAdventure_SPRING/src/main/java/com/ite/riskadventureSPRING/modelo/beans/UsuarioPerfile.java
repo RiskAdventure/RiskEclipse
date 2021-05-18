@@ -19,12 +19,12 @@ public class UsuarioPerfile implements Serializable {
 
 	//bi-directional many-to-one association to Usuario
 	@ManyToOne
-	@JoinColumn(name="ID_USUARIO")
+	@JoinColumn(name="ID_USUARIO", insertable=false, updatable=false)
 	private Usuario usuario;
 
 	//uni-directional many-to-one association to Perfile
 	@ManyToOne
-	@JoinColumn(name="ID_PERFIL")
+	@JoinColumn(name="ID_PERFIL" , insertable=false, updatable=false)
 	private Perfile perfiles;
 
 	public UsuarioPerfile() {
