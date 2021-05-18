@@ -95,7 +95,7 @@
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_portada3.jpg"></a>
+                  <a href="experiencias"><img src="../imagenes/carrusel_portada3.jpg"></a>
                   <div class="carousel-caption">
                   <h3>DE CALIDAD</h3>
                     <p>No es solamente una aventura, es una experiencia de Calidad...</p>
@@ -165,19 +165,19 @@
         <section class="row"  >
           <div class="col-md-3" id="circ1">
              <img src="../imagenes/home_packs_despedida2.jpg" alt="Despedidas" title="Despedidas"></img>
-             <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
+             <a href="packs"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
           </div>
           <div class="col-md-3" id="circ2">
              <img src="../imagenes/home_packs_grupos1.jpg" alt="Grupos" title="Grupos"></img>
-             <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
+             <a href="packs"><div class="boton" id="boton2"> GRUPOS</div></a>
           </div>
           <div class="col-md-3" id="circ3">
              <img src="../imagenes/home_packs_familias1.jpg" alt="Familias" title="Familias"></img>
-             <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
+             <a href="packs"><div class="boton" id="boton3"> FAMILIAS</div></a>
           </div>
           <div class="col-md-3" id="circ4">
              <img src="../imagenes/home_packs_parejas1.jpg" alt="Parejas" title="Parejas"></img>
-             <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
+             <a href="packs"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
         </section>
         <!-- texto bajo imágenes-->
@@ -193,7 +193,7 @@
         <!-- botón central imágenes-->
         <section class="row" >
             <div class="col-md-12 " id="boton_packs" > 
-              <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+              <a href="packs"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
             </div>
         </section>    
                                           <!-- efecto bolitas----COMÚN-->   
@@ -251,8 +251,8 @@
         <!-- botones ver más y contacto-->
         <section class="row" >
             <div class="col-md-12 " id="boton_listo" > 
-              <a href="eventos.php"><div  class="boton_pack" id="ver"> VER MÁS</div></a>
-              <a href="contacto.php"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
+              <a href="eventos"><div  class="boton_pack" id="ver"> VER MÁS</div></a>
+              <a href="contacto#consulta"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
             </div>
         </section>   
                                                <!-- efecto bolitas----COMÚN-->

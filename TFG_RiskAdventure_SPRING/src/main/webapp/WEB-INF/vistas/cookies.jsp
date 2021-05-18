@@ -123,7 +123,7 @@
           <div id="overbox3">
               <div id="infobox3">
                   <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
-                  <a href="cookies.php">Más información</a>
+                  <a href="cookies">Más información</a>
                   <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
               </div>
           </div>

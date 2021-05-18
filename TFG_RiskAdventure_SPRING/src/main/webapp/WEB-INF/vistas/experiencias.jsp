@@ -72,15 +72,15 @@
         <section class="row" id="imagenes" >
           <div class="col-md-4 col-xs-12 col-xm-12" id="exp1">
              <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
-             <a href="tierra.php"><div class="button" id="boton1"> TIERRA</div></a>
+             <a href="tierra"><div class="button" id="boton1"> TIERRA</div></a>
           </div>
           <div class="col-md-4 col-xs-12 col-xm-12" id="exp2">
              <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
-             <a href="agua.php"><div class="button" id="boton2"> AGUA</div></a>
+             <a href="agua"><div class="button" id="boton2"> AGUA</div></a>
           </div>
           <div class="col-md-4 col-xs-12 col-xm-12" id="exp3">
              <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
-             <a href="aire.php"><div class="button" id="boton3"> AIRE</div></a>
+             <a href="aire"><div class="button" id="boton3"> AIRE</div></a>
           </div>
         </section>
         
@@ -109,24 +109,24 @@
         <!--PARTE CENTRAL VER MAS-->
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="tierra.php"><img src="../imagenes/mas_tierra.jpg" alt="Tierra"
+            <a href="tierra"><img src="../imagenes/mas_tierra.jpg" alt="Tierra"
                     title="Experiencias Tierra"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">TIERRA</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
                     <div class="col-md-12 col-xs-12  " id="div2_1">
-                        <a href="tierra.php" id="consulta"><div>ESCALADA</div></a>
-                        <a href="tierra.php"><div>SEGWAY</div></a>
-                        <a href="tierra.php"><div>SENDERISMO</div></a>
-                        <a href="tierra.php"><div>ESCALADA</div></a>
-                        <a href="tierra.php"><div>QUADS</div></a>
-                        <a href="tierra.php"><div>MULTIAVENTURA</div></a>
-                        <a href="tierra.php"><div>ESPELEOLOGÍA</div></a>
-                        <a href="tierra.php"><div>ENOTURISMO</div></a>
-                        <a href="tierra.php"><div>BTT</div></a>
-                        <a href="tierra.php"><div>PUENTING</div></a>
-                        <p><a href="tierra.php" id="vermas">Ver más TIERRA...</p></a>
+                        <a href="tierra" id="consulta"><div>ESCALADA</div></a>
+                        <a href="tierra"><div>SEGWAY</div></a>
+                        <a href="tierra"><div>SENDERISMO</div></a>
+                        <a href="tierra"><div>ESCALADA</div></a>
+                        <a href="tierra"><div>QUADS</div></a>
+                        <a href="tierra"><div>MULTIAVENTURA</div></a>
+                        <a href="tierra"><div>ESPELEOLOGÍA</div></a>
+                        <a href="tierra"><div>ENOTURISMO</div></a>
+                        <a href="tierra"><div>BTT</div></a>
+                        <a href="tierra"><div>PUENTING</div></a>
+                        <p><a href="tierra" id="vermas">Ver más TIERRA...</p></a>
                     </div>            
             </article>
             </div>
@@ -134,24 +134,24 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="agua.php"><img src="../imagenes/mas_agua.jpg" alt="Agua"
+            <a href="agua"><img src="../imagenes/mas_agua.jpg" alt="Agua"
                     title="Experiencias Agua"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">AGUA</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
                     <div class="col-md-12 col-xs-12  " id="div2_1">
-                        <a href="agua.php" id="consulta"><div>BARRANQUISMO</div></a>
-                        <a href="agua.php"><div>SURF</div></a>
-                        <a href="agua.php"><div>VELA</div></a>
-                        <a href="agua.php"><div>PIRAGUISMO</div></a>
-                        <a href="agua.php"><div>BUCEO</div></a>
-                        <a href="agua.php"><div>ESQUÍ</div></a>
-                        <a href="agua.php"><div>FLYBOARD</div></a>
-                        <a href="agua.php"><div>PESCA</div></a>
-                        <a href="agua.php"><div>CANOAS</div></a>
-                        <a href="agua.php"><div>KITE SURF</div></a>
-                        <p><a href="agua.php" id="vermas">Ver más AGUA...</p></a>
+                        <a href="agua" id="consulta"><div>BARRANQUISMO</div></a>
+                        <a href="agua"><div>SURF</div></a>
+                        <a href="agua"><div>VELA</div></a>
+                        <a href="agua"><div>PIRAGUISMO</div></a>
+                        <a href="agua"><div>BUCEO</div></a>
+                        <a href="agua"><div>ESQUÍ</div></a>
+                        <a href="agua"><div>FLYBOARD</div></a>
+                        <a href="agua"><div>PESCA</div></a>
+                        <a href="agua"><div>CANOAS</div></a>
+                        <a href="agua"><div>KITE SURF</div></a>
+                        <p><a href="agua" id="vermas">Ver más AGUA...</p></a>
                     </div>            
                 </article>
             </div>
@@ -159,24 +159,24 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="aire.php"><img src="../imagenes/mas_aire.jpg" alt="Aire"
+            <a href="aire"><img src="../imagenes/mas_aire.jpg" alt="Aire"
                     title="Experiencias Aire"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">AIRE</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
                     <div class="col-md-12 col-xs-12  " id="div2_1">
-                        <a href="aire.php" id="consulta"><div>PARAPENTE</div></a>
-                        <a href="aire.php"><div>PASEO EN GLOBO</div></a>
-                        <a href="aire.php"><div>VUELO SIN MOTOR</div></a>
-                        <a href="aire.php"><div>ULTRALIGEROS</div></a>
-                        <a href="aire.php"><div>ALA DELTA</div></a>
-                        <a href="aire.php"><div>PARACAIDISMO</div></a>
-                        <a href="aire.php"><div>PARASCENDING</div></a>
-                        <a href="aire.php"><div>HELICÓPTERO</div></a>
-                        <a href="aire.php"><div>AVIONETA</div></a>
-                        <a href="aire.php"><div>PARAMOTOR</div></a> 
-                        <p><a href="aire.php" id="vermas">Ver más AIRE...</p></a>                       
+                        <a href="aire" id="consulta"><div>PARAPENTE</div></a>
+                        <a href="aire"><div>PASEO EN GLOBO</div></a>
+                        <a href="aire"><div>VUELO SIN MOTOR</div></a>
+                        <a href="aire"><div>ULTRALIGEROS</div></a>
+                        <a href="aire"><div>ALA DELTA</div></a>
+                        <a href="aire"><div>PARACAIDISMO</div></a>
+                        <a href="aire"><div>PARASCENDING</div></a>
+                        <a href="aire"><div>HELICÓPTERO</div></a>
+                        <a href="aire"><div>AVIONETA</div></a>
+                        <a href="aire"><div>PARAMOTOR</div></a> 
+                        <p><a href="aire" id="vermas">Ver más AIRE...</p></a>                       
                     </div>            
                 </article>
             </div>
@@ -227,7 +227,7 @@
             <!-- botón central inferior blog-->
             <section class="row" >
                 <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
-                <a href="blog.php"><div  class="boton_blog_centro"> IR AL BLOG</div></a>
+                <a href="blog"><div  class="boton_blog_centro"> IR AL BLOG</div></a>
                 </div>
             </section> 
         <!--fin parte INFERIOR-->

@@ -88,7 +88,7 @@
         <!-- botones ver más y contacto-->
         <section class="row">
             <div class="col-md-12 col-xs-12" id="boton_listo">
-                <a href="contacto.php">
+                <a href="contacto">
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
             </div>
@@ -126,7 +126,7 @@
         <!-- botones ver más y contacto-->
         <section class="row">
             <div class="col-md-12" id="boton_evento">
-                <a href="contacto.php">
+                <a href="contacto">
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
             </div>
@@ -157,7 +157,7 @@
         <!-- botones ver más y contacto-->
         <section class="row">
             <div class="col-md-12" id="boton_incentive">
-                <a href="contacto.php">
+                <a href="contacto">
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
             </div>

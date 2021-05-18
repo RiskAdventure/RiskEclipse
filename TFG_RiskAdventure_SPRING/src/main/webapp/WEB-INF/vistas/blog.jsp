@@ -53,7 +53,7 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
+                      <li><a id="home" href="index">HOME</a></li>
                       <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
@@ -111,7 +111,7 @@
              <!-- botón central inferior blog-->
              <section class="row" >
                 <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
-                <a href="vermasblog.php"><div  class="boton_blog_centro"> VER MÁS ARTÍCULOS</div></a>
+                <a href="vermasblog"><div  class="boton_blog_centro"> VER MÁS ARTÍCULOS</div></a>
                 </div>
             </section>
         

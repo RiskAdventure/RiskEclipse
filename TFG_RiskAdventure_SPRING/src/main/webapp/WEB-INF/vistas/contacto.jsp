@@ -55,7 +55,7 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
+                      <li><a id="home" href="index">HOME</a></li>
                       <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
@@ -88,8 +88,8 @@
               <a href="#consulta" id="consulta"><div>CONSULTA</div></a>
               
               <a href="https://cutt.ly/UvIKPOG"><div>CHAT on-line</div></a>
-              <a href="politica_privacidad.php"><div>POLÍTICA</div></a>
-              <a href="cookies.php"><div>COOKIES</div></a>
+              <a href="politica_privacidad"><div>POLÍTICA</div></a>
+              <a href="cookies"><div>COOKIES</div></a>
             </div>            
           </article>
         </section>
@@ -153,7 +153,7 @@
 
 
   
-                <span>Acepto la<a href="politica_privacidad.php"> Política de privacidad</a></span>
+                <span>Acepto la<a href="politica_privacidad"> Política de privacidad</a></span>
                 <input type="submit" id="enviar" value="ENVIAR"/>
               </form>
             </div>

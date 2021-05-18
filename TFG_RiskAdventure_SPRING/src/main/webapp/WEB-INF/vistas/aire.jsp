@@ -54,7 +54,7 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
+                      <li><a id="home" href="index">HOME</a></li>
                       <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
@@ -71,7 +71,7 @@
         <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="aire">
              <img src="../imagenes/mas_wind.jpg" alt="Más experiencias Aire" title="Más Aire"></img>
-             <a href="aire.php"></a>
+             <a href="aire"></a>
           </div>
 
         </section>
@@ -94,8 +94,8 @@
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
-              <a href="agua.php"><div>IR A AGUA</div></a>
+              <a href="tierra" id="consulta"><div>IR A TIERRA</div></a>
+              <a href="agua"><div>IR A AGUA</div></a>
             </div>            
         </article>
        

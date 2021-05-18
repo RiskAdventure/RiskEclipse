@@ -72,7 +72,7 @@
        <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="agua">
              <img src="../imagenes/mas_aqua.jpg" alt="Más experiencias Agua" title="Más Agua"></img>
-             <a href="agua.php"></a>
+             <a href="agua"></a>
           </div>
 
         </section>
@@ -96,7 +96,7 @@
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
-              <a href="aire.php"><div>IR A AIRE</div></a>
+              <a href="aire"><div>IR A AIRE</div></a>
             </div>            
         </article>
 
