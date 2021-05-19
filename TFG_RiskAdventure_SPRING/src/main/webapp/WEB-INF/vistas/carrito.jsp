@@ -33,20 +33,33 @@
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
-          <div class="row" id="logo_menu">
-          <!-- logo-->
-          <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index"><img src="../imagenes/header_logo.png" id="logo"/> </div>
-            <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-            <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
-                <ul>
-                  <li ><a id="home" href="index.php">HOME</a></li>
-                  <li ><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
-                  <li ><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
-                  <li ><a id="packs" href="packs">PACKS & GRUPOS</a></li>
-                  <li ><a id="sobre" href="nosotros">NOSOTROS</a></li>
-                  <li ><a id="blog" href="blog">BLOG</a></li>
-                  <li ><a id="contacto" href="contacto">CONTACTO</a></li>
-                </ul>
+          <div class="row" id="nav"> 
+            <nav class="navbar navbar-default" role="navigation" id="menu">
+                  <!-- El logotipo y el icono que despliega el menú se agrupan
+                      para mostrarlos mejor en los dispositivos móviles -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Desplegar navegaci&oacute;n</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
+                  </div>
+                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  otro elemento que se pueda ocultar al minimizar la barra -->
+                  <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                      <li><a id="home" href="index">HOME</a></li>
+                      <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
+                      <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs" href="packs">PACKS &amp; GRUPOS</a></li>
+                      <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
+                      <li><a id="blog" href="blog">BLOG</a></li>
+                      <li><a id="contacto" href="contacto">CONTACTO</a></li>
+                    </ul>
+                  </div>
             </nav>
           </div>
         </header>                                        

@@ -42,7 +42,7 @@
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
-                      <span class="sr-only">Desplegar navegación</span>
+                      <span class="sr-only">Desplegar navegaci&oacute;n</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
@@ -53,10 +53,10 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
+                      <li><a id="home" href="index">HOME</a></li>
                       <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
+                      <li><a id="packs" href="packs">PACKS &amp; GRUPOS</a></li>
                       <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
                       <li><a id="blog" href="blog">BLOG</a></li>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
