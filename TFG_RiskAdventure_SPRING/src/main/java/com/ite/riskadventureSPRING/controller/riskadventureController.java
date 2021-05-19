@@ -13,8 +13,10 @@ package com.ite.riskadventureSPRING.controller;
 	import org.springframework.web.bind.annotation.RequestParam;
 	import org.springframework.web.bind.annotation.RestController;
 
+import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
+import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 
@@ -23,7 +25,12 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 	@Controller
 	@RequestMapping("/riskadventure")
 	public class riskadventureController {
+		
 		TipoDaoImpl tdao=new TipoDaoImpl();
+		
+		IntEventoDao edao;
+		
+		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
@@ -54,6 +61,18 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 			return "aire";
 			
+		}
+		
+		//Carga una página mostrando los eventos por el tipo seleccionado
+		@GetMapping("/tipoAgua")
+		public String mostrarEventosporTipo(Model model, @RequestParam(name = "tipo") int  idTipo) {
+			
+			List<Evento> listado = edao.mostrarEventoPorTipo(idTipo);
+			
+			model.addAttribute("listadoEventosTipo", listado);
+			
+			
+			return "agua";
 		}
 		
 		@GetMapping("/tipoTierra")
