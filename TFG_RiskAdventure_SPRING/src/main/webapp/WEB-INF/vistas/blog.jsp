@@ -90,20 +90,20 @@
             <section class="row" id="imagenes2" >
                 <div class="col-md-3" id="blog1">
                     <img src="../imagenes/material_escalada.jpg""></img>
-                    <a href="vermasblog.php"><p>Material adecuado de escalada</p></a>
+                    <a href="vermasblog"><p>Material adecuado de escalada</p></a>
                     
                 </div>
                 <div class="col-md-3" id="blog2">
                     <img src="../imagenes/calzado_senderismo.jpg""></img>
-                    <a href="vermasblog.php"><p>Mejor calzado de Senderismo</p></a>
+                    <a href="vermasblog"><p>Mejor calzado de Senderismo</p></a>
                 </div>
                 <div class="col-md-3" id="blog3">
                     <img src="../imagenes/mountain_bikes.jpg""></img>
-                    <a href="vermasblog.php"><p>Selección Bicicletas de Montaña 2020</p></a>
+                    <a href="vermasblog"><p>Selección Bicicletas de Montaña 2020</p></a>
                 </div>
                 <div class="col-md-3" id="blog4">
                     <img src="../imagenes/5amigos.jpg"></img>
-                    <a href="vermasblog.php"><p>5 aventureros, 5 compañeros...</p></a>
+                    <a href="vermasblog"><p>5 aventureros, 5 compañeros...</p></a>
                 </div>
                 
             </section> 
