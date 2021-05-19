@@ -62,6 +62,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			model.addAttribute("mensaje","Lidia Capita ");
 			List<Tipo> listaTipo = tdao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoTierra", listaTipo);
+			
 			return "tierra";
 			
 		}
