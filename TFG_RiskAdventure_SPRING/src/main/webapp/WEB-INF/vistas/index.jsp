@@ -44,7 +44,7 @@
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
-                      <span class="sr-only">Desplegar navegación</span>
+                      <span class="sr-only">Desplegar navegaci&oacute;n</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
@@ -58,7 +58,7 @@
                       <li><a id="home" href="index">HOME</a></li>
                       <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs" href="packs">PACKS & GRUPOS</a></li>
+                      <li><a id="packs" href="packs">PACKS &amp; GRUPOS</a></li>
                       <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
                       <li><a id="blog" href="blog">BLOG</a></li>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
@@ -83,8 +83,8 @@
                 <div class="item active">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_portada.jpg"></a>
                   <div class="carousel-caption">
-                    <h3>EXPERIENCIAS ÚNICAS</h3>
-                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                    <h3>EXPERIENCIAS &Uacute;NICAS</h3>
+                    <p>Sin riesgo no hay aventura, sum&eacute;rgete en una nueva sensaci&oacute;n...</p>
                   </div>
                 </div>
                 <div class="item">
@@ -324,7 +324,7 @@
               <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
               <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
-              <p>2020 © Copyright</p>
+              <p>2020 &copy; Copyright</p>
           </div>
           
           <!--enlaces a aviso legal, política de privacidad y cookies--> 

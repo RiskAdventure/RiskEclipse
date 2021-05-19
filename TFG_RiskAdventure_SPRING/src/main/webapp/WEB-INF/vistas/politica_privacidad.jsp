@@ -135,13 +135,12 @@
         <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
-            <div class="col-md-8 col-xs-8"  id="adventure">
-               <img src="../imagenes/footer_logo.png"> </div>
+            <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
             <!-- sección de contáctanos-->
-            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
+            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
             <div id="dire">
-                <p class="texto_contacto">Dirección :</p>
+                <p class="texto_contacto">Direcci&oacute;n :</p>
                 <p>123 Avenida de Bolonia, Madrid</p>
               </div>
               <div id="email">
@@ -149,33 +148,31 @@
                 <p>info@riskadventureclub.com</p>
               </div>
               <div>
-                <p class="texto_contacto">Teléfono :</p>
+                <p class="texto_contacto">Tel&eacute;fono :</p>
                 <p>(+34)677 899 900</p>
               </div>
             </div>
           <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
-              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill" title="logo oneill"/></a>
-              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia" alt="logo columbia" title="logo columbia"/></a>
-              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada" alt="logo la escapada" title="logo la escapada"/></a>
-              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva" alt="logo la esportiva" title="logo la esportiva"/></a>
-              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon" alt="logo decathlon" title=" logo decathlon"/></a>
-              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante" alt="logo bardir restaurante" title="logo bardis restaurante"/></a>
+              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
+              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
+              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
+              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"/></a>
+              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
+              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
           <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
-              <p>Síguenos en:</p>
+              <p>S&iacute;guenos en:</p>
               <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
               <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
               <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
-              <p>2020 © Copyright</p>
+              <p>2020 &copy; Copyright</p>
           </div>
-          <hr>
-                                    <!-- efecto bolitas---COMÚN-->  
           
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Política de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/cookies.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
