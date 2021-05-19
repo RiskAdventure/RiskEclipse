@@ -89,21 +89,21 @@
             </div>
             <section class="row" id="imagenes2" >
                 <div class="col-md-3" id="blog1">
-                    <img src="../imagenes/material_escalada.jpg" alt="Experiencias tierra" title="Tierra"></img>
-                    <a href="../blog/index.php"><p>Material adecuado de escalada</p></a>
+                    <img src="../imagenes/material_escalada.jpg""></img>
+                    <a href="vermasblog.php"><p>Material adecuado de escalada</p></a>
                     
                 </div>
                 <div class="col-md-3" id="blog2">
-                    <img src="../imagenes/calzado_senderismo.jpg" alt="Experiencias agua" title="Agua"></img>
-                    <a href="https://www.riskadventureclub.com/blog/mejor-calzado-de-senderismo/"><p>Mejor calzado de Senderismo</p></a>
+                    <img src="../imagenes/calzado_senderismo.jpg""></img>
+                    <a href="vermasblog.php"><p>Mejor calzado de Senderismo</p></a>
                 </div>
                 <div class="col-md-3" id="blog3">
-                    <img src="../imagenes/mountain_bikes.jpg" alt="Experiencias aire" title="Aire"></img>
-                    <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"><p>Selección Bicicletas de Montaña 2020</p></a>
+                    <img src="../imagenes/mountain_bikes.jpg""></img>
+                    <a href="vermasblog.php"><p>Selección Bicicletas de Montaña 2020</p></a>
                 </div>
                 <div class="col-md-3" id="blog4">
-                    <img src="../imagenes/5amigos.jpg" alt="Experiencias tierra" title="Tierra"></img>
-                    <a href="https://www.riskadventureclub.com/blog/hola-mundo/"><p>5 aventureros, 5 compañeros...</p></a>
+                    <img src="../imagenes/5amigos.jpg"></img>
+                    <a href="vermasblog.php"><p>5 aventureros, 5 compañeros...</p></a>
                 </div>
                 
             </section> 
