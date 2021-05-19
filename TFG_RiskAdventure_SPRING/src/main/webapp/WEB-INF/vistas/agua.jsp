@@ -5,23 +5,23 @@
 <html lang="en">
 
 <head>
-    <title>Experiencias de Agua</title><!-- título-->
+    <title>Experiencias de Agua</title><!-- tÃ­tulo-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu experiencia de Agua y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de agua."><!-- descripción-->
-    <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
+    <meta name="keywords" content="Experiencias Ãºnicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
+    <meta name="description" content="Elige tu experiencia de Agua y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de agua."><!-- descripciÃ³n-->
+    <meta name="author" content="RaÃºl Montero, Pilar Bermejo, Lidia MartÃ­nez"><!-- autores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualizaciÃ³n-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librerÃ­a jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/agua.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 <body>
 
-    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
-     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
+    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirÃ¡ hacer
+     nuestra pÃ¡gina responsive y que se adapte a diferentes tamaÃ±os de pantalla. Para ello nos serviremos tambiÃ©n
       de las media queries @-->
       <div class="container">
                                                       <!-- HEADER----COMUN-->
@@ -35,11 +35,11 @@
               </div>
           </div>
           
-         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÃN-->
           <div class="row" id="nav"> 
             <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menú se agrupan
-                      para mostrarlos mejor en los dispositivos móviles -->
+                  <!-- El logotipo y el icono que despliega el menÃº se agrupan
+                      para mostrarlos mejor en los dispositivos mÃ³viles -->
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
@@ -50,7 +50,7 @@
                     </button>
                     <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
                   </div>
-                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -71,7 +71,7 @@
        <!-- SECTION-->
        <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="agua">
-             <img src="../imagenes/mas_aqua.jpg" alt="Más experiencias Agua" title="Más Agua"></img>
+             <img src="../imagenes/mas_aqua.jpg" alt="MÃ¡s experiencias Agua" title="MÃ¡s Agua"></img>
              <a href="agua"></a>
           </div>
 
@@ -100,7 +100,7 @@
             </div>            
         </article>
 
-        <!-- efecto bolitas----COMÚN-->  
+        <!-- efecto bolitas----COMÃN-->  
         <section class="row">
           <div class="col-md-12" id="bolitas">
             <div id="bola1" class="bola"></div>
@@ -133,11 +133,11 @@
           </div>
         </section> 
         
-        <!-- FOOTER-----COMÚN-->
+        <!-- FOOTER-----COMÃN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
-            <!-- sección de contáctanos-->
+            <!-- secciÃ³n de contÃ¡ctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
             <div id="dire">
@@ -172,7 +172,7 @@
               <p>2020 &copy; Copyright</p>
           </div>
           
-          <!--enlaces a aviso legal, política de privacidad y cookies--> 
+          <!--enlaces a aviso legal, polÃ­tica de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
         <script type="text/javascript" src="../js/experiencias.js"></script>
