@@ -99,6 +99,7 @@
               <a href="/riskadventure/tipoTierra?idExperiencia=1">Ver eventos Tierra</a>
             </div>            
         </article>
+        
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">

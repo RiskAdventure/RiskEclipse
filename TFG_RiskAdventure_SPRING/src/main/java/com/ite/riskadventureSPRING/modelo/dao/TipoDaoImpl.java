@@ -3,11 +3,12 @@ package com.ite.riskadventureSPRING.modelo.dao;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.repository.TipoRepository;
-
+@Service
 public class TipoDaoImpl implements IntTipoDao {
 	
 	@Autowired
@@ -28,9 +29,9 @@ public class TipoDaoImpl implements IntTipoDao {
 
 
 	@Override
-	public List<Tipo> verPorExperiencia(Experiencia experiencia) {
+	public List<Tipo> verPorExperiencia(int idExperiencia) {
 		
-		return  trepo.verPorExperiencia(experiencia);
+		return  trepo.verPorExperiencia(idExperiencia);
 	}
 
 

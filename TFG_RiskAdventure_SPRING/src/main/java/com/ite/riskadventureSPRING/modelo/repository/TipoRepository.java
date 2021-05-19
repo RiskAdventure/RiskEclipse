@@ -11,6 +11,6 @@ import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 public interface TipoRepository  extends JpaRepository<Tipo, Integer>{
 
 	@Query("select t from Tipo t where t.experiencia.idExperiencia=?1")
-	public List<Tipo> verPorExperiencia(Experiencia experiencia);
+	public List<Tipo> verPorExperiencia(int idExperiencia);
 
 }

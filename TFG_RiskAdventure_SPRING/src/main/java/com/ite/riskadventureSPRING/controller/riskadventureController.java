@@ -23,7 +23,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 	@Controller
 	@RequestMapping("/riskadventure")
 	public class riskadventureController {
-		TipoDaoImpl tdao=new TipoDaoImpl();
+		@Autowired
+		IntTipoDao tdao;
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
@@ -57,9 +58,9 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		
 		@GetMapping("/tipoTierra")
-		public String tipoPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") Experiencia experiencia ) {
+		public String tipoPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
 			model.addAttribute("mensaje","Lidia Capita ");
-			List<Tipo> listaTipo = tdao.verPorExperiencia(experiencia);
+			List<Tipo> listaTipo = tdao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoTierra", listaTipo);
 			return "tierra";
 			
