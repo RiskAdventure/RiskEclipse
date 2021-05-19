@@ -13,13 +13,18 @@ package com.ite.riskadventureSPRING.controller;
 	import org.springframework.web.bind.annotation.RequestParam;
 	import org.springframework.web.bind.annotation.RestController;
 
+import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
+import com.ite.riskadventureSPRING.modelo.beans.Tipo;
+import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
+import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
+
 	
 
 	@Controller
 	@RequestMapping("/riskadventure")
 	public class riskadventureController {
-		
-		
+		TipoDaoImpl tdao=new TipoDaoImpl();
+		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");
@@ -27,6 +32,8 @@ package com.ite.riskadventureSPRING.controller;
 			return "index";
 			
 		}
+		
+		//controladores de landings---------------------------------
 		@GetMapping("/experiencias")
 		public String inicio1(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");
@@ -48,6 +55,15 @@ package com.ite.riskadventureSPRING.controller;
 			return "aire";
 			
 		}
+		
+		@GetMapping("/tipoTierra")
+		public String tipoPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") Experiencia experiencia ) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			List<Tipo> listaTipo = tdao.verPorExperiencia(experiencia);
+			model.addAttribute("listaTipoTierra", listaTipo);
+			return "tierra";
+			
+		}
 		@GetMapping("/tierra")
 		public String inicio4(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");
@@ -55,6 +71,7 @@ package com.ite.riskadventureSPRING.controller;
 			return "tierra";
 			
 		}
+		
 		@GetMapping("/articulos")
 		public String inicio5(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");

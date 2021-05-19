@@ -96,6 +96,7 @@
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="agua" id="consulta"><div>IR A AGUA</div></a>
               <a href="aire"><div>IR A AIRE</div></a>
+              <a href="/riskadventure/tipoTierra?idExperiencia=1">Ver eventos Tierra</a>
             </div>            
         </article>
        

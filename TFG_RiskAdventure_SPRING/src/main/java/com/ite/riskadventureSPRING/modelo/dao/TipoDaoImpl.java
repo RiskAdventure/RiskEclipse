@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.repository.TipoRepository;
 
@@ -23,6 +24,13 @@ public class TipoDaoImpl implements IntTipoDao {
 	public List<Tipo> verTodos() {
 		
 		return trepo.findAll();
+	}
+
+
+	@Override
+	public List<Tipo> verPorExperiencia(Experiencia experiencia) {
+		
+		return  trepo.verPorExperiencia(experiencia);
 	}
 
 
