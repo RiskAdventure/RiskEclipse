@@ -81,8 +81,8 @@
                 <div>EXPERIENCIAS DE AIRE</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los pájaros,... todas las actividades que te harán
-                  sentirte en libertar... Sientete como un pájaro con nuestras experiencias en el Aire.
+                <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los p&aacute;jaros,... todas las actividades que te har&aacute;n
+                sentirte en libertar... Sientete como un p&aacute;jaro con nuestras experiencias en el Aire.
                 </div>
             </div>
         </section>  

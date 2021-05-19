@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registro RA</title>
+	<title>Registro Risk Adventure</title>
    <!--Made with love by Mutiullah Samim -->
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!--Bootsrap 4 CDN-->
@@ -29,7 +29,7 @@
       <a href="index"><img src="../imagenes/favicon_risk.png"></a>
     </div>
     <div class="col-md-10" id="texto">
-      <p>registro RISK ADVENTURE </p>
+      <p>Registro RISK ADVENTURE </p>
     </div>
   </div>
     

@@ -82,8 +82,8 @@
                 <div>EXPERIENCIAS DE AGUA</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> Experiencias de <b>aventura en Agua</b>, Mar, Ríos, Lagos,... todas las actividades que tienen que ver
-              con el entorno acuático. Disfruta y sumérgete en nuestras experiencias acuáticas.
+                <div> Experiencias de <b>aventura en Agua</b>, Mar, R&iacute;os, Lagos,... todas las actividades que tienen que ver
+                con el entorno acu&aacute;tico. Disfruta y sum&eacute;rgete en nuestras experiencias acu&aacute;ticas.
                 </div>
             </div>
         </section>  

@@ -73,83 +73,83 @@
                 <div class="col-md-12" id="blog1">
                     <p>Material adecuado de escalada</p>
                     <img src="../imagenes/masmaterial_escalada.jpg" alt="Artículo blog escalada"></img>
-                    <div id="texto3">En la actualidad, para muchas personas, la escalada deportiva es el punto de partida hacia la montaña técnica. <br>
-                    Este deporte de aventura supone un riesgo, ya que en cierto modo desafía a la gravedad. Llegar a la cima ya sea en una montaña o en un rocódromo nos hará vivir experiencias emocionantes, sin embargo, para ello deberemos ir bien equipados. <br>
-                    <b>Pies de gato</b><br>
-                    Este es el tipo de calzado que nos permitirá mantenernos sujetos a la roca. Debemos de saber que es necesario que 
-                    se ajusten perfectamente a nuestro pie sin que nos llegue a apretar demasiado. <br>
-                    <b>Cuerdas para escalada</b><br>
-                    Cada tipo de cuerda tiene un uso, para los principiantes se recomienda una cuerda que tenga un diámetro de entre 
-                    10 y 10.5 mm. Es importante que la cuerda se pueda estirar, si escalamos en roca, se recomiendan unos 50 metros ya 
-                    que por la fricción y porque estaremos en una etapa de iniciación es probable que la cuerda se desgaste más rápidamente. <br>
-                    <b>Arnés</b> <br>
-                    Es un elemento esencial de seguridad, sin embargo, además sirve para llevar y transportar nuestro material. Por parte 
-                    de Risk Adventure, recomendamos la Black Diamond Momentum para hombre y la BD Primrose para mujer, ya que son muy asequibles en cuanto al precio y bastante cómodas. <br>
-                    <b>Mosquetones</b><br>
-                    Para practicar escalada, necesitaremos un mosquetón para poder realizar los descensos. Uno de los tipos más usados 
-                    es el X de forma oval, sobre todo para los que se están iniciando.<br>
-                    <b>Casco de escalada</b><br>
-                    El casco es el instrumento más básico, nos protege tanto de caídas de piedras como en el caso de golpes. En Risk 
-                    Adventure, recomendamos el casco Black Diamond Half Dome, ajustable y con mucha ventilación. <br>
+                    <div id="texto3">En la actualidad, para muchas personas, la escalada deportiva es el punto de partida hacia la monta&ntilde;a t&eacute;cnica. <br>
+                      Este deporte de aventura supone un riesgo, ya que en cierto modo desaf&iacute;a a la gravedad. Llegar a la cima ya sea en una monta&ntilde;a o en un roc&oacute;dromo nos har&aacute; vivir experiencias emocionantes, sin embargo, para ello deberemos ir bien equipados. <br>
+                      <b>Pies de gato</b><br>
+                      Este es el tipo de calzado que nos permitir&aacute; mantenernos sujetos a la roca. Debemos de saber que es necesario que 
+                      se ajusten perfectamente a nuestro pie sin que nos llegue a apretar demasiado. <br>
+                      <b>Cuerdas para escalada</b><br>
+                      Cada tipo de cuerda tiene un uso, para los principiantes se recomienda una cuerda que tenga un di&aacute;metro de entre 
+                      10 y 10.5 mm. Es importante que la cuerda se pueda estirar, si escalamos en roca, se recomiendan unos 50 metros ya 
+                      que por la fricci&oacute;n y porque estaremos en una etapa de iniciaci&oacute;n es probable que la cuerda se desgaste m&aacute;s r&aacute;pidamente. <br>
+                      <b>Arn&eacute;s</b> <br>
+                      Es un elemento esencial de seguridad, sin embargo, adem&aacute;s sirve para llevar y transportar nuestro material. Por parte 
+                      de Risk Adventure, recomendamos la Black Diamond Momentum para hombre y la BD Primrose para mujer, ya que son muy asequibles en cuanto al precio y bastante c&oacute;modas. <br>
+                      <b>Mosquetones</b><br>
+                      Para practicar escalada, necesitaremos un mosquet&oacute;n para poder realizar los descensos. Uno de los tipos m&aacute;s usados 
+                      es el X de forma oval, sobre todo para los que se est&aacute;n iniciando.<br>
+                      <b>Casco de escalada</b><br>
+                      El casco es el instrumento m&aacute;s b&aacute;sico, nos protege tanto de ca&iacute;das de piedras como en el caso de golpes. En Risk 
+                      Adventure, recomendamos el casco Black Diamond Half Dome, ajustable y con mucha ventilaci&oacute;n. <br>
 
-                    Recuerda llevar un buen grupo para tener al mejor compañero de sujección, no dejes de pasar por nuestras<a href=packs.php> actividades en grupo.</a>
-                                     
+                      Recuerda llevar un buen grupo para tener al mejor compa&ntilde;ero de sujecci&oacute;n, no dejes de pasar por nuestras<a href=packs> actividades en grupo.</a>
+                                                          
 
-                        </div>   
+                    </div>   
                 </div>
                 <hr>
                 <div class="col-md-12" id="blog2">
                     <p>Mejor calzado de Senderismo</p>
                     <img src="../imagenes/mascalzado_senderismo.jpg" alt="Artículo blog senderismo"></img>
                     <div id="texto3">Es importante analizar que factores son importantes a la hora de elegir las mejores zapatillas de trekking. <br>
-                        Una de las cosas que debemos tener en cuenta a la hora de comprar una zapatilla de trekking es elegir con buen criterio 
-                        el tipo de suela. Esta debería estar hecha por materiales más o menos rígidos, para reforzar su agarre.<br>
-                        Una de las ventajas de las zapatillas de trekking es que normalmente son más ligeras y confortables que las botas de montaña,
-                        pero a su vez, pierden algo de sujeción en la zona del tobillo. <br>
-                        Desde <b>Risk Adventure</b>, recomendamos que el arco de la zapatilla, es decir, la parte superior, sea de nubuck, cuero, malla o 
-                        materiales sintéticos y que, sobre todo, para que sea impermeable, se le añada una membrana como Gore-Tex. <br>
-                        <b>¿Cómo sabemos si debemos elegir zapatilla de trekking o bota de montaña?</b><br>
-                        En senderismo ligero, con poco desnivel, con buenas condiciones climatológicas es recomendable usar zapatillas de trekking, 
-                        sin embargo, en caminatas largas, condiciones meteorológicas adversas, terreno irregular de montaña, mochila con peso, será preferible el uso de botas de montaña.  <br>
-                        Algunos de los modelos que recomendamos son las Timberland Euro Sprint, unas zapatillas de trekking para todas las rutas de 
-                        montaña, la Sportiva TX4 Mid GTX, la cual es muy versátil que nos servirá tanto para practicar senderismo como para la alta 
-                        montaña y las Merrell Moab 2 Mid Gore-Tex diseñadas con doble suela, la cual le aporta muchas características técnicas, al 
-                        no ser ni muy cálidas ni demasiado frías se pueden adaptar a cualquier estación.<br>
-                        Y si no te apetece hacer una ruta, podrás elegir entre nuestras <a href="aire.php">actividades de Aire</a> o nuestras <a href="agua.php">actividades de Agua</a>
+                      Una de las cosas que debemos tener en cuenta a la hora de comprar una zapatilla de trekking es elegir con buen criterio 
+                      el tipo de suela. Esta deber&iacute;a estar hecha por materiales m&aacute;s o menos r&iacute;gidos, para reforzar su agarre.<br>
+                      Una de las ventajas de las zapatillas de trekking es que normalmente son m&aacute;s ligeras y confortables que las botas de monta&ntilde;a,
+                      pero a su vez, pierden algo de sujeci&oacute;n en la zona del tobillo. <br>
+                      Desde <b>Risk Adventure</b>, recomendamos que el arco de la zapatilla, es decir, la parte superior, sea de nubuck, cuero, malla o 
+                      materiales sint&eacute;ticos y que, sobre todo, para que sea impermeable, se le a&ntilde;ada una membrana como Gore-Tex. <br>
+                      <b>&iquest;C&oacute;mo sabemos si debemos elegir zapatilla de trekking o bota de monta&ntilde;a?</b><br>
+                      En senderismo ligero, con poco desnivel, con buenas condiciones climatol&oacute;gicas es recomendable usar zapatillas de trekking, 
+                      sin embargo, en caminatas largas, condiciones meteorol&oacute;gicas adversas, terreno irregular de monta&ntilde;a, mochila con peso, ser&aacute; preferible el uso de botas de monta&ntilde;a. <br>
+                      Algunos de los modelos que recomendamos son las Timberland Euro Sprint, unas zapatillas de trekking para todas las rutas de 
+                      monta&ntilde;a, la Sportiva TX4 Mid GTX, la cual es muy vers&aacute;til que nos servir&aacute; tanto para practicar senderismo como para la alta 
+                      monta&ntilde;a y las Merrell Moab 2 Mid Gore-Tex dise&ntilde;adas con doble suela, la cual le aporta muchas caracter&iacute;sticas t&eacute;cnicas, al 
+                      no ser ni muy c&aacute;lidas ni demasiado fr&iacute;as se pueden adaptar a cualquier estaci&oacute;n.<br>
+                      Y si no te apetece hacer una ruta, podr&aacute;s elegir entre nuestras <a href="aire">actividades de Aire</a> o nuestras <a href="agua">actividades de Agua</a>
 
                     </div>
                 </div>
                 <hr>
                 <div class="col-md-12" id="blog3">
-                    <p>Selección Bicicletas de Montaña 2020</p>
+                    <p>Selecci&oacute;n Bicicletas de Monta&ntilde;a 2020</p>
                     <img src="../imagenes/masmountain_bikes.jpg" alt="Artículo blog bicicletas"></img>
-                    <div id="texto3">Hoy en día, hay dos elementos que generan cierta incertidumbre entre quienes buscan su primera bicicleta de montaña. La primera cuestión es el tipo de suspensión. Esto nos llevará a realizarnos la pregunta de si es preferible una suspensión rígida o una bicicleta que proporcione una doble suspensión.<br> 
-                        Por otra parte, ¿es mejor una bicicleta donde el tamaño de las ruedas sea de mayor diámetro?<br>
-                        Las bicicletas de montaña que se caracterizan por tener un sistema de amortiguación más rígido están pensadas para ir a una gran velocidad por zonas sin asfaltar y sin grandes desniveles. <br>
-                        Suelen ser <b>bastante ligeras</b> y con respecto al precio, también suelen ser más baratas, ya que su fabricación es muy sencilla, al no tener suspensión trasera hace que nos ahorremos bastantes dolores de cabeza en averías y mantenimiento. <br>
-                        Sin embargo, para hacer sendas técnicas, grandes desniveles y rutas largas no son aconsejables. <br>
-                        Si hablamos de las bicicletas con doble amortiguación, hablamos de confortabilidad. <br>
-                        Estas bicicletas están hechas para absorber las <b>irregularidades del terreno</b>, son mucho más cómodas, pero por el contrario, su peso es mayor en comparación al de una bicicleta rígida. <br>
-                        Por otra parte, nos encontramos con la elección del tipo de rueda. <br>
-                        Hace unos años dudábamos en montar en ruedas de 26” o 29”. Sin embargo, se ha ido dejando paso al tamaño 29” o incluso de 27,5’’.<br>
-                        <b>¿Qué nos aportan?</b><br>
-                        Una rueda más pequeña nos facilitará una mayor aceleración, sin embargo, si optamos por una rueda más grande, nos proporcionará mayor estabilidad sobre terrenos abruptos. <br>
-                        Podrás disfrutar de esta u otras actividades en nuestras<a href="tierra.php"> actividades de Tierra</a>.
+                    <div id="texto3">Hoy en d&iacute;a, hay dos elementos que generan cierta incertidumbre entre quienes buscan su primera bicicleta de monta&ntilde;a. La primera cuesti&oacute;n es el tipo de suspensi&oacute;n. Esto nos llevar&aacute; a realizarnos la pregunta de si es preferible una suspensi&oacute;n r&iacute;gida o una bicicleta que proporcione una doble suspensi&oacute;n.<br> 
+                      Por otra parte, &iquest;es mejor una bicicleta donde el tama&ntilde;o de las ruedas sea de mayor di&aacute;metro?<br>
+                      Las bicicletas de monta&ntilde;a que se caracterizan por tener un sistema de amortiguaci&oacute;n m&aacute;s r&iacute;gido est&aacute;n pensadas para ir a una gran velocidad por zonas sin asfaltar y sin grandes desniveles. <br>
+                      Suelen ser <b>bastante ligeras</b> y con respecto al precio, tambi&eacute;n suelen ser m&aacute;s baratas, ya que su fabricaci&oacute;n es muy sencilla, al no tener suspensi&oacute;n trasera hace que nos ahorremos bastantes dolores de cabeza en aver&iacute;as y mantenimiento. <br>
+                      Sin embargo, para hacer sendas t&eacute;cnicas, grandes desniveles y rutas largas no son aconsejables. <br>
+                      Si hablamos de las bicicletas con doble amortiguaci&oacute;n, hablamos de confortabilidad. <br>
+                      Estas bicicletas est&aacute;n hechas para absorber las <b>irregularidades del terreno</b>, son mucho m&aacute;s c&oacute;modas, pero por el contrario, su peso es mayor en comparaci&oacute;n al de una bicicleta r&iacute;gida. <br>
+                      Por otra parte, nos encontramos con la elecci&oacute;n del tipo de rueda. <br>
+                      Hace unos a&ntilde;os dud&aacute;bamos en montar en ruedas de 26&rdquo; o 29&rdquo;. Sin embargo, se ha ido dejando paso al tama&ntilde;o 29&rdquo; o incluso de 27,5&rsquo;&rsquo;.<br>
+                      <b>&iquest;Qu&eacute; nos aportan?</b><br>
+                      Una rueda m&aacute;s peque&ntilde;a nos facilitar&aacute; una mayor aceleraci&oacute;n, sin embargo, si optamos por una rueda m&aacute;s grande, nos proporcionar&aacute; mayor estabilidad sobre terrenos abruptos. <br>
+                      Podr&aacute;s disfrutar de esta u otras actividades en nuestras<a href="tierra"> actividades de Tierra</a>.
                     </div>
                 </div>
                 <hr>
                 <div class="col-md-12" id="blog4">
                     <p>5 aventureros, 5 amigos...</p>
                     <img src="../imagenes/5amigosblog.jpg" alt="Artículo blog amigos"></img>
-                    <div id="texto3"><b>5 aventureros</b> fueron suficientes para hacer crecer un sueño, algo que volaba en la imaginación...sin un destino fijo, ... unos trabajos del FP y un proyecto fin de grado fueron suficientes para hacerlo realidad.<br>
-                        Nació con <b>dos aventureras y un pirata del sur</b>, nuestro querido <b>Javi</b>, la alegría, la aventura y la sabiduría.<br>
-                        <b>Lili</b>, nuestra joven aventurera, con un expíritu brillante y un empeño sin igual.<br>
-                        Y <b>Pilu</b>, servidora, la cabeza pensante aventurera y entusiasta de un proyecto que después de llevar años en mente, se hacía realidad.<br>
-                        Con <b>Vero</b> nuestra aventurera detective, construimos el plan de viabilidad de la empresa,... gran plan, la base principal y soporte de toda aventura.<br>
-                        Y <b>Raúl</b>, última pieza de este puzzle, aventurero en ejecución de este plan que empezaba a tomar forma con su tremenda dedicación.<br>
-                        Cada uno aportando su granito de arena hacíamos un sueño realidad, entusiasmados construyéndolo poco a poco y cada vez teniendo más ganas de que viera la luz,... y con la ilusión de que no se quede simplemente en un proyecto.<br>
-                        Nuestros nombres, abreviados tienen 4 letras como RISK, por eso nos arriesgamos y nos lanzamos a la aventura.<br>
-                        <b>¿Tendremos Risk Adventure para largo?</b><br><br>
+                    <div id="texto3"><b>5 aventureros</b> fueron suficientes para hacer crecer un sue&ntilde;o, algo que volaba en la imaginaci&oacute;n...sin un destino fijo, ... unos trabajos del FP y un proyecto fin de grado fueron suficientes para hacerlo realidad.<br>
+                      Naci&oacute; con <b>dos aventureras y un pirata del sur</b>, nuestro querido <b>Javi</b>, la alegr&iacute;a, la aventura y la sabidur&iacute;a.<br>
+                      <b>Lili</b>, nuestra joven aventurera, con un exp&iacute;ritu brillante y un empe&ntilde;o sin igual.<br>
+                      Y <b>Pilu</b>, servidora, la cabeza pensante aventurera y entusiasta de un proyecto que despu&eacute;s de llevar a&ntilde;os en mente, se hac&iacute;a realidad.<br>
+                      Con <b>Vero</b> nuestra aventurera detective, construimos el plan de viabilidad de la empresa,... gran plan, la base principal y soporte de toda aventura.<br>
+                      Y <b>Ra&uacute;l</b>, &uacute;ltima pieza de este puzzle, aventurero en ejecuci&oacute;n de este plan que empezaba a tomar forma con su tremenda dedicaci&oacute;n.<br>
+                      Cada uno aportando su granito de arena hac&iacute;amos un sue&ntilde;o realidad, entusiasmados construy&eacute;ndolo poco a poco y cada vez teniendo m&aacute;s ganas de que viera la luz,... y con la ilusi&oacute;n de que no se quede simplemente en un proyecto.<br>
+                      Nuestros nombres, abreviados tienen 4 letras como RISK, por eso nos arriesgamos y nos lanzamos a la aventura.<br>
+                      <b>&iquest;Tendremos Risk Adventure para largo?</b><br><br>
 
                     </div>
                 </div>

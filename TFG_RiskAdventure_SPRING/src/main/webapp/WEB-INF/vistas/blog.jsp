@@ -73,18 +73,18 @@
             
             <!-- texto enlace a blog-->
             <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
-                <div id="tituloblog">Que te vamos a contar aquí...</div>
-                <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
-                    Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
-                    cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
-                    y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
-                    Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
-                    cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
-                    También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
-                    sean seguras siempre.<br>
-                    Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
-                    demos más información,...puedes hacernos cualquier consulta.
-                    También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
+                <div id="tituloblog">Que te vamos a contar aqu&iacute;...</div>
+                <div id="texto3">Vamos a hablarte de <b>experiencias, de an&eacute;cdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompa&ntilde;ar a tu actividad.
+                  Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
+                  cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, tambi&eacute;n vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
+                  y experiencias sean <b>100% c&oacute;modidad y seguridad</b>. <br>
+                  Nuestros expertos te dar&aacute;n recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que est&aacute;s haciendo, sin que tengas que preocuparte de otra 
+                  cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
+                  Tambi&eacute;n, preocupados por tu seguridad te dar&aacute;n recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupaci&oacute;n es que las experiencias que detallamos
+                  sean seguras siempre.<br>
+                  Podr&aacute;s ponerte en contacto con nuestro Centro de Atenci&oacute;n al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
+                  demos m&aacute;s informaci&oacute;n,...puedes hacernos cualquier consulta.
+                  Tambi&eacute;n daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
                 </div>
             </div>
             <section class="row" id="imagenes2" >
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-md-3" id="blog3">
                     <img src="../imagenes/mountain_bikes.jpg""></img>
-                    <a href="vermasblog"><p>Selección Bicicletas de Montaña 2020</p></a>
+                    <a href="vermasblog"><p>Selecci&oacute;n Bicicletas de Monta&ntilde;a 2020</p></a>
                 </div>
                 <div class="col-md-3" id="blog4">
                     <img src="../imagenes/5amigos.jpg"></img>
@@ -111,7 +111,7 @@
              <!-- botón central inferior blog-->
              <section class="row" >
                 <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
-                <a href="vermasblog"><div  class="boton_blog_centro"> VER MÁS ARTÍCULOS</div></a>
+                <a href="vermasblog"><div  class="boton_blog_centro"> VER M&Aacute;S ART&Iacute;CULOS</div></a>
                 </div>
             </section>
         

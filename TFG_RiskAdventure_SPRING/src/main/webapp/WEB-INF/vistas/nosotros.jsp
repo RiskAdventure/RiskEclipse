@@ -71,19 +71,19 @@
         <!-- texto inicio-->
         <section class="row justify-content-center">
             <div id=textonosotros class="col-md-12">
-                <div>Quiénes Somos</div>
+                <div>Qui&eacute;nes Somos</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> En <b>Risk Adventure</b>, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar
-                    ofreciendo un servicio y una experiencia
-                    única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos
-                    técnicos...<br>
-                    RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esa aventura
-                    decidimos que cualquier aventurero
-                    necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales
-                    ofrecer una experiencia de calidad,
-                    única para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP.
-                    Somos los únicos que te garantizamos una <b>"EXPERIENCIA ÚNICA"</b>
+                <div> En <b>Risk Adventure</b>, desde nuestros or&iacute;genes hemos tenido una obsesi&oacute;n , sorprender y emocionar
+                ofreciendo un servicio y una experiencia
+                &uacute;nica, exprimiendo las emociones, la adrenalina, la diversi&oacute;n, con los mejores equipos
+                t&eacute;cnicos...<br>
+                RISK ADVENTURE naci&oacute; tras una tredipante aventura de 3 amigos, tras las dificultades de esa aventura
+                decidimos que cualquier aventurero
+                necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales
+                ofrecer una experiencia de calidad,
+                &uacute;nica para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP.
+                Somos los &uacute;nicos que te garantizamos una <b>"EXPERIENCIA &Uacute;NICA"</b>
                 </div>
             </div>
         </section>
@@ -124,13 +124,13 @@
             <a href="mailto:raul@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
                     title="Experto Agua Raúl"></img></a>
             </div>
-            <div class="col-md-2 col-xs-12 nombre">RAÚL</div>
+            <div class="col-md-2 col-xs-12 nombre">RA&Uacute;L</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                <b>Licenciado en INEF</b>, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua
+                <b>Licenciado en INEF</b>, apasionado de los deportes acu&aacute;ticos, pudo ser Trit&oacute;n anteriormente porque el agua
                 es su medio de vida.
-                Con gran experiencia en deportes de riesgo formando parte durante 12 años del <b>equipo de salvamento de
-                Alta Montaña</b> de la provincia de Andalucía.
-                Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+                Con gran experiencia en deportes de riesgo formando parte durante 12 a&ntilde;os del <b>equipo de salvamento de
+                Alta Monta&ntilde;a</b> de la provincia de Andaluc&iacute;a.
+                M&aacute;laga en la sangre y C&aacute;diz en el coraz&oacute;n, pero su mente no para de viajar por el mundo...
             </div>
         </section>
         <hr>
@@ -141,11 +141,11 @@
             </div>
             <div class="col-md-2 col-xs-12 nombre">LIDIA</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                <b>Guía de Alta Montaña</b> con la credencial de la UIAGM, cumple los más altos estándares de técnicas y
-                conocimientos de la montaña.
-                Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo
-                en todas las <b>competiciones de alta montaña en España y Resto del Mundo</b>...
-                No perdona su café mañanero, un buen entrenamiento, ni un buen concierto de Rock.
+                <b>Gu&iacute;a de Alta Monta&ntilde;a</b> con la credencial de la UIAGM, cumple los m&aacute;s altos est&aacute;ndares de t&eacute;cnicas y
+                conocimientos de la monta&ntilde;a.
+                Durante los &uacute;ltimos a&ntilde;os ha estado revisando el material y coordinando las experiencias con m&aacute;s riesgo
+                en todas las <b>competiciones de alta monta&ntilde;a en Espa&ntilde;a y Resto del Mundo</b>...
+                No perdona su caf&eacute; ma&ntilde;anero, un buen entrenamiento, ni un buen concierto de Rock.
             </div>
         </section>
         <hr>
@@ -156,10 +156,10 @@
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                <b>Licenciada por la FADA</b>con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos...
-                Ha estado más tiempo en el cielo que en la tierra...
-                Se encarga de la coordinación de los deportes aéreos de riesgo a Nivel Nacional colaborando con el
-                escuadrón de <b>Zapadores Paracaidistas del Ejercito Español</b> para sus formaciones.
+                <b>Licenciada por la FADA</b> con m&aacute;s de 30000 vuelos realizados y t&iacute;tulada en paracaid&iacute;smo con 2000 saltos...
+                Ha estado m&aacute;s tiempo en el cielo que en la tierra...
+                Se encarga de la coordinaci&oacute;n de los deportes a&eacute;reos de riesgo a Nivel Nacional colaborando con el
+                escuadr&oacute;n de <b>Zapadores Paracaidistas del Ejercito Espa&ntilde;ol</b> para sus formaciones.
                 Cree que no hay mejor momento que el estar con la familia y amigos,... y si es posible, al lado de las
                 nubes.
             </div>

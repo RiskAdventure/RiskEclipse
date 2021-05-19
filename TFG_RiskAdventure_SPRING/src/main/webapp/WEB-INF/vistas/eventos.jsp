@@ -78,9 +78,9 @@
             <!-- texto team building-->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Team Building</div>
-                <div class="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
-                    ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? 
-                    ¿Prefieres la solución antes del problema?
+                <div class="texto3">&iquest;Necesitas que los compa&ntilde;eros hagan un equipo de verdad?
+                    &iquest;Quieres alcanzar los objetivos de la empresa antes de lo previsto? 
+                    &iquest;Prefieres la soluci&oacute;n antes del problema?
                     Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
                 </div>
             </div>
@@ -89,7 +89,7 @@
         <section class="row">
             <div class="col-md-12 col-xs-12" id="boton_listo">
                 <a href="contacto">
-                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
+                    <div class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div>
                 </a>
             </div>
             <!-- imagen partner escapada rural-->
@@ -113,12 +113,12 @@
             <!-- texto incentive day -->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Incentive Day</div>
-                <div class="texto3">La motivación de tus empleados es fundamental para que tu empresa vaya viento en
+                <div class="texto3">La motivaci&oacute;n de tus empleados es fundamental para que tu empresa vaya viento en
                     popa y consigas las metas que
-                    os habéis propuesto alcanzar. Debes mantener el interés, la implicación y el compromiso de tu equipo
+                    os hab&eacute;is propuesto alcanzar. Debes mantener el inter&eacute;s, la implicaci&oacute;n y el compromiso de tu equipo
                     de trabajo.
-                    Por eso te organizamos un día para poner todo esto en práctica, reforzarlo y llevarlo a cabo en el
-                    día a día en la empresa....
+                    Por eso te organizamos un d&iacute;a para poner todo esto en pr&aacute;ctica, reforzarlo y llevarlo a cabo en el
+                    d&iacute;a a d&iacute;a en la empresa....
                 </div>
             </div>
             
@@ -127,7 +127,7 @@
         <section class="row">
             <div class="col-md-12" id="boton_evento">
                 <a href="contacto">
-                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
+                    <div class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div>
                 </a>
             </div>
            <!-- imagen partner merrell-->
@@ -149,8 +149,8 @@
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Eventos de Empresa</div>
                 <div class="texto3">Conectamos tus necesidades con nuestras ideas, entendemos que todos somos diferentes y que existe un tipo de mensaje para cada persona.
-                   Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intrépidos, actividades de aventura y team building con la posibilidad de diseñar un evento totalmente personalizado.
-                   ¿Te atreves?.
+                    Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intr&eacute;pidos, actividades de aventura y team building con la posibilidad de dise&ntilde;ar un evento totalmente personalizado.
+                    &iquest;Te atreves?.
                 </div>
             </div>
         </section>
@@ -158,7 +158,7 @@
         <section class="row">
             <div class="col-md-12" id="boton_incentive">
                 <a href="contacto">
-                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
+                    <div class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div>
                 </a>
             </div>
             <!-- imagen partner la sportiva -->

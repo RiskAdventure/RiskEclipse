@@ -64,31 +64,31 @@
           </div>
         </header>                                        
                                                        <!-- SECTION-->
-                  <hr>                                     
-                  <h2>Bienvenido/a a su carrito</h2>
-                  <hr>
-                  <h3>Página en construcción. Aquí verá el usuario los productos elegidos</h3>
-                  <hr>
-                  <hr>                                     
-                  <h2>Bienvenido/a a su carrito</h2>
-                  <hr>
-                  <h3>Página en construcción. Aquí verá el usuario los productos elegidos</h3>
-                  <hr>
-                  <hr>                                     
-                  <h2>Bienvenido/a a su carrito</h2>
-                  <hr>
-                  <h3>Página en construcción. Aquí verá el usuario los productos elegidos</h3>
-                  <hr>
-                  <hr>                                     
-                  <h2>Bienvenido/a a su carrito</h2>
-                  <hr>
-                  <h3>Página en construcción. Aquí verá el usuario los productos elegidos</h3>
-                  <hr>
-                  <hr>                                     
-                  <h2>Bienvenido/a a su carrito</h2>
-                  <hr>
-                  <h3>Página en construcción. Aquí verá el usuario los productos elegidos</h3>
-                  <hr>
+                  <hr> 
+                    <h2>Bienvenido/a a su carrito</h2>
+                    <hr>
+                    <h3>P&aacute;gina en construcci&oacute;n. Aqu&iacute; ver&aacute; el usuario los productos elegidos</h3>
+                    <hr>
+                    <hr> 
+                    <h2>Bienvenido/a a su carrito</h2>
+                    <hr>
+                    <h3>P&aacute;gina en construcci&oacute;n. Aqu&iacute; ver&aacute; el usuario los productos elegidos</h3>
+                    <hr>
+                    <hr> 
+                    <h2>Bienvenido/a a su carrito</h2>
+                    <hr>
+                    <h3>P&aacute;gina en construcci&oacute;n. Aqu&iacute; ver&aacute; el usuario los productos elegidos</h3>
+                    <hr>
+                    <hr> 
+                    <h2>Bienvenido/a a su carrito</h2>
+                    <hr>
+                    <h3>P&aacute;gina en construcci&oacute;n. Aqu&iacute; ver&aacute; el usuario los productos elegidos</h3>
+                    <hr>
+                    <hr> 
+                    <h2>Bienvenido/a a su carrito</h2>
+                    <hr>
+                    <h3>P&aacute;gina en construcci&oacute;n. Aqu&iacute; ver&aacute; el usuario los productos elegidos</h3>
+                    <hr>
           <!-- FOOTER-----COMÚN-->
       <footer class="row" >
             <!-- Logo risk adventure negativo-->

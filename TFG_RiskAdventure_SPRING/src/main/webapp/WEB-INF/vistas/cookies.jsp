@@ -80,41 +80,41 @@
                     ----<br><br>
 
                 <b>DATOS LEGALES</b><br><br>
-                Risk Adventure tiene como objetivo ofrecer información gratuita. Los datos legales del sitio son los siguientes:<br><br>
+                Risk Adventure tiene como objetivo ofrecer informaci&oacute;n gratuita. Los datos legales del sitio son los siguientes:<br><br>
                 <b>Risk Adventure<br>
-                123, Avenida de Bolonia 28850, Madrid, España <br>
+                123, Avenida de Bolonia 28850, Madrid, Espa&ntilde;a <br>
                 CIF: B2222222<br>
-                Contacto vía email: info@riskadventureclub.com</b><br><br>
+                Contacto v&iacute;a email:&#160;info@riskadventureclub.com</b><br><br>
                 <b>PRIVACIDAD</b><br><br>
-                En Risk Adventure nos preocupamos de la privacidad de los usuarios. Además, cubrimos todas las exigencias legales al respecto.<br><br>
+                En Risk Adventure nos preocupamos de la privacidad de los usuarios. Adem&aacute;s, cubrimos todas las exigencias legales al respecto.<br><br>
                 <b>USO DE DATOS PERSONALES</b><br><br>
-                Los datos personales que se recaban en Risk Adventure se utilizan con el único fin de ofrecer una experiencia de usuario personalizada.<br>
-                Los usuarios envían sus datos personales para la creación de una cuenta. Luego mediante su cuenta pueden realizar personalizaciones
-                sobre intereses y gustos, que se utilizan para ofrecer puntualmente una mayor personalización de los contenidos del sitio.<br>
-                También se usan ocasionalmente para informar al usuario de las novedades ocurridas en el sitio, acerca de los temas que le interesan. <br>
+                Los datos personales que se recaban en Risk Adventure se utilizan con el &uacute;nico fin de ofrecer una experiencia de usuario personalizada.<br>
+                Los usuarios env&iacute;an sus datos personales para la creaci&oacute;n de una cuenta. Luego mediante su cuenta pueden realizar personalizaciones
+                sobre intereses y gustos, que se utilizan para ofrecer puntualmente una mayor personalizaci&oacute;n de los contenidos del sitio.<br>
+                Tambi&eacute;n se usan ocasionalmente para informar al usuario de las novedades ocurridas en el sitio, acerca de los temas que le interesan. <br>
                 Sin embargo, estas comunicaciones se pueden configurar por el propio usuario, indicando si se desea o no recibir.<br><br>
-                <b>EDICIÓN Y BORRADO DE DATOS PERSONALES</b><br><br>
-                Por medio del panel de control del usuario se ofrecen las herramientas para editar la información personal del usuario, siempre que éste lo desee.
-                En cualquier momento el usuario puede solicitar que se elimine toda su información personal, mediante el mismo panel de control en la opción
+                <b>EDICI&Oacute;N Y BORRADO DE DATOS PERSONALES</b><br><br>
+                Por medio del panel de control del usuario se ofrecen las herramientas para editar la informaci&oacute;n personal del usuario, siempre que &eacute;ste lo desee.
+                En cualquier momento el usuario puede solicitar que se elimine toda su informaci&oacute;n personal, mediante el mismo panel de control en la opci&oacute;n
                 de eliminar cuenta.<br><br>
-                <b>POLÍTICA DE COOKIES</b><br><br>
-                Risk Adventure, así como la amplia mayoría de sitios en la Web usa "cookies" para mejorar la experiencia de usuario. Este uso implica <br>
-                cookies propias y de terceros. (Recuerda que las cookies son archivos de texto plano, no mayores de 5Kb totalmente inofensivas para tu ordenador)<br><br>
+                <b>POL&Iacute;TICA DE COOKIES</b><br><br>
+                Risk Adventure, as&iacute; como la amplia mayor&iacute;a de sitios en la Web usa "cookies" para mejorar la experiencia de usuario. Este uso implica <br>
+                cookies propias y de terceros. (Recuerda que las&#160;cookies&#160;son archivos de texto plano, no mayores de 5Kb totalmente inofensivas para tu ordenador)<br><br>
                 <b>COLECTA DE DATOS</b><br><br>
-                Usamos cookies propias principalmente para personalizar la navegación. Básicamente se trata de recordar al usuario autenticado, con
-                el que te has dado de alta, y así no tener que pedirte la clave más adelante en siguientes accesos.<br>
+                Usamos cookies propias principalmente para personalizar la navegaci&oacute;n. B&aacute;sicamente se trata de recordar al usuario autenticado, con
+                el que te has dado de alta, y as&iacute; no tener que pedirte la clave m&aacute;s adelante en siguientes accesos.<br>
                 Nuestros partner de redes sociales (integrados en la web mediante los correspondientes botones de "me gusta", "+1", "Tuitear")
-                también pueden colectar información de tu sistema. Esos datos son ellos los que los controlan y no permanecen en nuestros servidores. <br>
-                Generalmente almacenan información sobre el perfil del usuario, derivado de la navegación por las páginas que vas realizando.<br>
-                Así mismo también se almacenarán en tu sistema cookies de terceros, instaladas los anunciantes del sitio. Esta web se mantiene
-                gracias a la publicidad y los anunciantes que tenemos, así como las redes de anuncios que utilizamos, usan las cookies para mostrar
-                publicidad más acorde a tu perfil. Esas cookies de terceros no las controlamos nosotros tampoco, pero cuando aceptas que RiskAdventure.com use cookies también estás aceptando que se instalen las cookies de nuestros partner de publicidad.<br>
-                Los servicios de analítica de estadísticas de acceso a la web también usan Cookies para recordarte y saber más de ti y de las personas que nos visitan en general.<br><br>
-                <b>COMPARTICIÓN DE DATOS</b><br><br>
-                Compartimos información sobre el uso que hagas del sitio web con nuestros partners de redes sociales, publicidad y análisis web, <br>
-                quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de otros
+                tambi&eacute;n pueden colectar informaci&oacute;n de tu sistema. Esos datos son ellos los que los controlan y no permanecen en nuestros servidores. <br>
+                Generalmente almacenan informaci&oacute;n sobre el perfil del usuario, derivado de la navegaci&oacute;n por las p&aacute;ginas que vas realizando.<br>
+                As&iacute; mismo tambi&eacute;n se almacenar&aacute;n en tu sistema cookies de terceros, instaladas los anunciantes del sitio. Esta web se mantiene
+                gracias a la publicidad y los anunciantes que tenemos, as&iacute; como las redes de anuncios que utilizamos, usan las cookies para mostrar
+                publicidad m&aacute;s acorde a tu perfil. Esas cookies de terceros no las controlamos nosotros tampoco, pero cuando aceptas que RiskAdventure.com use cookies tambi&eacute;n est&aacute;s aceptando que se instalen las cookies de nuestros partner de publicidad.<br>
+                Los servicios de anal&iacute;tica de estad&iacute;sticas de acceso a la web tambi&eacute;n usan Cookies para recordarte y saber m&aacute;s de ti y de las personas que nos visitan en general.<br><br>
+                <b>COMPARTICI&Oacute;N DE DATOS</b><br><br>
+                Compartimos informaci&oacute;n sobre el uso que hagas del sitio web con nuestros partners de redes sociales, publicidad y an&aacute;lisis web, <br>
+                quienes pueden combinarla con otra informaci&oacute;n que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de otros
                 sitios web que visitas o de sus propios servicios.<br>
-                 ----
+                ----
                 </div>
             </div>
         </section>
@@ -122,9 +122,9 @@
        <!--COOKIES-->
           <div id="overbox3">
               <div id="infobox3">
-                  <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
-                  <a href="cookies">Más información</a>
-                  <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
+                  <p>Esta web utiliza cookies para obtener datos estad&iacute;sticos de la navegaci&oacute;n de sus usuarios. Si contin&uacute;as navegando consideramos que aceptas su uso.
+                  <a href="cookies">M&aacute;s informaci&oacute;n</a>
+                  <a onclick="aceptar_cookies();" style="cursor:pointer;">Cerrar</a></p>
               </div>
           </div>
         <!--COOKIES-->

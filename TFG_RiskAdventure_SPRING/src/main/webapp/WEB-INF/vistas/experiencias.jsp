@@ -94,9 +94,9 @@
                     </div>
                     <!-- texto central entre partners-->
                     <div class="col-4" id="text1">
-                        <h1>EXPERIENCIAS ÚNICAS</h1>
-                        Sin riesgo no hay aventura, sumérgete<br>
-                        en una nueva sensación...
+                        <h1>EXPERIENCIAS &Uacute;NICAS</h1>
+                        Sin riesgo no hay aventura, sum&eacute;rgete<br>
+                        en una nueva sensaci&oacute;n...
                     </div>
                     <!-- imagen grill-->
                     <div class="col-4" id="grill">
@@ -122,11 +122,11 @@
                         <a href="tierra"><div>ESCALADA</div></a>
                         <a href="tierra"><div>QUADS</div></a>
                         <a href="tierra"><div>MULTIAVENTURA</div></a>
-                        <a href="tierra"><div>ESPELEOLOGÍA</div></a>
+                        <a href="tierra"><div>ESPELEOLOG&Iacute;A</div></a>
                         <a href="tierra"><div>ENOTURISMO</div></a>
                         <a href="tierra"><div>BTT</div></a>
                         <a href="tierra"><div>PUENTING</div></a>
-                        <p><a href="tierra" id="vermas">Ver más TIERRA...</p></a>
+                        <p><a href="tierra" id="vermas">Ver m&aacute;s TIERRA...</p></a>
                     </div>            
             </article>
             </div>
@@ -146,12 +146,12 @@
                         <a href="agua"><div>VELA</div></a>
                         <a href="agua"><div>PIRAGUISMO</div></a>
                         <a href="agua"><div>BUCEO</div></a>
-                        <a href="agua"><div>ESQUÍ</div></a>
+                        <a href="agua"><div>ESQU&Iacute;</div></a>
                         <a href="agua"><div>FLYBOARD</div></a>
                         <a href="agua"><div>PESCA</div></a>
                         <a href="agua"><div>CANOAS</div></a>
                         <a href="agua"><div>KITE SURF</div></a>
-                        <p><a href="agua" id="vermas">Ver más AGUA...</p></a>
+                        <p><a href="agua" id="vermas">Ver m&aacute;s AGUA...</p></a>
                     </div>            
                 </article>
             </div>
@@ -173,10 +173,10 @@
                         <a href="aire"><div>ALA DELTA</div></a>
                         <a href="aire"><div>PARACAIDISMO</div></a>
                         <a href="aire"><div>PARASCENDING</div></a>
-                        <a href="aire"><div>HELICÓPTERO</div></a>
+                        <a href="aire"><div>HELIC&Oacute;PTERO</div></a>
                         <a href="aire"><div>AVIONETA</div></a>
                         <a href="aire"><div>PARAMOTOR</div></a> 
-                        <p><a href="aire" id="vermas">Ver más AIRE...</p></a>                       
+                        <p><a href="aire" id="vermas">Ver m&aacute;s AIRE...</p></a>                       
                     </div>            
                 </article>
             </div>
@@ -192,15 +192,15 @@
             <!-- texto enlace a blog-->
             <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
                 <div id="tituloblog">Confiamos en los mejores</div>
-                <div id="texto3">Las <b>experiencias outdoor</b> cuentan con más fans cada vez. 
-                    Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente número de aficionados</b>, 
+                <div id="texto3">Las <b>experiencias outdoor</b> cuentan con m&aacute;s fans cada vez. 
+                    Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente n&uacute;mero de aficionados</b>, 
                     que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
-                    de <b>experiencias</b> son una gran opción de dexconexión y se ofertan cada vez más, sobre todo en tiempos de estress y de no tener tiempo para nada. 
+                    de <b>experiencias</b> son una gran opci&oacute;n de dexconexi&oacute;n y se ofertan cada vez m&aacute;s, sobre todo en tiempos de estress y de no tener tiempo para nada. 
                     Muchas son las opciones que ofrece este tipo de turismo...apuntarnos a cursos con monitores experimentados en 
-                    diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastronómico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia única, 
-                    o tiendas especializadas para la compra  de equipos y gadgets muy útiles para emprender la aventura de irnos de vacaciones en contacto con 
-                    parajes naturales, los <b>más bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las últimas novedades y te hablaremos de 
-                    nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>. 
+                    diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastron&oacute;mico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia &uacute;nica, 
+                    o tiendas especializadas para la compra de equipos y gadgets muy &uacute;tiles para emprender la aventura de irnos de vacaciones en contacto con 
+                    parajes naturales, los <b>m&aacute;s bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las &uacute;ltimas novedades y te hablaremos de 
+                    nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>.
                 </div>
             </div>
             <section class="row" id="imagenes2" >
@@ -215,7 +215,7 @@
                 </div>
                 <div class="col-md-3" id="blog3">
                     <img src="../imagenes/mountain_bikes.jpg"></img>
-                    <a href="vermasblog"><p>Selección Bicicletas de Montaña 2020</p></a>
+                    <a href="vermasblog"><p>Selecci&oacute;n Bicicletas de Monta&ntilde;a 2020</p></a>
                 </div>
                 <div class="col-md-3" id="blog4">
                     <img src="../imagenes/5amigosblog.jpg"></img>

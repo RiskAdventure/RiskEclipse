@@ -73,13 +73,13 @@
         <section class="parte_central">
           <article class="row" >
             <div class="col-md-4 col-xs-12  " id="div1_1">
-                <p>ENVÍANOS TU CONSULTA</p>
+                <p>ENV&Iacute;ANOS TU CONSULTA</p>
             </div>
             <div class="col-md-8 col-xs-12  " id="div1_2">
-                <p>Disponemos de un Servicio de Atención al Cliente a través de este formulario.
-                    Aquí podremos resolver las cuestiones referentes a: experiencias, presupuestos,
-                    pedidos, pagos y otras incidencias, de todos los pedidos realizados a través de nuestra
-                    web o de nuestro Servicio de Atención al Cliente.
+                <p>Disponemos de un Servicio de Atenci&oacute;n al Cliente a trav&eacute;s de este formulario.
+                  Aqu&iacute; podremos resolver las cuestiones referentes a: experiencias, presupuestos,
+                  pedidos, pagos y otras incidencias, de todos los pedidos realizados a trav&eacute;s de nuestra
+                  web o de nuestro Servicio de Atenci&oacute;n al Cliente.
                 </p>
             </div>
           </article>
@@ -88,7 +88,7 @@
               <a href="#consulta" id="consulta"><div>CONSULTA</div></a>
               
               <a href="https://cutt.ly/UvIKPOG"><div>CHAT on-line</div></a>
-              <a href="politica_privacidad"><div>POLÍTICA</div></a>
+              <a href="politica_privacidad"><div>POL&Iacute;TICA</div></a>
               <a href="cookies"><div>COOKIES</div></a>
             </div>            
           </article>
@@ -153,7 +153,7 @@
 
 
   
-                <span>Acepto la<a href="politica_privacidad"> Política de privacidad</a></span>
+                <span>Acepto la<a href="politica_privacidad"> Pol&iacute;tica de privacidad</a></span>
                 <input type="submit" id="enviar" value="ENVIAR"/>
               </form>
             </div>
@@ -212,11 +212,11 @@
                     
                   </div>
                   <div class="texto">
-                    <p class="texto1">Telefónica - Viajó en Empresas.</p>
+                    <p class="texto1">Telef&oacute;nica - Viaj&oacute; en Empresas.</p>
                     <p class="texto2"> Realizamos una experiencia muy vertiginosa y recomendable. Conseguimos el
-                        objetivo que buscábamos que era que nuestros empleados trabajaran en equipo y
-                        desde RISK ADVENTURE nos dieron todas las recomendaciones acertadas para
-                        conseguirlo.
+                      objetivo que busc&aacute;bamos que era que nuestros empleados trabajaran en equipo y
+                      desde RISK ADVENTURE nos dieron todas las recomendaciones acertadas para
+                      conseguirlo.
                     </p>
                   </div>
               </div> 
@@ -227,10 +227,10 @@
                     <i class="fas fa-star"></i>
                   </div>
                   <div class="texto">
-                    <p class="texto1">Julia - Viajó en Familia.</p>
-                    <p class="texto2"> Los monitores son un gran equipo. Hemos vivido una experiencia única, tal y como
-                        nos dijeron. La actividad es muy divertida. Me gustaría reseñar que a veces hechas
-                        raices en los árboles por las esperas. Y esto es debido a que los niños van sin ningún
+                    <p class="texto1">Julia - Viaj&oacute; en Familia.</p>
+                    <p class="texto2"> Los monitores son un gran equipo. Hemos vivido una experiencia &uacute;nica, tal y como
+                        nos dijeron. La actividad es muy divertida. Me gustar&iacute;a rese&ntilde;ar que a veces hechas
+                        raices en los &aacute;rboles por las esperas. Y esto es debido a que los ni&ntilde;os van sin ning&uacute;n
                         adulto que les pueda ayudar. Eso entorpece el recorrido y se hace aburrido.
                     </p>
                   </div>
@@ -243,10 +243,10 @@
                     <i class="fas fa-star"></i>
                   </div>
                   <div class="texto">
-                    <p class="texto1">Diego - Viajó en Experiencia Trekking.</p>
-                    <p class="texto2"> No he participado directamente por problemas físicos, pero es una pasada la gente
-                        como disfruta de todas las instalaciones. No lo conocía y me ha parecido genial la
-                        experiencia que contaba la gente, salían que flipaban.
+                    <p class="texto1">Diego - Viaj&oacute; en Experiencia Trekking.</p>
+                    <p class="texto2"> No he participado directamente por problemas f&iacute;sicos, pero es una pasada la gente
+                      como disfruta de todas las instalaciones. No lo conoc&iacute;a y me ha parecido genial la
+                      experiencia que contaba la gente, sal&iacute;an que flipaban.
                     </p>
                   </div>
               </div> 

@@ -81,8 +81,8 @@
                 <div>EXPERIENCIAS DE TIERRA</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> Experiencias de <b>aventura en Tierra</b> , montes, pistas, montañas, senderos, vías,... todas las
-                  actividades del entorno de tierra. Disfruta y céntrate en nuestras experiencias de tierra.
+                <div> Experiencias de <b>aventura en Tierra</b> , montes, pistas, monta&ntilde;as, senderos, v&iacute;as,... todas las
+              actividades del entorno de tierra. Disfruta y c&eacute;ntrate en nuestras experiencias de tierra.
                 </div>
             </div>
         </section>  
