@@ -184,16 +184,16 @@
         <section class="row">
             <div class="col-md-12 " id="texto2">
                <div>
-                 Encontrarás todo lo que necesitas para una experiencia única e inigualable, 
-                diferentes packs individual en grupo y para todas las edades... Deslízate hasta nuestro especial
-                PACKS & GRUPOS y encontrarás muchas más opciones... PAQUETES A MEDIDA, FINES DE SEMANA... 
+                 Encontrar&aacute;s todo lo que necesitas para una experiencia &uacute;nica e inigualable, 
+                diferentes packs individual en grupo y para todas las edades... Desl&iacute;zate hasta nuestro especial
+                PACKS &amp; GRUPOS y encontrar&aacute;s muchas m&aacute;s opciones... PAQUETES A MEDIDA, FINES DE SEMANA...
               </div>
             </div>
         </section>
         <!-- botón central imágenes-->
         <section class="row" >
             <div class="col-md-12 " id="boton_packs" > 
-              <a href="packs"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+              <a href="packs"><div  class="boton_pack" id="boton5"> PACKS &amp; GRUPOS</div></a>
             </div>
         </section>    
                                           <!-- efecto bolitas----COMÚN-->   
@@ -240,19 +240,19 @@
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs" > 
                 <div id="listo">Estamos listos para tu evento</div>
                 <div id="texto3">Contamos con todas las medidas de seguridad, sanitarias,
-                    sociales y legales para que tu evento pueda celebrarse.
-                    Mejoramos las políticas de cancelación y te facilitamos
-                    alternativas efectivas para tu evento presencial. Lo importante
-                    es que no dejes de comunicar ni celebrar con tu equipo...
-                    !Lo merecéis!
+                sociales y legales para que tu evento pueda celebrarse.
+                Mejoramos las pol&iacute;ticas de cancelaci&oacute;n y te facilitamos
+                alternativas efectivas para tu evento presencial. Lo importante
+                es que no dejes de comunicar ni celebrar con tu equipo...
+                !Lo merec&eacute;is!
                 </div>
             </div>
         </section> 
         <!-- botones ver más y contacto-->
         <section class="row" >
             <div class="col-md-12 " id="boton_listo" > 
-              <a href="eventos"><div  class="boton_pack" id="ver"> VER MÁS</div></a>
-              <a href="contacto#consulta"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
+              <a href="eventos"><div  class="boton_pack" id="ver"> VER M&Aacute;S</div></a>
+              <a href="contacto#consulta"><div  class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div></a>  
             </div>
         </section>   
                                                <!-- efecto bolitas----COMÚN-->
@@ -293,10 +293,10 @@
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
             <!-- sección de contáctanos-->
-            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
+            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
             <div id="dire">
-                <p class="texto_contacto">Dirección :</p>
+                <p class="texto_contacto">Direcci&oacute;n :</p>
                 <p>123 Avenida de Bolonia, Madrid</p>
               </div>
               <div id="email">
@@ -304,7 +304,7 @@
                 <p>info@riskadventureclub.com</p>
               </div>
               <div>
-                <p class="texto_contacto">Teléfono :</p>
+                <p class="texto_contacto">Tel&eacute;fono :</p>
                 <p>(+34)677 899 900</p>
               </div>
             </div>
@@ -319,7 +319,7 @@
           </div>
           <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
-              <p>Síguenos en:</p>
+              <p>S&iacute;guenos en:</p>
               <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
               <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
               <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
@@ -328,7 +328,7 @@
           </div>
           
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Política de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/index.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
