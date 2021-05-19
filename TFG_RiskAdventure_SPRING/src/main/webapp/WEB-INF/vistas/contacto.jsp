@@ -143,7 +143,7 @@
                 <input type="email" placeholder="E-mail" name="email" id="email" class="camposdorados" required/><br><br>
                 <input type="text" placeholder="Asunto" name="asunto" id="asunto" class="camposdorados" required/><br><br>
                 
-                <textarea name="comentario" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
+                <textarea name="comentario" rows="14" cols="45" placeholder="Mensaje" ></textarea><br><br>
                 <div class="squaredFour">
                   <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check" class="politica" required  />
                   <label for="squaredFour"></label>
@@ -301,7 +301,7 @@
                 <p class="texto_contacto">Direcci&oacute;n :</p>
                 <p>123 Avenida de Bolonia, Madrid</p>
               </div>
-              <div id="email">
+              <div id="emails">
                 <p class="texto_contacto">Email :</p>
                 <p>info@riskadventureclub.com</p>
               </div>
