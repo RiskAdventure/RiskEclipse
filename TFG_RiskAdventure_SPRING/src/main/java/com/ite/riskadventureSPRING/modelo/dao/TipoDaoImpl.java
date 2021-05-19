@@ -26,11 +26,7 @@ public class TipoDaoImpl implements IntTipoDao {
 	}
 
 
-	@Override
-	public List<Tipo> verPorEvento(int idTipo) {
 
-		return trepo.verPorEvento(idTipo);
-	}
 
 
 }
