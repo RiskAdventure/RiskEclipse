@@ -13,12 +13,10 @@ header {
   background-color: rgba(255, 255, 255, 0.98);
   top: 0;
   width: 100%;
-  margin-bottom: 2vw;
+  margin-bottom: 10%;
 }
-#logo_menu {
-  margin-right: 0px;
-  margin-left: 0px;
-}
+
+
 #icon {
   margin-right: 0px;
   margin-left: 0px;
@@ -60,28 +58,17 @@ header {
   background-color: #ba9e38;
   color: white;
 }
-/*logo del header*/
-#logo {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-}
-#logo1 {
-  background-color: white;
-  border: none;
-  box-shadow: none;
-  margin-bottom: 2%;
-}
+
+
 /* MENÚ NAV INTEGRADO EN EL HEADER */
 a {
   text-decoration: none !important;
   padding-bottom: 4px;
   color: rgb(66, 66, 66);
   transition: 0.3s;
+  font-size: 16px;
 }
-#logo_menu {
-  width: 80vw;
-}
+
 a:hover {
   color: rgb(66, 66, 66);
 }
@@ -98,6 +85,7 @@ ul {
   font-size: 0.95vw;
   padding: 0px;
 }
+
 li {
   background-image: linear-gradient(#ba9e38, #ba9e38);
   background-position: 0% 100%;
@@ -113,6 +101,16 @@ li:focus {
   background-size: 100% 2px;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: inherit; 
+  border-top: none;
+}
+
+/*CONTENIDO*/
 #textoaviso{
   margin: auto;
  
