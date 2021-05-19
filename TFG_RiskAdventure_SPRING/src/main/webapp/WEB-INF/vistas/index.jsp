@@ -119,10 +119,10 @@
         <section class="row">
             
           <div id="texto" class="col-md-12  ">
-            <div>En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
-                ofreciendo un servicio y una calidad excelente, experimentando las emociones, la adrenalina, la diversión,
-                con los mejores equipos técnicos...
-                Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA". 
+            <div>En Risk Adventure, desde nuestros or&iacute;genes hemos tenido una obsesi&oacute;n, sorprender y emocionar
+			 ofreciendo un servicio y una calidad excelente, experimentando las emociones, la adrenalina, la diversi&oacute;n,
+			 con los mejores equipos t&eacute;cnicos...
+			 Somos los &uacute;nicos que garantizamos una "EXPERIENCIA &Uacute;NICA". 
             </div>
           </div>
         </section>
