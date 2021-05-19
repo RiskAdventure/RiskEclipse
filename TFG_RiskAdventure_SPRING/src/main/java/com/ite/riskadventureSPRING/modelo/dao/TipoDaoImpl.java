@@ -25,10 +25,12 @@ public class TipoDaoImpl implements IntTipoDao {
 		return trepo.findAll();
 	}
 
+
 	@Override
-	public List<Tipo> verPorExperiencia(int idExperiencia) {
-		
-		return trepo.verPorExperiencia(idExperiencia);
+	public List<Tipo> verPorEvento(int idTipo) {
+
+		return trepo.verPorEvento(idTipo);
 	}
+
 
 }

@@ -8,6 +8,6 @@ public interface IntTipoDao {
 	
 	Tipo verUno(int idTipo);
 	List<Tipo> verTodos();
-	List<Tipo> verPorExperiencia(int idExperiencia);
+	List<Tipo> verPorEvento(int idTipo);
 
 }
