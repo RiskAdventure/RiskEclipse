@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-    <title>Experiencias de Agua</title><!-- título-->
+    <title>Ofertas</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Artículos, blog, experiencias, lectura, recomendaciones"><!-- palabras clave-->
     <meta name="description" content="Más artículos de nuestra guía de experiencias, podrás buscar entre un montón de experiencias únicas de multiaventura, deporte en entornos rurales y de ciudad."><!-- descripción-->
