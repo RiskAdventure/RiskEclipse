@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carrito Risk Adventure</title><!-- título-->
+    <title>Carrito</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
     <meta name="keywords" content="carrito, compra, productos"><!-- palabras clave-->
     <meta name="description" content="Risk adventure te ofrece los mejores paquetes de aventura, con un solo clic podrás comprar tu aventura y empezar a disfrutar"><!-- descripción-->

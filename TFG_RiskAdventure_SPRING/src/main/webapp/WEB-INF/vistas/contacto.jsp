@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Contacto Risk Adventure</title><!-- título-->
+    <title>Contacto</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
     <meta name="keywords" content="contacto, dudas, ayuda, solicitud, aventura, multiaventura, experiencias"><!-- palabras clave-->
     <meta name="description" content="Si tienes dudas sobre nuestros servicios de multiaventura o sobre la contratación de tu experiencia podrás contactar con nosotros a través de diversos canales."><!-- descripción-->

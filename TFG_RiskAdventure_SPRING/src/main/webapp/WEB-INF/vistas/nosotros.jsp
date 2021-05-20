@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-    <title>Nosotros Risk Adventure</title><!-- título-->
+    <title>Nosotros</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Multiaventura,Experiencias,Nosotros, contacto, aventureros, dudas, ayuda"> <!-- palabras clave-->
     <meta name="description" content="Somos Especialistas en Organizar Team Building para Empresas, Escapadas, Fines de Semana en la naturaleza. Multiaventura y Opción Alojamiento, Infinidad de Actividades. Vive una EXPERIENCIA ÚNICA"><!-- descripción-->

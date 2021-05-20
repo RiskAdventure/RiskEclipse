@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-    <title>Packs y Grupos Risk Adventure</title><!-- título-->
+    <title>Packs y Grupos</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas, aventura, multiaventura, paquetes de aventura"><!-- palabras clave-->
     <meta name="description" content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos."><!-- descripción-->
