@@ -88,7 +88,20 @@
         </section>  
 
         <hr>
-
+ <c:choose>
+	        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
+		        <table class="table table-striped table-hover" >
+		        	<th>idTipo</th><th>Nombre</th>
+		        	<c:forEach var="ele" items="${listaTipoTierra }">
+		        		<tr>
+		        			<td>${ele.idTipo}</td>
+		        			<td>${ele.nombre}</td>
+		        			
+		        		</tr>
+		        	</c:forEach>
+		        </table>
+	        </c:when>
+        </c:choose>
 
         <hr>
 
@@ -134,19 +147,7 @@
             <div id="bola26" class="bola"></div>
           </div>
         </section> 
-        <c:choose>
-	        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
-		        <table border="2">
-		        	<th>idTipo</th><th>Nombre</th>
-		        	<c:forEach var="ele" items="${listaTipoTierra }">
-		        		<tr>
-		        			<td>${ele.idTipo}</td>
-		        			<td>${ele.nombre}</td>
-		        		</tr>
-		        	</c:forEach>
-		        </table>
-	        </c:when>
-        </c:choose>
+       
         <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->

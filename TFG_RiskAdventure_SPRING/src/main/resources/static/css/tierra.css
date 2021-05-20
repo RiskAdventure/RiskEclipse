@@ -463,6 +463,14 @@ margin-left: 32px;
 font-size: 1.2vw !important;
 }
 }
+table, th, td {
+    border: 2px solid #D3D3D3;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
 
 /* De 1200 px hacia abajo */
 
@@ -594,4 +602,5 @@ margin-right: 17px;
 margin-top: 3vw;
 margin-left: 24px;
 }
+
 }
