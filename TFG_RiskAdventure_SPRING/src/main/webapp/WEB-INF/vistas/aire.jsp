@@ -95,6 +95,7 @@
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="tierra" id="consulta"><div>IR A TIERRA</div></a>
+              <a href="ofertas"><div>OFERTAS</div></a>
               <a href="agua"><div>IR A AGUA</div></a>
             </div>            
         </article>

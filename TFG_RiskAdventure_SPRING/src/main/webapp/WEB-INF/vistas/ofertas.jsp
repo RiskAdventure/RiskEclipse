@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/articulos.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/ofertas.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 <body>
@@ -68,7 +68,38 @@
         </header>
 
         <!-- SECTION-->
-       
+       <!-- SECTION-->
+        <section class="row" id="imagenes" >
+          <div class="col-md-12 col-xs-12 col-xm-12" id="ofertas">
+             <img src="../imagenes/ofertas.jpg"></img>
+             <a href="ofertas"></a>
+          </div>
+
+        </section>
+
+        <section class="row justify-content-center">
+            <div id=textoofertas class="col-md-12">
+                <div>OFERTAS</div>
+            </div>
+            <div id="texto" class="col-md-12">
+                <div>  Podr&aacute;s elegir las mejores <b> Ofertas </b> y 
+                disfrutar de una experiencia &uacute;nica, tu eliges la mejor opci&oacute;n, tu eliges el resto, tu eliges tu Risk Adventure.
+                </div>
+            </div>
+        </section>  
+
+        <hr>
+
+
+        <hr>
+
+        <article class="row">
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a href="tierra" id="consulta"><div>VER TIERRA</div></a>
+              <a href="agua"><div>VER AGUA</div></a>
+              <a href="aire"><div>VER AIRE</div></a>
+            </div>            
+        </article>
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">
