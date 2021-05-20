@@ -3,7 +3,6 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Experiencias</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
@@ -128,15 +127,15 @@
                         <a href="tierra"><div>PUENTING</div></a>
                         <p><a href="tierra" id="vermas">Ver m&aacute;s TIERRA...</p></a>
                     </div>            
-            </article>
+                </article>
             </div>
         </section>
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="agua"><img src="../imagenes/mas_agua.jpg" alt="Agua"
-                    title="Experiencias Agua"></img></a>
-            </div>
+                <a href="agua"><img src="../imagenes/mas_agua.jpg" alt="Agua"
+                        title="Experiencias Agua"></img></a>
+                </div>
             <div class="col-md-2 col-xs-12 nombre">AGUA</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
@@ -159,8 +158,8 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="aire"><img src="../imagenes/mas_aire.jpg" alt="Aire"
-                    title="Experiencias Aire"></img></a>
+                <a href="aire"><img src="../imagenes/mas_aire.jpg" alt="Aire"
+                        title="Experiencias Aire"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">AIRE</div>
             <div class="col-md-7 col-xs-12 descripcion">
@@ -192,22 +191,21 @@
             <!-- texto enlace a blog-->
             <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
                 <div id="tituloblog">Confiamos en los mejores</div>
-                <div id="texto3">Las <b>experiencias outdoor</b> cuentan con m&aacute;s fans cada vez. 
-                    Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente n&uacute;mero de aficionados</b>, 
-                    que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
-                    de <b>experiencias</b> son una gran opci&oacute;n de dexconexi&oacute;n y se ofertan cada vez m&aacute;s, sobre todo en tiempos de estress y de no tener tiempo para nada. 
-                    Muchas son las opciones que ofrece este tipo de turismo...apuntarnos a cursos con monitores experimentados en 
-                    diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastron&oacute;mico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia &uacute;nica, 
-                    o tiendas especializadas para la compra de equipos y gadgets muy &uacute;tiles para emprender la aventura de irnos de vacaciones en contacto con 
-                    parajes naturales, los <b>m&aacute;s bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las &uacute;ltimas novedades y te hablaremos de 
-                    nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>.
-                </div>
+                    <div id="texto3">Las <b>experiencias outdoor</b> cuentan con m&aacute;s fans cada vez. 
+                        Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente n&uacute;mero de aficionados</b>, 
+                        que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
+                        de <b>experiencias</b> son una gran opci&oacute;n de dexconexi&oacute;n y se ofertan cada vez m&aacute;s, sobre todo en tiempos de estress y de no tener tiempo para nada. 
+                        Muchas son las opciones que ofrece este tipo de turismo...apuntarnos a cursos con monitores experimentados en 
+                        diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastron&oacute;mico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia &uacute;nica, 
+                        o tiendas especializadas para la compra de equipos y gadgets muy &uacute;tiles para emprender la aventura de irnos de vacaciones en contacto con 
+                        parajes naturales, los <b>m&aacute;s bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las &uacute;ltimas novedades y te hablaremos de 
+                        nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>.
+                    </div>
             </div>
             <section class="row" id="imagenes2" >
                 <div class="col-md-3" id="blog1">
                     <img src="../imagenes/material_escalada.jpg"></img>
-                    <a href="vermasblog"><p>Material adecuado de escalada</p></a>
-                    
+                    <a href="vermasblog"><p>Material adecuado de escalada</p></a>    
                 </div>
                 <div class="col-md-3" id="blog2">
                     <img src="../imagenes/calzado_senderismo.jpg"></img>
@@ -220,8 +218,7 @@
                 <div class="col-md-3" id="blog4">
                     <img src="../imagenes/5amigosblog.jpg"></img>
                     <a href="vermasblog"><p>5 aventureros, 5 amigos...</p></a>
-                </div>
-                
+                </div>    
             </section> 
 
             <!-- botón central inferior blog-->
