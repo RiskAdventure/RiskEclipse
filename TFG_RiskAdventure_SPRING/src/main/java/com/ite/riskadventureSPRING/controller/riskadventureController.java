@@ -56,6 +56,13 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "aire";
 			
 		}
+		@GetMapping("/ofertas")
+		public String inicio22(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "ofertas";
+			
+		}
 		
 		@GetMapping("/tipoTierra")
 		public String tipoPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
