@@ -1,25 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Política de Privacidad</title><!-- título-->
+    <title>Pol&iacute;tica de privacidad</title><!-- tÃ­tulo-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Aviso legal, politica de privacidad, cookies, RGPD, normativa"><!-- palabras clave-->
-    <meta name="description" content="Guía de aventura y buscador de experiencias únicas de multiaventira."><!-- descripción-->
-    <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
+    <meta name="description" content="GuÃ­a de aventura y buscador de experiencias Ãºnicas de multiaventira."><!-- descripciÃ³n-->
+    <meta name="author" content="RaÃºl Montero, Pilar Bermejo, Lidia MartÃ­nez"><!-- autores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualizaciÃ³n-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librerÃ­a jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/politicaprivacidad.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
-    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
-     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
+    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirÃ¡ hacer
+     nuestra pÃ¡gina responsive y que se adapte a diferentes tamaÃ±os de pantalla. Para ello nos serviremos tambiÃ©n
       de las media queries @-->
       <div class="container">
                                                       <!-- HEADER----COMUN-->
@@ -33,11 +33,11 @@
               </div>
           </div>
           
-         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÃN-->
           <div class="row" id="nav"> 
             <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menú se agrupan
-                      para mostrarlos mejor en los dispositivos móviles -->
+                  <!-- El logotipo y el icono que despliega el menÃº se agrupan
+                      para mostrarlos mejor en los dispositivos mÃ³viles -->
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
@@ -46,9 +46,9 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
-                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -69,7 +69,7 @@
         <!-- texto inicio-->
         <section class="row justify-content-center">
             <div id=textopolitica class="col-md-12">
-                <div>Política de Privacidad</div>
+                <div>Pol&iacute;tica de privacidad</div>
             </div>
             <div id="texto" class="col-md-12">
                 <div> 
@@ -132,11 +132,11 @@
             </div>
         </section>
         
-        <!-- FOOTER-----COMÚN-->
+        <!-- FOOTER-----COMÃN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
-            <!-- sección de contáctanos-->
+            <!-- secciÃ³n de contÃ¡ctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
             <div id="dire">
@@ -171,7 +171,7 @@
               <p>2020 &copy; Copyright</p>
           </div>
           
-          <!--enlaces a aviso legal, política de privacidad y cookies--> 
+          <!--enlaces a aviso legal, polÃ­tica de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/cookies.js"></script> <!--Enlace externo a archivo JS-->

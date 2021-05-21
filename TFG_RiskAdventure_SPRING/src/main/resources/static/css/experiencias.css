@@ -1,9 +1,9 @@
-                                                    /*CONTAINER---COMÚN*/
+                                                         /*CONTAINER---COMÚN*/
 .container {
   width: 80vw;
   background-size: contain;
 }
-                                                    /*HEADER-----COMÚN*/
+                                                        /*HEADER-----COMÚN*/
 /*iconos del header*/
 header {
   position: -webkit-sticky;
@@ -100,7 +100,7 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
-#home {
+#experiencias {
   background-image: linear-gradient(#ba9e38, #ba9e38);
   background-position: 0% 100%;
   background-repeat: no-repeat;
@@ -115,46 +115,315 @@ li:hover {
   border-color: inherit; 
   border-top: none;
 }
-                                                    /*SECTION*/
-/*carrusel*/
-#carru {
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.item img {
-  width: 100%;
-  height: 37vh;
-  max-height: 37vh;
-}
-#carrusel {
-  border: none;
-  box-shadow: none;
-  background-color: white;
-  margin-bottom: 2%;
-  padding: 0px !important;
-}
-.carousel-caption {
-  margin-bottom: 6vw !important;
-  margin-left: 22vw !important;
-  margin-right: 0px !important;
-  color: #ffffff;
-  font-size: 1.4vw;
-  padding: 0px;
-}
-.carousel-caption h3 {
-  font-size: 2vw !important;
-}
-/*texto bajo el carrusel*/
-#texto div {
-  font-size: 1.3vw;
+              /*SECTION*/
+
+
+#exp1 {
   margin: auto;
-  width: 38vw;
   text-align: center;
 }
-                            /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
-hr {
-  display: none;
+#exp2 {
+  margin: auto;
+  text-align: center;
 }
+#exp3 {
+  margin: auto;
+  text-align: center;
+}
+
+#exp1 img {
+  width: 400px;
+  height: 260px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+
+}
+#exp2 img {
+  width: 400px;
+  height: 260px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#exp3 img {
+  width: 400px;
+  height: 260px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+
+/*botones experiencias*/
+.button {
+  width: 8vw;
+  height: 2vw;
+  background-color: #8091a5;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 2vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 0.4vw;
+  font-size: 1vw;
+  display: inline-block;
+  
+}
+.button:hover {
+  background-color: #ba9e38;
+}
+/*texto bajo imágenes experiencias*/
+
+#texto1{
+  text-align: center;
+}
+
+#texto1 div{
+  text-align: center;
+  font-size: 140%;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+
+#texto1 h1{
+  font-style: italic;
+}
+
+
+#texto1 img{
+  width: 250px;
+  height: 150px;
+}
+
+/*CONTINUAMOS SECTION----parte central--tarjetitas imágenes redondas--packs y grupos*/
+#circ1 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+#circ2 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2vw;
+  margin-top: 2.5vw;
+}
+#circ3 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+#circ1 img {
+  width: 200px;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 100%;
+  text-align: cente;
+  margin-bottom: 1.5vw;
+  border: 4px solid #ba9e38;
+}
+#circ2 img {
+  width: 200px;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom: 1.2vw;
+  border: 4px solid #ba9e38;
+}
+#circ3 img {
+  width: 200px;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom: 1.2vw;
+  border: 4px solid #ba9e38;
+}
+.nombre  {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  font-size: 200%;
+  font-weight: 800;
+  padding-top: 2vw;
+  text-align: center;
+  padding-top: 3%;
+  text-align: center;
+  border-bottom: #ba9e38;
+
+}
+
+.nombre:hover{
+  color: #ba9e38;
+
+}
+
+/*Caja botones*/
+
+#div2_1{
+  
+  text-align: center;
+  margin-top: 9%;
+  
+}
+
+/*Botones*/
+#div2_1 div{
+  padding: 1%;
+  background-color: #8091a5;  
+  margin-left: 4%;
+  font-size: 130%;
+  border-radius: 7px;
+  font-weight: bolder;
+  display: inline-block;
+  color: white;
+  margin-bottom: 4%;
+  
+}
+#div2_1 div:hover{
+  background-color: #ba9e38;
+  
+}
+
+#div2_1 #vermas{
+  color:#ba9e38;
+  font-size: 180%;
+  font-weight: bolder;
+}
+
+
+#textoblog {
+  margin: auto !important;
+  text-align: center;
+}
+#tituloblog{
+  text-align: center;
+  color:#3F4A56;
+  font-weight: 800;
+  font-size: 700%;
+}
+
+#texto3{
+  margin: auto;
+  text-align: justify;
+  color:#3F4A56;
+  margin-top: 1.5vw;
+  font-size: 140%;
+}
+
+#imagenes2{
+  text-align: center;
+  margin-top: 34% !important;
+  
+ 
+}
+
+#blog1{
+  margin: auto;
+  text-align: center;
+  margin-top: 1.5vw;
+}
+
+#blog1 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog2 {
+  margin: auto;
+  text-align: center;
+  margin-top: 1.5vw;
+}
+#blog2 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog3 {
+  margin: auto;
+  text-align: center;
+  margin-top: 1.5vw;
+}
+#blog3 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog4 {
+  margin: auto;
+  text-align: center;
+  margin-top: 1.5vw;
+}
+#blog4 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog1 img {
+  width: 300px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+
+}
+#blog2 img {
+  width: 300px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#blog3 img {
+  width: 300px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#blog4 img {
+  width: 300px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+
+#imagenes2 p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3F4A56;
+}
+#boton_blog {
+  margin-top: 2%;
+  text-align: center;
+}
+.boton_blog_centro {
+  width: 12vw;
+  background-color: #8091a5;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 2vw;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.7vw;
+  padding-bottom: 0.4vw;
+  font-size: 1vw;
+}
+.boton_blog_centro:hover {
+  background-color: #ba9e38;
+}
+
 .bola {
   background-color: #ba9e38;
   border-radius: 100%;
@@ -274,160 +543,11 @@ hr {
   width: 7px;
   height: 7px;
 }
-/*CONTINUAMOS SECTION----parte central--tarjetitas imágenes redondas--packs y grupos*/
-#circ1 {
-  margin: auto;
-  text-align: center;
-}
-#circ2 {
-  margin: auto;
-  text-align: center;
-}
-#circ3 {
-  margin: auto;
-  text-align: center;
-}
-#circ4 {
-  margin: auto;
-  text-align: center;
-}
-#circ1 img {
-  width: 200px;
-  height: 200px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-radius: 100%;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  border: 4px solid #ba9e38;
-}
-#circ2 img {
-  width: 200px;
-  height: 200px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-radius: 100%;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  border: 4px solid #ba9e38;
-}
-#circ3 img {
-  width: 200px;
-  height: 200px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-radius: 100%;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  border: 4px solid #ba9e38;
-}
-#circ4 img {
-  width: 200px;
-  height: 200px;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  border-radius: 100%;
-  margin-bottom: 1.5vw;
-  border: 4px solid #ba9e38;
-}
-/*botones parte central,tarjetitas,packs y grupos*/
-.boton {
-  width: 8vw;
-  height: 2vw;
-  background-color: #8091a5;
-  border-radius: 7px;
-  color: white;
-  margin-bottom: 2vw;
-  margin: auto;
-  text-align: center;
-  padding-top: 0.4vw;
-  font-size: 1vw;
-}
-.boton:hover {
-  background-color: #ba9e38;
-}
-#boton_packs {
-  text-align: center;
-}
-.boton_pack {
-  width: 12vw;
-  background-color: #8091a5;
-  border-radius: 7px;
-  color: white;
-  margin-bottom: 2vw;
-  display: inline-block;
-  text-align: center;
-  padding-top: 0.7vw;
-  padding-bottom: 0.4vw;
-  font-size: 1vw;
-}
-.boton_pack:hover {
-  background-color: #ba9e38;
-}
-/*texto bajo imágenes circulares*/
-#texto2 div {
-  margin: auto;
-  width: 62vw;
-  text-align: center;
-  margin-top: 1.5vw;
-  margin-bottom: 5vw;
-  font-size: 1.3vw;
-}
-/*Parte ver más y contáctanos----imagen*/
-#listos img {
-  width: 45vw;
-  height: 25vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-left: 0px !important;
-  text-align: center;
-  display: inline-block;
-  margin-bottom: 1vw;
-  margin-right: 2vw !important;
-}
-#listos {
-  margin: auto !important;
-  text-align: center;
-}
 
-/*botones ver más y contacto*/
-#boton_listo {
-  text-align: right;
-}
-#contact {
-  margin-left: 10vw;
-  padding: 0.6vw !important;
-  width: 9vw !important;
-}
-#listo {
-  text-align: center;
-  color:#3F4A56;
-  font-weight: 800;
-  font-size: 500%;
-}
-#ver {
-  padding: 0.6vw !important;
-  width: 7vw !important;
-}
-/*texto sección contacto y ver más*/
-#texto3 {
-  margin-bottom: 1.3vw;
-  font-size: 1.3vw;
-}
-                                        /*FOOTER-------------COMÚN*/
+
+
+
+                                         /*FOOTER-------------COMÚN*/
 footer {
   background-color: rgb(69, 83, 88) !important;
   border: none;
@@ -572,21 +692,19 @@ a #restaurante {
   font-weight: bolder;
   color: #ba9e38 !important;
 }
-                                /*--------------------------MEDIA QUERIES-------------------------------*/
-
+                                                        /*MEDIA QUERIES*/
 /* Entre 1200px y 1630 px*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1630px) {
-  
-  
-  /*menú ------------común*/
+                                /*menú ------------común*/
   #menu {
     padding: 0px !important;
     font-size: 1vw;
     margin-bottom: 10px;
   }
-  
-  
+  #logo_menu {
+    width: 80vw !important;
+  }
   #home {
     margin-left: 0px !important;
   }
@@ -595,28 +713,7 @@ a #restaurante {
     margin-right: 0px !important;
     padding-right: 0px !important;
   }
-                                                    /*SECTION*/
-  #texto3 {
-    margin-bottom: 1.3vw;
-    font-size: 1.4vw;
-  }
-  #listo {
-    font-size: 4vw;
-    line-height: 3.5vw;
-    margin-bottom: 2.7vw;
-  }
-  #contact {
-    margin-left: 8vw;
-    padding: 0.6vw !important;
-    width: 10vw !important;
-  }
-  #listos img {
-    width: 43vw;
-  }
-  #contact {
-    margin-right: 3vw;
-  }
-                                        /*FOOTER---COMÚN*/
+                                 /*FOOTER---COMÚN*/
   #contacto_footer {
     font-size: 1.2vw;
   }
@@ -631,23 +728,6 @@ a #restaurante {
   }
 }
 
-/* Entre 736px y 1000px */
-
-@media only screen and (min-width: 736px) and (max-width: 991px) {
-  /*logo del header*/
-
-
-  /*SECTION*/
-
-    #contact {
-    margin-left: 1vw;
-    padding: 0.6vw !important;
-    width: 15vw !important;
-    margin-right: 27vw !important;
-    font-size: 13px;
-  }
-}
-
 /* De 1200 px hacia abajo */
 
 @media only screen and (max-width: 1200px) {
@@ -656,16 +736,19 @@ a #restaurante {
     width: 86vw;
     background-size: contain;
   }
-                         /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
+                     /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
   #menu {
     width: 100% !important;
     padding: 0px !important;
     font-size: 1.5vw;
     margin-bottom: 10px;
-
   }
-
-
+  #logo {
+    width: 100%;
+  }
+  #logo1 {
+    width: 100%;
+  }
   #home {
     margin-left: 0px !important;
   }
@@ -679,81 +762,7 @@ a #restaurante {
   li {
     margin-left: 6px !important;
   }
-                                             /*SECTION*/
-  #listos img {
-    width: 45vw;
-    height: 25vw;
-    background: no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    display: inline-block;
-  }
-  #listos {
-    margin: auto !important;
-    text-align: center !important;
-  }
-  #contact {
-    margin-left: 1vw;
-    padding: 0.6vw !important;
-    width: 15vw !important;
-    margin-right: 4vw;
-    font-size: 13px;
-  }
-  #ver {
-    padding: 0.6vw !important;
-    width: 10vw !important;
-    font-size: 13px;
-  }
-  #listo {
-    font-size: 4vw;
-    line-height: 3.5vw;
-    margin-bottom: 1.2vw;
-  }
-  #texto3 {
-    width: 100%;
-    margin-left: 0px !important;
-  }
-  #texto2 div {
-    font-size: 15px;
-  }
-  .boton {
-    width: 11.5vw;
-    border-radius: 7px;
-    padding-bottom: 25px;
-    margin-bottom: 2vw;
-    text-align: center;
-    font-size: 13px;
-  }
-  #boton5 {
-    width: 20vw;
-    border-radius: 7px;
-    padding: 8px;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    font-size: 13px;
-  }
-  #texto3 {
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-left: 10vw;
-  }
-  #texto div {
-    margin: auto;
-    width: 60vw;
-    text-align: center;
-    font-size: 15px;
-  }
-  .item img {
-    width: 100%;
-    height: 160px;
-    max-height: 160px;
-  }
-                                            /*FOOTER------COMÚN-----*/
+                                        /*FOOTER------COMÚN-----*/
   #texto_footer {
     text-align: right;
     margin-right: 15px;
@@ -765,45 +774,6 @@ a #restaurante {
   }
   #contacto_footer {
     font-size: 12px !important;
-  }
-}
-
-/*Entre 990px y 1200 px colocamos la sección del medio*/
-
-@media only screen and (min-width: 990px) and (max-width: 1200px) {
-                                     /*SECTION*/
-
-  #boton_packs {
-    margin: auto;
-  }
-  #listo {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 3vw;
-    margin-top: 2vw;
-  }
-  #contact {
-    margin-left: 1vw;
-    padding: 0.6vw !important;
-    width: 15vw !important;
-    margin-right: 4vw;
-    font-size: 13px;
-  }
-  #circ1 img {
-    width: 170px;
-    height: 170px;
-  }
-  #circ2 img {
-    width: 170px;
-    height: 170px;
-  }
-  #circ3 img {
-    width: 170px;
-    height: 170px;
-  }
-  #circ4 img {
-    width: 170px;
-    height: 170px;
   }
 }
 
@@ -819,193 +789,7 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
-                                                /*SECTION*/
-  /*carrusel*/
-  .item img {
-    width: 100%;
-    height: 90px;
-    max-height: 90px;
-  }
-  .item {
-    font-size: 2.5vw;
-  }
-  .carousel-indicators li {
-    width: 6px;
-    height: 6px;
-  }
-  .carousel-indicators .active {
-    width: 6px;
-    height: 6px;
-  }
-  .carousel-caption {
-    bottom: 10px;
-    padding-bottom: 0px;
-  }
-  .item h3 {
-    font-size: 2vw;
-  }
-                                        /*EFECTO BOLAS--------COMÚN*/
-  .bola {
-    background-color: #ba9e38;
-    border-radius: 100%;
-    margin-right: 0.8%;
-    margin-top: 4%;
-    display: inline-block;
-  }
-  #bolitas {
-    text-align: center;
-    margin-bottom: 3vw;
-  }
-  #bola1 {
-    width: 7px;
-    height: 7px;
-    margin-left: 4vw;
-  }
-  #bola2 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola3 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola4 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola5 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola6 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola7 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola8 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola9 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola10 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola11 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola12 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola13 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola14 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola15 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola16 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola17 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola18 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola19 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola20 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola21 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola22 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola23 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola24 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola25 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola26 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola27 {
-    width: 7px;
-    height: 7px;
-  }
-
-                                            /*CONTINUACIÓN SECTION*/
-  /*texto central*/
-  #texto div {
-    margin: auto;
-    width: 60vw;
-    text-align: center;
-    font-size: 12px;
-  }
-  /*botones centrales*/
-  .boton {
-    width: 16vw;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 2.5vw;
-  }
-  /*texto y botones centrales*/
-  #texto2 {
-    font-size: 12px;
-  }
-  #boton5 {
-    width: 36vw;
-  }
-  #texto3 {
-    font-size: 12px;
-  }
-  #ver {
-    width: 18vw !important;
-  }
-  #contact {
-    margin-left: 1vw;
-    padding: 0.6vw !important;
-    width: 29vw !important;
-    margin-right: 0px;
-    font-size: 13px;
-    width: 29vw !important;
-  }
-  #boton_listo {
-    text-align: center;
-  }
-                                                 /*FOOTER -----COMÚN*/
+                                             /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
   }
@@ -1054,38 +838,6 @@ a #restaurante {
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 500px) {
-                                     /*EFECTO BOLAS--------COMÚN*/
-  .bola {
-    width: 0px !important;
-    height: 0px !important;
-    background-color: #ba9e38;
-    border-radius: 100%;
-    margin-right: 0px !important;
-    margin-top: 0px !important;
-    display: inline-block;
-  }
-  #bola1 {
-    width: 0px !important;
-    height: 0px !important;
-    margin-left: 0px !important;
-  }
-  .bola_footer {
-    width: 0px !important;
-    height: 0px !important;
-    background-color: #ba9e38;
-    border-radius: 100%;
-    margin-right: 0px !important;
-    margin-top: 0px !important;
-    display: inline-block;
-  }
-  #bolitas_footer {
-    text-align: center;
-    margin-bottom: -8vw;
-  }
-  #bolitas {
-    text-align: center;
-    margin-bottom: -5vw;
-  }
                                         /*FOOTER------COMÚN*/
   hr {
     display: block;

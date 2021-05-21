@@ -48,7 +48,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
@@ -95,7 +95,7 @@
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
+              <a href="tierra" id="consulta"><div>IR A TIERRA</div></a>
               <a href="ofertas"><div>OFERTAS</div></a>
               <a href="aire"><div>IR A AIRE</div></a>              
             </div>            

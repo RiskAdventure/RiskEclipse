@@ -48,7 +48,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
@@ -110,7 +110,7 @@
               <a href="agua" id="consulta"><div>IR A AGUA</div></a>
               <a href="ofertas"><div>OFERTAS</div></a>
               <a href="aire"><div>IR A AIRE</div></a>
-              <a href="/riskadventure/tipoTierra?idExperiencia=1">Ver eventos Tierra</a>
+              <a href="/riskadventure/tipoTierra?idExperiencia=1"><div>Ver empresas de Tierra</div></a>
             </div>            
         </article>
         
