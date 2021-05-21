@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ite.riskadventureSPRING.modelo.beans.Empresa;
+import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.repository.EmpresaRepository;
 @Service
 public class EmpresaDaoImpl implements IntEmpresaDao {
@@ -27,6 +28,11 @@ public class EmpresaDaoImpl implements IntEmpresaDao {
 		
 		
 		
+	}
+	@Override
+	public List<Empresa> verPorExperiencia(int idExperiencia) {
+		
+		return  erepo.verPorExperiencia(idExperiencia);
 	}
 
 }

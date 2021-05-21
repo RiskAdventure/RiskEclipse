@@ -13,4 +13,6 @@ public interface EmpresaRepository extends JpaRepository<Empresa, Integer>{
 
 	@Query("select e from Empresa e where e.provincia.idProvincia = ?1")
 	public List<Empresa> verPorProvincia(int idProvincia);
+	@Query("select e from Empresa e where e.experiencia.idExperiencia=?1")
+	public List<Empresa> verPorExperiencia(int idExperiencia);
 }

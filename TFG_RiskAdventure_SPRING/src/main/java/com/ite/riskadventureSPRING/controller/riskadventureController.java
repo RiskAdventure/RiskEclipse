@@ -13,8 +13,10 @@ package com.ite.riskadventureSPRING.controller;
 	import org.springframework.web.bind.annotation.RequestParam;
 	import org.springframework.web.bind.annotation.RestController;
 
+import com.ite.riskadventureSPRING.modelo.beans.Empresa;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
+import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 
@@ -24,7 +26,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 	@RequestMapping("/riskadventure")
 	public class riskadventureController {
 		@Autowired
-		IntTipoDao tdao;
+		
+		IntEmpresaDao edao;
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
@@ -65,9 +68,9 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		
 		@GetMapping("/tipoTierra")
-		public String tipoPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
+		public String empresaPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
 			model.addAttribute("mensaje","Lidia Capita ");
-			List<Tipo> listaTipo = tdao.verPorExperiencia(idExperiencia);
+			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoTierra", listaTipo);
 			
 			return "tierra";

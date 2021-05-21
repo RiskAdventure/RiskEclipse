@@ -91,11 +91,14 @@
  <c:choose>
 	        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
 		        <table class="table table-striped table-hover" >
-		        	<th>idTipo</th><th>Nombre</th>
+		        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
 		        	<c:forEach var="ele" items="${listaTipoTierra }">
 		        		<tr>
-		        			<td>${ele.idTipo}</td>
-		        			<td>${ele.nombre}</td>
+		        			<td>${ele.nombreActividad}</td>
+		        			<td>${ele.nombreEmpresa}</td>
+		        			<td>${ele.nombreProvincia}</td>
+		        			<td>${ele.telefono}</td>
+		        			<td><a href="mailto:info@riskadventureclub.com">Consulta</a></td>
 		        			
 		        		</tr>
 		        	</c:forEach>
