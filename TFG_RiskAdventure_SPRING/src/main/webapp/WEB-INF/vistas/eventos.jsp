@@ -5,24 +5,25 @@
 <html lang="en">
 
 <head>
-    <title>Eventos</title><!-- tÃ­tulo-->
+    <title>Eventos</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Eventos, team building, incentive day, incentivos, despedida, aniversario, empresas, equipos, empleados, jefes"><!-- palabras clave-->
-    <meta name="description" content="En Risk Adventure preparamos las mejores experiencias y eventos de empresa de todo tipo, Incentivos, Team Building, Cenas y comidas de empresa con actividades..."><!-- descripciÃ³n-->
-    <meta name="author" content="RaÃºl Montero, Pilar Bermejo, Lidia MartÃ­nez"><!-- autores-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualizaciÃ³n-->
+    <meta name="description" content="En Risk Adventure preparamos las mejores experiencias y eventos de empresa de todo tipo, Incentivos, Team Building, Cenas y comidas de empresa con actividades..."><!-- descripción-->
+    <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librerÃ­a jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/eventos.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 
 <body>
 
-    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirÃ¡ hacer
-     nuestra pÃ¡gina responsive y que se adapte a diferentes tamaÃ±os de pantalla. Para ello nos serviremos tambiÃ©n
+    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
+     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
       de las media queries @-->
       <div class="container">
                                                       <!-- HEADER----COMUN-->
@@ -30,17 +31,17 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-                <a href="carrito"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
-                <a href="login"><i class="fas fa-user" id="login" title="login"></i></a>
+                <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
           
-         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÃšN-->
+         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
           <div class="row" id="nav"> 
             <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menÃº se agrupan
-                      para mostrarlos mejor en los dispositivos mÃ³viles -->
+                  <!-- El logotipo y el icono que despliega el menú se agrupan
+                      para mostrarlos mejor en los dispositivos móviles -->
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
@@ -49,9 +50,9 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
-                  <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
+                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -78,20 +79,21 @@
             <!-- texto team building-->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Team Building</div>
-                <div class="texto3">&iquest;Necesitas que los compa&ntilde;eros hagan un equipo de verdad?
-                    &iquest;Quieres alcanzar los objetivos de la empresa antes de lo previsto? 
-                    &iquest;Prefieres la soluci&oacute;n antes del problema?
-                    Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
+                <div class="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
+                    ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? 
+                    ¿Prefieres la solución antes del problema?
+                    Ponte en contacto con nosotros y elaboraremos una experiencia a medida...<br><br>
+                    <div>
+                        <a href="contacto">
+                            <div class="boton_pack"> CONTÁCTANOS</div>
+                        </a>
+                    </div>  
                 </div>
             </div>
         </section>
-        <!-- botones ver mÃ¡s y contacto-->
+        <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12 col-xs-12" id="boton_listo">
-                <a href="contacto">
-                    <div class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div>
-                </a>
-            </div>
+            
             <!-- imagen partner escapada rural-->
             <div class="col-md-3 col-xs-12 col-xm-12" id="teamb">
                 <img src="../imagenes/footer_escapada_rural.jpg" alt="partner escapada rural eventos empresa">
@@ -113,23 +115,24 @@
             <!-- texto incentive day -->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Incentive Day</div>
-                <div class="texto3">La motivaci&oacute;n de tus empleados es fundamental para que tu empresa vaya viento en
+                <div class="texto3">La motivación de tus empleados es fundamental para que tu empresa vaya viento en
                     popa y consigas las metas que
-                    os hab&eacute;is propuesto alcanzar. Debes mantener el inter&eacute;s, la implicaci&oacute;n y el compromiso de tu equipo
+                    os habéis propuesto alcanzar. Debes mantener el interés, la implicación y el compromiso de tu equipo
                     de trabajo.
-                    Por eso te organizamos un d&iacute;a para poner todo esto en pr&aacute;ctica, reforzarlo y llevarlo a cabo en el
-                    d&iacute;a a d&iacute;a en la empresa....
+                    Por eso te organizamos un día para poner todo esto en práctica, reforzarlo y llevarlo a cabo en el
+                    día a día en la empresa....<br><br>
+                    <div>
+                        <a href="contacto">
+                            <div class="boton_pack"> CONTÁCTANOS</div>
+                        </a>
+                    </div>
                 </div>
             </div>
             
         </section>
-        <!-- botones ver mÃ¡s y contacto-->
+        <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12" id="boton_evento">
-                <a href="contacto">
-                    <div class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div>
-                </a>
-            </div>
+            
            <!-- imagen partner merrell-->
            <div class="col-md-3 col-xs-12 col-xm-12" id="merrell">
                 <img src="../imagenes/merrell.svg" alt="partner merrell eventos empresa">
@@ -149,18 +152,20 @@
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Eventos de Empresa</div>
                 <div class="texto3">Conectamos tus necesidades con nuestras ideas, entendemos que todos somos diferentes y que existe un tipo de mensaje para cada persona.
-                    Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intr&eacute;pidos, actividades de aventura y team building con la posibilidad de dise&ntilde;ar un evento totalmente personalizado.
-                    &iquest;Te atreves?.
+                   Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intrépidos, actividades de aventura y team building con la posibilidad de diseñar un evento totalmente personalizado.
+                   ¿Te atreves?.<br><br>
+                   <div>
+                        <a href="contacto">
+                            <div class="boton_pack"> CONTÁCTANOS</div>
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </section>
-        <!-- botones ver mÃ¡s y contacto-->
+        <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12" id="boton_incentive">
-                <a href="contacto">
-                    <div class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div>
-                </a>
-            </div>
+            
             <!-- imagen partner la sportiva -->
             <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
                 <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa">
@@ -170,7 +175,7 @@
                 <img src="../imagenes/logo_grill.png" alt="incentive day eventos empresa">
             </div>
         </section>
-        <!-- efecto bolitas----COMÃšN-->
+        <!-- efecto bolitas----COMÚN-->
         <hr>
         <section class="row">
             <div class="col-md-12" id="bolitas">
@@ -205,27 +210,29 @@
         </section>
 
 
-        <!-- FOOTER-----COMÃšN-->
-        <footer class="row" >
+        <!-- FOOTER-----COMÚN-->
+        <footer class="row">
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
-            <!-- secciÃ³n de contÃ¡ctanos-->
-            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
-            <div class="col-md-4 col-xs-4 " id="contacto_footer">
-            <div id="dire">
-                <p class="texto_contacto">Direcci&oacute;n :</p>
-                <p>123 Avenida de Bolonia, Madrid</p>
-              </div>
-              <div id="email">
-                <p class="texto_contacto">Email :</p>
-                <p>info@riskadventureclub.com</p>
-              </div>
-              <div>
-                <p class="texto_contacto">Tel&eacute;fono :</p>
-                <p>(+34)677 899 900</p>
-              </div>
+            <!-- sección de contáctanos-->
+            <div class="col-md-2 col-xs-2  " id="texto_footer">
+                <p>CONTÁCTANOS</p>
             </div>
-          <!-- Logos publicitarios-->  
+            <div class="col-md-4 col-xs-4 " id="contacto_footer">
+                <div id="dire">
+                    <p class="texto_contacto">Dirección :</p>
+                    <p>123 Avenida de Bolonia, Madrid</p>
+                </div>
+                <div id="email">
+                    <p class="texto_contacto">Email :</p>
+                    <p>info@riskadventureclub.com</p>
+                </div>
+                <div>
+                    <p class="texto_contacto">Teléfono :</p>
+                    <p>(+34)677 899 900</p>
+                </div>
+            </div>
+            <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
               <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
               <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
@@ -234,18 +241,23 @@
               <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
               <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
-          <!-- iconos redes sociales y texto copyright-->
+            <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
-              <p>S&iacute;guenos en:</p>
+              <p>Síguenos en:</p>
               <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
               <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
               <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
-              <p>2020 &copy; Copyright</p>
+              <p>2020 © Copyright</p>
           </div>
-          
-          <!--enlaces a aviso legal, polÃ­tica de privacidad y cookies--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
+            <hr>
+            <!-- efecto bolitas---COMÚN-->
+
+            <!--enlaces a aviso legal, política de privacidad y cookies-->
+            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso
+                    Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> |
+                <a href="cookies.php" id="cookies"> Cookies</a>
+            </div>
         </footer>
         <script type="text/javascript" src="../js/eventos.js"></script>
         <!--Enlace externo a archivo JS-->
