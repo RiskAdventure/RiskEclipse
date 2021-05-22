@@ -67,6 +67,9 @@
 				          <li><a href="tierra">TIERRA</a></li>
 				          <li><a href="agua">AGUA</a></li>
 				          <li><a href="aire">AIRE</a></li>
+				          <li class="divider"></li>
+				          <li><a href="ofertas">OFERTAS</a></li>
+				          <li class="divider"></li>
 				        </ul>
 				      </li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
