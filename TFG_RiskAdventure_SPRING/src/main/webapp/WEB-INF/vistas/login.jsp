@@ -29,7 +29,7 @@
       <a href="index"><img src="../imagenes/favicon_risk.png"></a>
     </div>
     <div class="col-md-10" id="texto">
-      <p>login RISK ADVENTURE </p>
+      <p>Login RISK ADVENTURE </p>
     </div>
   </div>
     
