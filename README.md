@@ -40,15 +40,6 @@ Antes de empezar a trabajar, obtener los últimos cambios del Repo Original:
 
 `$ git pull -r upstream master`
 
-## Crear una Rama
-
-Para crear una rama usar la opción "checkout" de git:
-
-`$ git checkout -b modificaciones-user`
-
-La rama de Pilar es modificaciones-pilu
-La rama de Raúl es modificaciones-raul
-La rama de Lili es modificacionesl
 
 ## Hacer cambios
 
@@ -59,9 +50,9 @@ Agregar los archivos y hacer un commit:
 `git add -A`
 `git commit -m "Lo que quieras"`
 
-Después de realizar el commit hacer el push hacia nuestro repositorio indicando la rama que hemos creado.
+Después de realizar el commit hacer el push hacia nuestro repositorio.
 
-`$ git push origin modificaciones-user`
+`$ git push origin master`
 
 ## Hacer un Pull Request
 
