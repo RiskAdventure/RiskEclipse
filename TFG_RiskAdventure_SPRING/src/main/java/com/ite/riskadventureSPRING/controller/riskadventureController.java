@@ -62,6 +62,16 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "agua";
 			
 		}
+		
+		@GetMapping("/tipoAire")
+		public String empresaPorExperienciaAire(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
+			model.addAttribute("listaTipoAire", listaTipo);
+			
+			return "aire";
+		}
+		
 		@GetMapping("/aire")
 		public String inicio3(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");
