@@ -97,7 +97,25 @@
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="tierra" id="consulta"><div>IR A TIERRA</div></a>
               <a href="ofertas"><div>OFERTAS</div></a>
-              <a href="aire"><div>IR A AIRE</div></a>              
+              <a href="aire"><div>IR A AIRE</div></a>  <br>    
+              <a href="/riskadventure/tipoAgua?idExperiencia=2"><div>Ver empresas de Agua</div></a>
+              <c:choose>
+		        <c:when test="${listaTipoAgua!=null && listaTipoAgua.size()!=0}">
+			        <table class="table table-striped table-hover" >
+			        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
+			        	<c:forEach var="ele" items="${listaTipoAgua }">
+			        		<tr>
+			        			<td>${ele.nombreActividad}</td>
+			        			<td>${ele.nombreEmpresa}</td>
+			        			<td>${ele.nombreProvincia}</td>
+			        			<td>${ele.telefono}</td>
+			        			<td><div><a href="mailto:info@riskadventureclub.com">Consultar</a></div></td>
+			        			
+			        		</tr>
+			        	</c:forEach>
+			        </table>
+		        </c:when>
+        	  </c:choose>           
             </div>            
         </article>
 
