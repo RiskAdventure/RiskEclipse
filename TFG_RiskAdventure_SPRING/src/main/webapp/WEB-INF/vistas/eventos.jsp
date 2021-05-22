@@ -40,8 +40,8 @@
          <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
           <div class="row" id="nav"> 
             <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menú se agrupan
-                      para mostrarlos mejor en los dispositivos móviles -->
+                  <!-- El logotipo y el icono que despliega el menÃº se agrupan
+                      para mostrarlos mejor en los dispositivos mÃ³viles -->
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
@@ -50,24 +50,44 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque2.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
-                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
                       <li><a id="home" href="index">HOME</a></li>
-                      <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
+                      <li class="dropdown">
+				        <a href="experiencias" class="dropdown-toggle" data-toggle="dropdown">
+				          EXPERIENCIAS<b class="caret"></b>
+				        </a>
+				        <ul class="dropdown-menu">
+				          <li><a href="experiencias">EXPERIENCIAS</a></li>
+				          <li class="divider"></li>
+				          <li><a href="tierra">TIERRA</a></li>
+				          <li><a href="agua">AGUA</a></li>
+				          <li><a href="aire">AIRE</a></li>
+				        </ul>
+				      </li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs">PACKS &amp; GRUPOS</a></li>
                       <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog">BLOG</a></li>
+                      <li class="dropdown">
+				        <a href="blog" class="dropdown-toggle" data-toggle="dropdown">
+				          BLOG<b class="caret"></b>
+				        </a>
+				        <ul class="dropdown-menu">
+				        	<li><a href="blog">BLOG</a></li>
+				          <li><a href="vermasblog">ARTÍCULOS</a></li>
+				          </ul>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
                     </ul>
                   </div>
             </nav>
           </div>
-        </header>       
+        </header> 
+        
+              
          <!-- SECTION-->
         <!-- parte central eventos-->
         <section class="row">

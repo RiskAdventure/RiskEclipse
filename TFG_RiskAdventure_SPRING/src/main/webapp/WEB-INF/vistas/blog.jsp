@@ -54,17 +54,37 @@
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
                       <li><a id="home" href="index">HOME</a></li>
-                      <li><a id="experiencias" href="experiencias">EXPERIENCIAS</a></li>
+                      <li class="dropdown">
+				        <a href="experiencias" class="dropdown-toggle" data-toggle="dropdown">
+				          EXPERIENCIAS<b class="caret"></b>
+				        </a>
+				        <ul class="dropdown-menu">
+				          <li><a href="experiencias">EXPERIENCIAS</a></li>
+				          <li class="divider"></li>
+				          <li><a href="tierra">TIERRA</a></li>
+				          <li><a href="agua">AGUA</a></li>
+				          <li><a href="aire">AIRE</a></li>
+				        </ul>
+				      </li>
                       <li><a id="eventos" href="eventos">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs">PACKS &amp; GRUPOS</a></li>
                       <li><a id="sobre" href="nosotros">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog">BLOG</a></li>
+                      <li class="dropdown">
+				        <a href="blog" class="dropdown-toggle" data-toggle="dropdown">
+				          BLOG<b class="caret"></b>
+				        </a>
+				        <ul class="dropdown-menu">
+				        	<li><a href="blog">BLOG</a></li>
+				          <li><a href="vermasblog">ARTÕCULOS</a></li>
+				          </ul>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
                     </ul>
                   </div>
             </nav>
           </div>
-        </header>                                                  
+        </header> 
+        
+                                                         
                                                        <!-- SECTION-->
                                                        
          <!-- parte INFERIOR enlace blog-->
@@ -103,7 +123,7 @@
                 </div>
                 <div class="col-md-3" id="blog4">
                     <img src="../imagenes/5amigos.jpg"></img>
-                    <a href="vermasblog"><p>5 aventureros, 5 compa√±eros...</p></a>
+                    <a href="vermasblog"><p>5 aventureros, 5 amigos...</p></a>
                 </div>
                 
             </section> 
