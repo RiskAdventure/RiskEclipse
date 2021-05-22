@@ -87,6 +87,30 @@
           </div>
         </header> 
         
+        <section class="row justify-content-center">
+            <div id=textoagua class="col-md-12">
+                <div>PACKS &amp; GRUPOS</div>
+            </div>
+            <div id="texto" class="col-md-12">
+                <div> Organizamos todo tipo de  <b>Paquetes a medida y experiencias para Grupos</b>, podrás pedirnos un presupuesto a medida o seleccionar entre algunas
+                de nuestras ofertas que tenemos especialmente diseñadas para este tipo de grupos. 
+                </div><br>
+            </div>
+        </section>  
+
+        <hr>
+
+
+        <hr>
+
+        <article class="row">
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a href="ofertas"><div>OFERTAS</div></a>
+              <a href="contacto"><div>PRESUPUESTO A MEDIDA</div></a>  <br>                           
+            </div>            
+        </article>
+        
+        
                                                          
         <!-- SECTION-->
             <div class="row">
@@ -220,7 +244,7 @@
                     <div class="col-md-4 col-xs-12 textopacks">PAQUETES DE FIN DE SEMANA</div>
                     <div class="col-md-7 col-xs-12">
                         <a href="contacto#nombre">
-                            <div class="boton hidden-xs" > P&Iacute;DENOS PRESUPUESTO SIN COMPROMISO.</div>
+                            <div class="boton hidden-xs" > P&Iacute;DENOS PRESUPUESTO SIN COMPROMISO</div>
                         </a>
                     </div>
                 </div>

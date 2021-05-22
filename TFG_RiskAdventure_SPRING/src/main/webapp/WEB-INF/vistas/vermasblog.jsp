@@ -88,37 +88,27 @@
          <!-- Mas artículos del blog-->
 
             <section class="row" id="masblog" >
-                <div class="col-md-12" id="blog1">
-                    <p>Material adecuado de escalada</p>
-                    <img src="../imagenes/masmaterial_escalada.jpg" alt="Artículo blog escalada"></img>
-                    <div id="texto3">En la actualidad, para muchas personas, la escalada deportiva es el punto de partida hacia la monta&ntilde;a t&eacute;cnica. <br>
-                      Este deporte de aventura supone un riesgo, ya que en cierto modo desaf&iacute;a a la gravedad. Llegar a la cima ya sea en una monta&ntilde;a o en un roc&oacute;dromo nos har&aacute; vivir experiencias emocionantes, sin embargo, para ello deberemos ir bien equipados. <br>
-                      <b>Pies de gato</b><br>
-                      Este es el tipo de calzado que nos permitir&aacute; mantenernos sujetos a la roca. Debemos de saber que es necesario que 
-                      se ajusten perfectamente a nuestro pie sin que nos llegue a apretar demasiado. <br>
-                      <b>Cuerdas para escalada</b><br>
-                      Cada tipo de cuerda tiene un uso, para los principiantes se recomienda una cuerda que tenga un di&aacute;metro de entre 
-                      10 y 10.5 mm. Es importante que la cuerda se pueda estirar, si escalamos en roca, se recomiendan unos 50 metros ya 
-                      que por la fricci&oacute;n y porque estaremos en una etapa de iniciaci&oacute;n es probable que la cuerda se desgaste m&aacute;s r&aacute;pidamente. <br>
-                      <b>Arn&eacute;s</b> <br>
-                      Es un elemento esencial de seguridad, sin embargo, adem&aacute;s sirve para llevar y transportar nuestro material. Por parte 
-                      de Risk Adventure, recomendamos la Black Diamond Momentum para hombre y la BD Primrose para mujer, ya que son muy asequibles en cuanto al precio y bastante c&oacute;modas. <br>
-                      <b>Mosquetones</b><br>
-                      Para practicar escalada, necesitaremos un mosquet&oacute;n para poder realizar los descensos. Uno de los tipos m&aacute;s usados 
-                      es el X de forma oval, sobre todo para los que se est&aacute;n iniciando.<br>
-                      <b>Casco de escalada</b><br>
-                      El casco es el instrumento m&aacute;s b&aacute;sico, nos protege tanto de ca&iacute;das de piedras como en el caso de golpes. En Risk 
-                      Adventure, recomendamos el casco Black Diamond Half Dome, ajustable y con mucha ventilaci&oacute;n. <br>
-
-                      Recuerda llevar un buen grupo para tener al mejor compa&ntilde;ero de sujecci&oacute;n, no dejes de pasar por nuestras<a href=packs> actividades en grupo.</a>
-                                                          
-
-                    </div> <br>
+	            <div class="col-md-12" id="blog1">
+	                    <p>5 aventureros, 5 amigos...</p>
+	                    <img src="../imagenes/5amigosblog.jpg" alt="Artículo blog amigos"></img>
+	                    <div id="texto3"><b>5 aventureros</b> fueron suficientes para hacer crecer un sue&ntilde;o, algo que volaba en la imaginaci&oacute;n...sin un destino fijo, ... unos trabajos del FP y un proyecto fin de grado fueron suficientes para hacerlo realidad.<br>
+	                      Naci&oacute; con <b>dos aventureras y un pirata del sur</b>, nuestro querido <b>Javi</b>, la alegr&iacute;a, la aventura y la sabidur&iacute;a.<br>
+	                      <b>Lili</b>, nuestra joven aventurera, con un exp&iacute;ritu brillante y un empe&ntilde;o sin igual.<br>
+	                      Y <b>Pilu</b>, servidora, la cabeza pensante aventurera y entusiasta de un proyecto que despu&eacute;s de llevar a&ntilde;os en mente, se hac&iacute;a realidad.<br>
+	                      Con <b>Vero</b> nuestra aventurera detective, construimos el plan de viabilidad de la empresa,... gran plan, la base principal y soporte de toda aventura.<br>
+	                      Y <b>Ra&uacute;l</b>, &uacute;ltima pieza de este puzzle, aventurero en ejecuci&oacute;n de este plan que empezaba a tomar forma con su tremenda dedicaci&oacute;n.<br>
+	                      Cada uno aportando su granito de arena hac&iacute;amos un sue&ntilde;o realidad, entusiasmados construy&eacute;ndolo poco a poco y cada vez teniendo m&aacute;s ganas de que viera la luz,... y con la ilusi&oacute;n de que no se quede simplemente en un proyecto.<br>
+	                      Nuestros nombres, abreviados tienen 4 letras como RISK, por eso nos arriesgamos y nos lanzamos a la aventura.<br>
+	                      <b>&iquest;Tendremos Risk Adventure para largo?</b><br><br>
+	
+	                    </div><br>
                     
                     <article class="row">
-            		<div class="col-md-12 col-xs-12  " id="div2_1">
-              	
-              		<a href="tierra"><div>Ver empresas de Tierra</div></a>
+	            		<div class="col-md-12 col-xs-12  " id="div2_1">
+		              		<a href="tierra"><div>Ver empresas de Tierra</div></a>
+		              		<a href="agua"><div>Ver empresas de Agua</div></a>
+		              		<a href="aire"><div>Ver empresas de Aire</div></a>
+	              		</div>
               		</article>
                  
 	               
@@ -144,7 +134,14 @@
                       no ser ni muy c&aacute;lidas ni demasiado fr&iacute;as se pueden adaptar a cualquier estaci&oacute;n.<br>
                       Y si no te apetece hacer una ruta, podr&aacute;s elegir entre nuestras <a href="aire">actividades de Aire</a> o nuestras <a href="agua">actividades de Agua</a>
 
-                    </div>
+                    </div><br>
+                    <article class="row">
+	            		<div class="col-md-12 col-xs-12  " id="div2_1">
+		              		<a href="tierra"><div>Ver empresas de Tierra</div></a>
+		              		<a href="agua"><div>Ver empresas de Agua</div></a>
+		              		<a href="aire"><div>Ver empresas de Aire</div></a>
+	              		</div>
+              		</article>
                 </div>
                 <hr>
                 <div class="col-md-12" id="blog3">
@@ -162,23 +159,49 @@
                       <b>&iquest;Qu&eacute; nos aportan?</b><br>
                       Una rueda m&aacute;s peque&ntilde;a nos facilitar&aacute; una mayor aceleraci&oacute;n, sin embargo, si optamos por una rueda m&aacute;s grande, nos proporcionar&aacute; mayor estabilidad sobre terrenos abruptos. <br>
                       Podr&aacute;s disfrutar de esta u otras actividades en nuestras<a href="tierra"> actividades de Tierra</a>.
-                    </div>
+                    </div><br>
+                    <article class="row">
+	            		<div class="col-md-12 col-xs-12  " id="div2_1">
+		              		<a href="tierra"><div>Ver empresas de Tierra</div></a>
+		              		<a href="agua"><div>Ver empresas de Agua</div></a>
+		              		<a href="aire"><div>Ver empresas de Aire</div></a>
+	              		</div>
+              		</article>
                 </div>
                 <hr>
-                <div class="col-md-12" id="blog4">
-                    <p>5 aventureros, 5 amigos...</p>
-                    <img src="../imagenes/5amigosblog.jpg" alt="Artículo blog amigos"></img>
-                    <div id="texto3"><b>5 aventureros</b> fueron suficientes para hacer crecer un sue&ntilde;o, algo que volaba en la imaginaci&oacute;n...sin un destino fijo, ... unos trabajos del FP y un proyecto fin de grado fueron suficientes para hacerlo realidad.<br>
-                      Naci&oacute; con <b>dos aventureras y un pirata del sur</b>, nuestro querido <b>Javi</b>, la alegr&iacute;a, la aventura y la sabidur&iacute;a.<br>
-                      <b>Lili</b>, nuestra joven aventurera, con un exp&iacute;ritu brillante y un empe&ntilde;o sin igual.<br>
-                      Y <b>Pilu</b>, servidora, la cabeza pensante aventurera y entusiasta de un proyecto que despu&eacute;s de llevar a&ntilde;os en mente, se hac&iacute;a realidad.<br>
-                      Con <b>Vero</b> nuestra aventurera detective, construimos el plan de viabilidad de la empresa,... gran plan, la base principal y soporte de toda aventura.<br>
-                      Y <b>Ra&uacute;l</b>, &uacute;ltima pieza de este puzzle, aventurero en ejecuci&oacute;n de este plan que empezaba a tomar forma con su tremenda dedicaci&oacute;n.<br>
-                      Cada uno aportando su granito de arena hac&iacute;amos un sue&ntilde;o realidad, entusiasmados construy&eacute;ndolo poco a poco y cada vez teniendo m&aacute;s ganas de que viera la luz,... y con la ilusi&oacute;n de que no se quede simplemente en un proyecto.<br>
-                      Nuestros nombres, abreviados tienen 4 letras como RISK, por eso nos arriesgamos y nos lanzamos a la aventura.<br>
-                      <b>&iquest;Tendremos Risk Adventure para largo?</b><br><br>
+                	<div class="col-md-12" id="blog4">
+                    <p>Material adecuado de escalada</p>
+                    <img src="../imagenes/masmaterial_escalada.jpg" alt="Artículo blog escalada"></img>
+                    <div id="texto3">En la actualidad, para muchas personas, la escalada deportiva es el punto de partida hacia la monta&ntilde;a t&eacute;cnica. <br>
+                      Este deporte de aventura supone un riesgo, ya que en cierto modo desaf&iacute;a a la gravedad. Llegar a la cima ya sea en una monta&ntilde;a o en un roc&oacute;dromo nos har&aacute; vivir experiencias emocionantes, sin embargo, para ello deberemos ir bien equipados. <br>
+                      <b>Pies de gato</b><br>
+                      Este es el tipo de calzado que nos permitir&aacute; mantenernos sujetos a la roca. Debemos de saber que es necesario que 
+                      se ajusten perfectamente a nuestro pie sin que nos llegue a apretar demasiado. <br>
+                      <b>Cuerdas para escalada</b><br>
+                      Cada tipo de cuerda tiene un uso, para los principiantes se recomienda una cuerda que tenga un di&aacute;metro de entre 
+                      10 y 10.5 mm. Es importante que la cuerda se pueda estirar, si escalamos en roca, se recomiendan unos 50 metros ya 
+                      que por la fricci&oacute;n y porque estaremos en una etapa de iniciaci&oacute;n es probable que la cuerda se desgaste m&aacute;s r&aacute;pidamente. <br>
+                      <b>Arn&eacute;s</b> <br>
+                      Es un elemento esencial de seguridad, sin embargo, adem&aacute;s sirve para llevar y transportar nuestro material. Por parte 
+                      de Risk Adventure, recomendamos la Black Diamond Momentum para hombre y la BD Primrose para mujer, ya que son muy asequibles en cuanto al precio y bastante c&oacute;modas. <br>
+                      <b>Mosquetones</b><br>
+                      Para practicar escalada, necesitaremos un mosquet&oacute;n para poder realizar los descensos. Uno de los tipos m&aacute;s usados 
+                      es el X de forma oval, sobre todo para los que se est&aacute;n iniciando.<br>
+                      <b>Casco de escalada</b><br>
+                      El casco es el instrumento m&aacute;s b&aacute;sico, nos protege tanto de ca&iacute;das de piedras como en el caso de golpes. En Risk 
+                      Adventure, recomendamos el casco Black Diamond Half Dome, ajustable y con mucha ventilaci&oacute;n. <br>
 
-                    </div>
+                      Recuerda llevar un buen grupo para tener al mejor compa&ntilde;ero de sujecci&oacute;n, no dejes de pasar por nuestras<a href=packs> actividades en grupo.</a>
+                                                          
+
+                    </div><br>
+                    <article class="row">
+	            		<div class="col-md-12 col-xs-12  " id="div2_1">
+		              		<a href="tierra"><div>Ver empresas de Tierra</div></a>
+		              		<a href="agua"><div>Ver empresas de Agua</div></a>
+		              		<a href="aire"><div>Ver empresas de Aire</div></a>
+	              		</div>
+              		</article>
                 </div>
                 <hr>
                 
