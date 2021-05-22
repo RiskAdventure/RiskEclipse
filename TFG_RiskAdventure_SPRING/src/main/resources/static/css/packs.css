@@ -116,6 +116,48 @@ li:hover {
   border-top: none;
 }
 
+ #textoagua{
+    margin: auto;
+    text-align: center;
+    color:#3F4A56;
+    margin-top: 1.5vw;
+    font-size: 240%;
+    font-weight: 800;
+    
+    }
+    #texto{
+    margin: auto;
+    text-align: center;
+    color:#3F4A56;
+    margin-top: 1.5vw;
+    font-size: 140%;
+    }
+
+
+    #div2_1{
+
+    text-align: center;
+    
+    }
+    
+    /*Botones*/
+    #div2_1 div{
+    padding: 1%;
+    background-color: #8091a5;  
+    margin-left: 4%;
+    font-size: 130%;
+    border-radius: 7px;
+    font-weight: bolder;
+    display: inline-block;
+    color: white;
+    margin-bottom: 4%;
+    }
+    #div2_1 div:hover{
+    background-color: #ba9e38;
+    
+    }
+    
+
 /*PACKS*/
 
 #packs {
