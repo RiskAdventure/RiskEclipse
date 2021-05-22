@@ -95,7 +95,16 @@
                       Recuerda llevar un buen grupo para tener al mejor compa&ntilde;ero de sujecci&oacute;n, no dejes de pasar por nuestras<a href=packs> actividades en grupo.</a>
                                                           
 
-                    </div>   
+                    </div> <br>
+                    
+                    <article class="row">
+            		<div class="col-md-12 col-xs-12  " id="div2_1">
+              	
+              		<a href="tierra"><div>Ver empresas de Tierra</div></a>
+              		</article>
+                 
+	               
+           
                 </div>
                 <hr>
                 <div class="col-md-12" id="blog2">
