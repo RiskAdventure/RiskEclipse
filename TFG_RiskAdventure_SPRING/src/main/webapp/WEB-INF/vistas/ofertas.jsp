@@ -122,8 +122,8 @@
               <a href="tipoOferta"><div>MOSTRAR OFERTAS</div></a>
                <c:choose>
 	        <c:when test="${listaOferta!=null && listaOferta.size()!=0}">
-		        <table class="table table-striped table-hover" >
-		        	<th>Nombre</th><th>Descripción</th><th>Duración</th><th>Precio</th><th>Contacto</th>
+		        <table class="table table-striped table-hover" style="text-align:'center'">
+		        	<th>Nombre</th><th>Descripción</th><th>Fecha Inicio</th><th>Duración</th><th>Precio</th><th>Contacto</th>
 		        	<c:forEach var="ele" items="${listaOferta }">
 		        		<tr>
 		        			<td>${ele.nombre}</td>
