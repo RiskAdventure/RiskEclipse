@@ -226,6 +226,16 @@
                             <a href="https://www.columbiasportswear.es/"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
                         </div>
                     </article>
+                     <article class="location-listing">
+                        <div class="location-image" id="merrel">
+                            <a href="https://www.merrell.com/ES/es_ES/home"><img width="300" height="169" src="../imagenes/merrell.svg" alt="Merrell"> </a>
+                        </div>
+                    </article>
+                    <article class="location-listing">
+                        <div class="location-image" id="north">
+                            <a href="https://www.thenorthface.es"><img width="300" height="169" src="../imagenes/thenorthface.jpg" alt="North_Face"> </a>
+                        </div>
+                    </article>
                 </div>
 
                     <div class="row">
