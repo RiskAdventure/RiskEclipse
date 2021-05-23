@@ -143,7 +143,7 @@
             <div>En Risk Adventure, desde nuestros or&iacute;genes hemos tenido una obsesi&oacute;n, sorprender y emocionar
 			 ofreciendo un servicio y una calidad excelente, experimentando las emociones, la adrenalina, la diversi&oacute;n,
 			 con los mejores equipos t&eacute;cnicos...
-			 Somos los &uacute;nicos que garantizamos una "EXPERIENCIA &Uacute;NICA". 
+			 Somos los &uacute;nicos que garantizamos una <br>"EXPERIENCIA &Uacute;NICA". 
             </div>
           </div>
         </section>
