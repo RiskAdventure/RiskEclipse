@@ -126,12 +126,12 @@
 		        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
 		        	<c:forEach var="ele" items="${listaTipoTierra }">
 		        		<tr>
-		        			<td>${ele.nombreActividad}</td>
+		        			<td>${ele.nombreActividad}</td>      			
 		        			<td>${ele.nombreEmpresa}</td>
 		        			<td>${ele.nombreProvincia}</td>
 		        			<td>${ele.telefono}</td>
 		        			<td><div><a href="mailto:info@riskadventureclub.com">Consultar</a></div></td>
-		        			
+
 		        		</tr>
 		        	</c:forEach>
 		        </table>
