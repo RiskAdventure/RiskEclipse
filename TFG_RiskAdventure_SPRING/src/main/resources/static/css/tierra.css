@@ -579,6 +579,128 @@ line-height: 11px;
 #dire {
 margin-bottom: 4.2vw;
 }
+                                      /*EFECTO BOLAS--------COMÚN*/
+  .bola {
+    background-color: #ba9e38;
+    border-radius: 100%;
+    margin-right: 0.8%;
+    margin-top: 4%;
+    display: inline-block;
+  }
+  #bolitas {
+    text-align: center;
+    margin-bottom: 3vw;
+  }
+  #bola1 {
+    width: 7px;
+    height: 7px;
+    margin-left: 4vw;
+  }
+  #bola2 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola3 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola4 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola5 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola6 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola7 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola8 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola9 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola10 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola11 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola12 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola13 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola14 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola15 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola16 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola17 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola18 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola19 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola20 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola21 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola22 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola23 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola24 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola25 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola26 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola27 {
+    width: 7px;
+    height: 7px;
+  }
+
 }
 
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
