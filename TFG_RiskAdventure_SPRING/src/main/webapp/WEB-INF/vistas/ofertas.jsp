@@ -119,7 +119,7 @@
               <a href="tierra" id="consulta"><div>VER TIERRA</div></a>
               <a href="agua"><div>VER AGUA</div></a>
               <a href="aire"><div>VER AIRE</div></a><br>
-              <a href="riskadventure/TipoOferta"><div>MOSTRAR OFERTAS</div></a>
+              <a href="tipoOferta"><div>MOSTRAR OFERTAS</div></a>
                <c:choose>
 	        <c:when test="${listaOferta!=null && listaOferta.size()!=0}">
 		        <table class="table table-striped table-hover" >

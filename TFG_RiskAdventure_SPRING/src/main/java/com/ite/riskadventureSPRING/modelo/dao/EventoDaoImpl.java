@@ -18,7 +18,7 @@ public class EventoDaoImpl implements IntEventoDao{
 	@Override
 	public List<Evento> verTodos() {
 		// TODO Auto-generated method stub
-		return null;
+		return evrepo.findAll();
 	}
 
 	@Override
