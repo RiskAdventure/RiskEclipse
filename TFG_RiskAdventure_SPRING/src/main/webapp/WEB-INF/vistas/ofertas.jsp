@@ -119,7 +119,25 @@
               <a href="tierra" id="consulta"><div>VER TIERRA</div></a>
               <a href="agua"><div>VER AGUA</div></a>
               <a href="aire"><div>VER AIRE</div></a><br>
-              <a href="ofertas"><div>MOSTRAR OFERTAS</div></a>
+              <a href="riskadventure/TipoOferta"><div>MOSTRAR OFERTAS</div></a>
+               <c:choose>
+	        <c:when test="${listaOferta!=null && listaOferta.size()!=0}">
+		        <table class="table table-striped table-hover" >
+		        	<th>Nombre</th><th>Descripción</th><th>Duración</th><th>Precio</th><th>Contacto</th>
+		        	<c:forEach var="ele" items="${listaOferta }">
+		        		<tr>
+		        			<td>${ele.nombre}</td>
+		        			<td>${ele.descripcion}</td>
+		        			<td>${ele.fechaInicio}</td>
+		        			<td>${ele.duracion}</td>
+		        			<td>${ele.precio}</td>
+		        			<td><div><a href="mailto:info@riskadventureclub.com">Consultar</a></div></td>
+		        			
+		        		</tr>
+		        	</c:forEach>
+		        </table>
+	        </c:when>
+        </c:choose>
             </div>            
         </article>
        

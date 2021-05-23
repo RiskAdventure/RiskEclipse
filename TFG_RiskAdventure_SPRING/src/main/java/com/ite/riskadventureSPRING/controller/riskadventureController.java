@@ -14,9 +14,11 @@ package com.ite.riskadventureSPRING.controller;
 	import org.springframework.web.bind.annotation.RestController;
 
 import com.ite.riskadventureSPRING.modelo.beans.Empresa;
+import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 
@@ -26,8 +28,9 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 	@RequestMapping("/riskadventure")
 	public class riskadventureController {
 		@Autowired
-		
 		IntEmpresaDao edao;
+		@Autowired
+		IntEventoDao evdao;
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
@@ -111,6 +114,18 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "articulos";
 			
 		}
+		
+		
+		@GetMapping("/tipoOferta")
+		public String oferta(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			List<Evento> listaEvento = evdao.verTodos();
+			model.addAttribute("listaOferta", listaEvento);
+			
+			return "ofertas";
+			
+		}
+		
 		@GetMapping("/aviso_legal")
 		public String inicio6(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");
