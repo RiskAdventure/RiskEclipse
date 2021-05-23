@@ -212,9 +212,11 @@ li:hover {
   height: 50px;
   padding-left: 2vw;
   margin-left: 0px !important;
+  outline:0px;
 }
 .camposdorados input[type="text"]:active {
   box-shadow: none !important;
+  outline:0px;
 }
 textarea{
   width: 100%;
@@ -222,6 +224,7 @@ textarea{
   border-radius: 8px;
   padding-left: 2vw;
   resize: none;
+  outline:0px;
 }
 
 .parte_central article{
