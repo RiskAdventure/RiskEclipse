@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+<%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,7 +129,7 @@
 		        		<tr>
 		        			<td>${ele.nombre}</td>
 		        			<td>${ele.descripcion}</td>
-		        			<td>${ele.fechaInicio}</td>
+		        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
 		        			<td>${ele.duracion}</td>
 		        			<td>${ele.precio}</td>
 		        			<td><div><a href="mailto:info@riskadventureclub.com">Consultar</a></div></td>
