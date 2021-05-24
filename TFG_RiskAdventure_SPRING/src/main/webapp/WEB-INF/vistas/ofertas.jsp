@@ -121,7 +121,7 @@
               <a href="agua"><div class="boton">VER AGUA</div></a>
               <a href="aire"><div class="boton">VER AIRE</div></a><br>
               <a href="tipoOferta"><div class="boton">MOSTRAR TODAS OFERTAS</div></a>
-              <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div class="boton">MOSTRAR OFERTAS PACKS/EVENTOS</div></a>
+              <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div class="boton">MOSTRAR OFERTAS PACKS & GRUPOS</div></a>
               <c:choose>
 	        	<c:when test="${listaOferta!=null && listaOferta.size()!=0}">
 			        <table class="table table-striped table-hover" style="text-align:'center'">
