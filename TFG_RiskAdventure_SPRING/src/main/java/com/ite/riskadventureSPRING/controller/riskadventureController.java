@@ -90,6 +90,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 		}
 		
+		
+		
 		@GetMapping("/tipoTierra")
 		public String empresaPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
 			model.addAttribute("mensaje","Lidia Capita ");
@@ -114,7 +116,15 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "articulos";
 			
 		}
-		
+		@GetMapping("/detalleOferta")
+		public String detalleOferta(Model model,@RequestParam(name = "idEvento") int idEvento ) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			Evento evento = evdao.mostrarEvento(idEvento);
+			model.addAttribute("verDetalleEvento", evento);
+			
+			return "detalleoferta";
+			
+		}
 		
 		@GetMapping("/tipoOferta")
 		public String oferta(Model model) {
@@ -222,13 +232,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 		}
 		
-		@GetMapping("/detalleoferta")
-		public String inicio18(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
-			
-			return "detalleoferta";
-			
-		}
+		
 	
 
 

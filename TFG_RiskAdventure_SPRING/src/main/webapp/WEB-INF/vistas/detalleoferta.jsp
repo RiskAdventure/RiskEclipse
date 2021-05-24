@@ -101,21 +101,38 @@
 
         <section class="row justify-content-center">
             <div id=textoofertas class="col-md-12">
-                <div>HAS CONSULTADO ESTA OFERTA</div>
+                <div>EL DETALLE DE LA OFERTA QUE HAS SELECCIONADO ES EL SIGUIENTE:</div>
             </div>
 
             </div>
-        </section>  
-
-        <hr>
-
-
-        <hr>
-
+        </section>          
+		<br><br>
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-           
-              <a href="ofertas"><div class="boton">VOLVER A OFERTAS</div></a>
+           		
+	           			<center>
+				        <table border="2">
+				        	<th>Id Evento</th><th>Descripcion</th><th>Fecha Inicio</th><th>Duración</th><th>Aforo Máximo</th><th>Mínimo Asistencia</th><th>Precio</th>
+				        	
+				        		<tr>
+				        			<td>${verDetalleEvento.idEvento}</td>
+				        			<td>${verDetalleEvento.descripcion}</td>
+				        			<td>${verDetalleEvento.fechaInicio}</td>
+				        			<td>${verDetalleEvento.duracion}</td>
+				        			<td>${verDetalleEvento.aforoMaximo}</td>
+				        			<td>${verDetalleEvento.minimoAsistencia}</td>
+				        			<td>${verDetalleEvento.precio}</td>
+				        			<td><a href="carrito"><div>Reservar</div></a></td>
+				        			
+				        		</tr>
+				        	
+				        </table>
+				        </center>
+				        <br><br>
+		       	 	
+	           		
+	           		
+	              <a href="ofertas"><div class="boton">VOLVER A OFERTAS</div></a>
               
               
             </div>            

@@ -133,8 +133,8 @@
 			        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
 			        			<td>${ele.duracion}</td>
 			        			<td>${ele.precio}</td>
-			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas" >Detalle</div></a></td>
-			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas">Reservar</div></a></td>
+			        			<td><a  href="/riskadventure/detalleOferta?idEvento=${ele.idEvento }"><div class="ofertas" >Detalle</div></a></td>
+			        			<td><a  href="carrito"><div class="ofertas">Reservar</div></a></td>
 			        			
 			        		</tr>
 			        	</c:forEach>
@@ -152,8 +152,8 @@
 			        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
 			        			<td>${ele.duracion}</td>
 			        			<td>${ele.precio}</td>
-			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas" >Detalle</div></a></td>
-			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas">Reservar</div></a></td>
+			        			<td><a  href="/riskadventure/detalleOferta?idEvento=${ele.idEvento }"><div class="ofertas" >Detalle</div></a></td>
+			        			<td><a  href="carrito"><div class="ofertas">Reservar</div></a></td>
 			        			
 			        		</tr>
 			        	</c:forEach>
