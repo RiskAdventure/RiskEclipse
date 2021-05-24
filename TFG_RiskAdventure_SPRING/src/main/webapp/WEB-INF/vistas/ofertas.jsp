@@ -117,28 +117,49 @@
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="tierra" id="consulta"><div>VER TIERRA</div></a>
-              <a href="agua"><div>VER AGUA</div></a>
-              <a href="aire"><div>VER AIRE</div></a><br>
-              <a href="tipoOferta"><div>MOSTRAR OFERTAS</div></a>
-               <c:choose>
-	        <c:when test="${listaOferta!=null && listaOferta.size()!=0}">
-		        <table class="table table-striped table-hover" style="text-align:'center'">
-		        	<th>Nombre</th><th>Descripción</th><th>Fecha Inicio</th><th>Duración</th><th>Precio</th><th>Contacto</th>
-		        	<c:forEach var="ele" items="${listaOferta }">
-		        		<tr>
-		        			<td>${ele.nombre}</td>
-		        			<td>${ele.descripcion}</td>
-		        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
-		        			<td>${ele.duracion}</td>
-		        			<td>${ele.precio}</td>
-		        			<td><div><a href="mailto:info@riskadventureclub.com">Consultar</a></div></td>
-		        			
-		        		</tr>
-		        	</c:forEach>
-		        </table>
-	        </c:when>
-        </c:choose>
+              <a href="tierra" id="consulta"><div class="boton">VER TIERRA</div></a>
+              <a href="agua"><div class="boton">VER AGUA</div></a>
+              <a href="aire"><div class="boton">VER AIRE</div></a><br>
+              <a href="tipoOferta"><div class="boton">MOSTRAR TODAS OFERTAS</div></a>
+              <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div class="boton">MOSTRAR OFERTAS PACKS/EVENTOS</div></a>
+              <c:choose>
+	        	<c:when test="${listaOferta!=null && listaOferta.size()!=0}">
+			        <table class="table table-striped table-hover" style="text-align:'center'">
+			        	<th>Nombre</th><th>Descripción</th><th>Fecha Inicio</th><th>Duración</th><th>Precio</th><th>Detalle</th><th>Reservar</th>
+			        	<c:forEach var="ele" items="${listaOferta }">
+			        		<tr>
+			        			<td>${ele.nombre}</td>
+			        			<td>${ele.descripcion}</td>
+			        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
+			        			<td>${ele.duracion}</td>
+			        			<td>${ele.precio}</td>
+			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas" >Detalle</div></a></td>
+			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas">Reservar</div></a></td>
+			        			
+			        		</tr>
+			        	</c:forEach>
+			        </table>
+	        	</c:when>
+       		</c:choose>
+       		<c:choose>
+	        	<c:when test="${listaOfertaDestacado!=null && listaOfertaDestacado.size()!=0}">
+			        <table class="table table-striped table-hover" style="text-align:'center'">
+			        	<th>Nombre</th><th>Descripción</th><th>Fecha Inicio</th><th>Duración</th><th>Precio</th><th>Detalle</th><th>Reservar</th>
+			        	<c:forEach var="ele" items="${listaOfertaDestacado }">
+			        		<tr>
+			        			<td>${ele.nombre}</td>
+			        			<td>${ele.descripcion}</td>
+			        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
+			        			<td>${ele.duracion}</td>
+			        			<td>${ele.precio}</td>
+			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas" >Detalle</div></a></td>
+			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas">Reservar</div></a></td>
+			        			
+			        		</tr>
+			        	</c:forEach>
+			        </table>
+	        	</c:when>
+       		</c:choose>
             </div>            
         </article>
        
