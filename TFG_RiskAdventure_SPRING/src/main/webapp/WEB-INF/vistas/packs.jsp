@@ -108,8 +108,28 @@
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="ofertas"><div>OFERTAS</div></a>
-              <a href="contacto"><div>PRESUPUESTO A MEDIDA</div></a>  <br>                           
+              <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div class="boton">MOSTRAR OFERTAS PACKS & GRUPOS</div></a>
+              <a href="mailto:info@riskadventureclub.com"><div>PRESUPUESTO A MEDIDA</div></a>  <br>  
+              
+              <c:choose>
+	        	<c:when test="${listaOfertaDestacado!=null && listaOfertaDestacado.size()!=0}">
+			        <table class="table table-striped table-hover" style="text-align:'center'">
+			        	<th>Nombre</th><th>Descripción</th><th>Fecha Inicio</th><th>Duración</th><th>Precio</th><th>Detalle</th><th>Reservar</th>
+			        	<c:forEach var="ele" items="${listaOfertaDestacado }">
+			        		<tr>
+			        			<td>${ele.nombre}</td>
+			        			<td>${ele.descripcion}</td>
+			        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
+			        			<td>${ele.duracion}</td>
+			        			<td>${ele.precio}</td>
+			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas" >Detalle</div></a></td>
+			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas">Reservar</div></a></td>
+			        			
+			        		</tr>
+			        	</c:forEach>
+			        </table>
+	        	</c:when>
+       		</c:choose>                         
             </div>            
         </article>
         
