@@ -159,6 +159,11 @@ li:hover {
     
 
 /*PACKS*/
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -50px;
+}
 
 #packs {
   background-image: linear-gradient(#ba9e38, #ba9e38);
