@@ -129,7 +129,7 @@
 				        			<td>${ele.nombreEmpresa}</td>
 				        			<td>${ele.nombreProvincia}</td>
 				        			<td>${ele.telefono}</td>
-				        			<td><div><a href="mailto:info@riskadventureclub.com">Consultar</a></div></td>
+				        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
 				        			
 				        		</tr>
 				        	</c:forEach>
