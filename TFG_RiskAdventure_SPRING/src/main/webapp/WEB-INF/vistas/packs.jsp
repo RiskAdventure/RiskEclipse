@@ -213,27 +213,27 @@
                 <div class="grid-container">
                     <article id="3685" class="location-listing">
                         <div class="location-image" id="lasportiva">
-                            <a href="https://www.lasportiva.com/es"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
+                            <a href="https://www.lasportiva.com/es" target="_blank"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
                         </div>
                     </article>
                     <article id="3688" class="location-listing">
                         <div class="location-image" id="salomon">
-                            <a href="https://www.salomon.com/es-es"><img width="300" height="169" src="../imagenes/salomon.jpg" alt="Salomon"> </a>
+                            <a href="https://www.salomon.com/es-es" target="_blank"><img width="300" height="169" src="../imagenes/salomon.jpg" alt="Salomon"> </a>
                         </div>
                     </article>
                     <article id="3691" class="location-listing">
                         <div class="location-image" id="columbia">
-                            <a href="https://www.columbiasportswear.es/"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
+                            <a href="https://www.columbiasportswear.es/" target="_blank"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
                         </div>
                     </article>
                      <article class="location-listing">
                         <div class="location-image" id="merrel">
-                            <a href="https://www.merrell.com/ES/es_ES/home"><img width="300" height="169" src="../imagenes/merrell.svg" alt="Merrell"> </a>
+                            <a href="https://www.merrell.com/ES/es_ES/home" target="_blank"><img width="300" height="169" src="../imagenes/merrell.svg" alt="Merrell"> </a>
                         </div>
                     </article>
                     <article class="location-listing">
                         <div class="location-image" id="north">
-                            <a href="https://www.thenorthface.es"><img width="300" height="169" src="../imagenes/thenorthface.jpg" alt="North_Face"> </a>
+                            <a href="https://www.thenorthface.es" target="_blank"><img width="300" height="169" src="../imagenes/thenorthface.jpg" alt="North_Face"> </a>
                         </div>
                     </article>
                 </div>
