@@ -135,6 +135,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 		}
 		
+		
+		
 		@GetMapping("/aviso_legal")
 		public String inicio6(Model model) {
 			model.addAttribute("mensaje","Lidia Capita ");
