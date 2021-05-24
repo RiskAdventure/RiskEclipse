@@ -16,7 +16,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librerÃ­a jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/detalleofertas.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/detalleoferta.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 <body>
@@ -115,27 +115,9 @@
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
            
-              <a href="tipoOferta"><div class="boton">VOLVER A OFERTAS</div></a>
+              <a href="ofertas"><div class="boton">VOLVER A OFERTAS</div></a>
               
-              <c:choose>
-	        	<c:when test="${listaOferta!=null && listaOferta.size()!=0}">
-			        <table class="table table-striped table-hover" style="text-align:'center'">
-			        	<th>Nombre</th><th>Descripción</th><th>Fecha Inicio</th><th>Duración</th><th>Precio</th><th>Detalle</th><th>Reservar</th>
-			        	<c:forEach var="ele" items="${listaOferta }">
-			        		<tr>
-			        			<td>${ele.nombre}</td>
-			        			<td>${ele.descripcion}</td>
-			        			<td><fmt:formatDate value ="${ele.fechaInicio}"></fmt:formatDate></td>
-			        			<td>${ele.duracion}</td>
-			        			<td>${ele.precio}</td>
-			        			<td><a  href="mailto:info@riskadventureclub.com"><div class="ofertas">Reservar</div></a></td>
-			        			
-			        		</tr>
-			        	</c:forEach>
-			        </table>
-	        	</c:when>
-       		</c:choose>
-       		
+              
             </div>            
         </article>
        

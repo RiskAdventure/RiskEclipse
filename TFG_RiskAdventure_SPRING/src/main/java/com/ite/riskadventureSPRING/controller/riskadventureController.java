@@ -222,7 +222,13 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 		}
 		
-
+		@GetMapping("/detalleoferta")
+		public String inicio18(Model model) {
+			model.addAttribute("mensaje","Lidia Capita ");
+			
+			return "detalleoferta";
+			
+		}
 	
 
 
