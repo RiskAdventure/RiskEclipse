@@ -41,7 +41,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "index";
 			
@@ -50,7 +50,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		//controladores de landings---------------------------------
 		@GetMapping("/experiencias")
 		public String inicio1(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "experiencias";
 			
@@ -58,7 +58,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/tipoAgua")
 		public String empresaPorExperienciaAgua(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoAgua", listaTipo);
 			
@@ -67,7 +67,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		@GetMapping("/agua")
 		public String inicio2(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "agua";
 			
@@ -75,7 +75,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/tipoAire")
 		public String empresaPorExperienciaAire(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoAire", listaTipo);
 			
@@ -84,14 +84,14 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/aire")
 		public String inicio3(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "aire";
 			
 		}
 		@GetMapping("/ofertas")
 		public String inicio22(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "ofertas";
 			
@@ -101,7 +101,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/tipoTierra")
 		public String empresaPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoTierra", listaTipo);
 			
@@ -110,7 +110,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		@GetMapping("/tierra")
 		public String inicio4(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "tierra";
 			
@@ -118,14 +118,14 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/articulos")
 		public String inicio5(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "articulos";
 			
 		}
 		@GetMapping("/detalleOferta")
 		public String detalleOferta(Model model,@RequestParam(name = "idEvento") int idEvento ) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			Evento evento = evdao.mostrarEvento(idEvento);
 			model.addAttribute("verDetalleEvento", evento);
 			
@@ -135,7 +135,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/tipoOferta")
 		public String oferta(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			List<Evento> listaEvento = evdao.verTodos();
 			model.addAttribute("listaOferta", listaEvento);
 			
@@ -144,7 +144,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		@GetMapping("/tipoOfertaDestacado")
 		public String ofertaDestacado(Model model,@RequestParam(name = "destacado") String destacado ) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			List<Evento> listaEventoDestacado = evdao.verPorDestacado(destacado);
 			model.addAttribute("listaOfertaDestacado", listaEventoDestacado);
 			
@@ -156,84 +156,84 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		@GetMapping("/aviso_legal")
 		public String inicio6(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "aviso_legal";
 			
 		}
 		@GetMapping("/blog")
 		public String inicio7(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "blog";
 			
 		}
 		@GetMapping("/carrito")
 		public String inicio8(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "carrito";
 			
 		}
 		@GetMapping("/contacto")
 		public String inicio9(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "contacto";
 			
 		}
 		@GetMapping("/cookies")
 		public String inicio10(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "cookies";
 			
 		}
 		@GetMapping("/eventos")
 		public String inicio11(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "eventos";
 			
 		}
 		@GetMapping("/login")
 		public String inicio12(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "login";
 			
 		}
 		@GetMapping("/nosotros")
 		public String inicio13(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "nosotros";
 			
 		}
 		@GetMapping("/packs")
 		public String inicio14(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "packs";
 			
 		}
 		@GetMapping("/politica_privacidad")
 		public String inicio15(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "politica_privacidad";
 			
 		}
 		@GetMapping("/registro")
 		public String inicio16(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "registro";
 			
 		}
 		@GetMapping("/vermasblog")
 		public String inicio17(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "vermasblog";
 			
@@ -242,13 +242,13 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 
 		@GetMapping("/detalleoferta")
 		public String inicio18(Model model) {
-			model.addAttribute("mensaje","Lidia Capita ");
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "detalleoferta";
 			
 		}
 		
-		@GetMapping("/panel")
+		@GetMapping("/admin")
 		public String mostrarActivos(Model model) {
 			
 			//Muestro los eventos activos
