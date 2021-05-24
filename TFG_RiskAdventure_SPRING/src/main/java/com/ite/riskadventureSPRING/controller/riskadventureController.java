@@ -2,16 +2,20 @@ package com.ite.riskadventureSPRING.controller;
 
 
 	
-	import java.util.List;
+	import java.util.Date;
+import java.util.List;
 
 	import org.springframework.beans.factory.annotation.Autowired;
-	import org.springframework.stereotype.Controller;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.stereotype.Controller;
 	import org.springframework.ui.Model;
 	import org.springframework.web.bind.annotation.GetMapping;
 	import org.springframework.web.bind.annotation.PathVariable;
-	import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 	import org.springframework.web.bind.annotation.RequestParam;
 	import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.view.RedirectView;
 
 import com.ite.riskadventureSPRING.modelo.beans.Empresa;
 import com.ite.riskadventureSPRING.modelo.beans.Evento;
@@ -31,6 +35,9 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		IntEmpresaDao edao;
 		@Autowired
 		IntEventoDao evdao;
+		@Autowired
+		IntTipoDao tdao;
+		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
@@ -126,7 +133,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 		}
 		@GetMapping("/tipoOfertaDestacado")
-		public String ofertaDestacado(Model model,@RequestParam(name = "destacado") char destacado ) {
+		public String ofertaDestacado(Model model,@RequestParam(name = "destacado") String destacado ) {
 			model.addAttribute("mensaje","Lidia Capita ");
 			List<Evento> listaEventoDestacado = evdao.verPorDestacado(destacado);
 			model.addAttribute("listaOfertaDestacado", listaEventoDestacado);
@@ -229,7 +236,100 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "detalleoferta";
 			
 		}
+		
+		@GetMapping("/panel")
+		public String mostrarActivos(Model model) {
+			
+			//Muestro los eventos activos
+			List<Evento> listado = evdao.buscarEventosActivos("activo");
+			model.addAttribute("listadoActivos", listado);
+			
+			//Cargo en el select de la derecha los Tipos actuales existentes
+			List<Tipo> listadoTipos = tdao.verTodos();
+			model.addAttribute("listadoTipos", listadoTipos);
+			
+			return "admin";
+			
+		}
+		
+		
+		//Método para crear un nuevo evento. Me tengo que traer los tipos para meterlos en el
+		//select al final del formulario
+		@GetMapping("/create")
+		public String nuevoEvento(Model model) {
+			
+			List<Tipo> listadoTipos = tdao.verTodos();
+			model.addAttribute("listadoTipos", listadoTipos);
+			
+			return "nuevoevento";
+		}
+		
+		
+		//Por Post, recojo las respuestas del formulario una vez relleno
+		@PostMapping("/create")
+		public RedirectView altaEvento(Model model, Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio) {
+			String mensaje;
+			
+			evento.setEstado("activo");
+			evento.setDestacado("s");
+			evento.setFechaInicio(fechaInicio);
+			
+			int altaOk = evdao.crearEvento(evento);
+			
+			if(altaOk == 1) {
+				mensaje = "<span style=\"color: green;\">Evento creado con éxito</span>";
+			} else {
+				mensaje = "<span style=\"color: red;\">Ha habido un error al crear el evento<span>";
+			}
+			
+			model.addAttribute("mensaje", mensaje);
+			
+			return new RedirectView("/riskadventure/activos");
+		}
+		
+		
 	
+		
+		//Elimina el evento con el "id" que le pasemos
+		@GetMapping("/eliminar/{id}")
+		public String eliminarEvento(Model model, @PathVariable(name="id") int  idEvento) {
+				
+			String mensaje;
+				
+			int eliminado = evdao.eliminarEvento(idEvento);
+				
+			if(eliminado == 1) {
+				mensaje = "<span style=\"color: green;\">Se ha eliminado el evento</span>";
+			} else {
+				mensaje = "<span style=\"color: red;\">Ha habido un error al intentar eliminar el evento<span>";
+			}
+				
+			model.addAttribute("mensaje", mensaje);
+				
+			List<Evento> listado = evdao.buscarEventosActivos("activo");
+			model.addAttribute("listadoActivos", listado);
+				
+			return "admin";
+		}
+		
+		
+		
+		//Edita el evento seleccionado con el id que le pasemos
+		@GetMapping("/editar/{id}")
+		public String editarEvento(Model model, @PathVariable(name="id") int  idEvento) {
+			String mensaje;
+			
+			Evento evento = evdao.mostrarEvento(idEvento);
+			
+			if(evento == null) {
+				mensaje = "<span style=\"color: red;\">Ha habido un error al recuperar el evento<span>";
+			}
+			
+			model.addAttribute("evento", evento);
+			return "evento";
+		}
+		
+		
+	}
 
 
-}
