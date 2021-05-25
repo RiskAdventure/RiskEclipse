@@ -57,7 +57,7 @@
                     <ul class="nav navbar-nav">
                       <li><a id="home" href="index">HOME</a></li>
                       <li class="dropdown">
-				        <a href="experiencias" class="dropdown-toggle" data-toggle="dropdown">
+				        <a href="experiencias" id="experiencias"  class="dropdown-toggle" data-toggle="dropdown">
 				          EXPERIENCIAS<b class="caret"></b>
 				        </a>
 				        <ul class="dropdown-menu">
