@@ -17,7 +17,7 @@
 <body>
     <h1>PANEL ADMIN</h1>
     <header>
-        <a href="/riskadventure/panel"><i class="fas fa-arrow-left"></i> Volver</a>
+        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
     </header>
     <div>
         <h2>Informacion del evento <span style="color: #ba9e38;">${evento.nombre}</span></h2>
