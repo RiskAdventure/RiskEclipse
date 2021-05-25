@@ -126,6 +126,10 @@ header {
   .botonOfertas{
   	color: white !important;
   }
+  table{
+  	font-size:17px;
+  	
+  }
   #div2_1 .ofertas{
   padding: 4%;
   background-color: #8091a5;  

@@ -83,12 +83,38 @@
 				          <li><a href="vermasblog">ARTÍCULOS</a></li>
 				          </ul>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
+                      
                     </ul>
+                    
                   </div>
+                  	
             </nav>
+            
           </div>
+          	
+          
         </header>                                                  
                                                        <!-- SECTION-->
+        <!-- buscador oculto -->
+        <div id="ctn-bars-search">
+        		<input type="text" id="inputSearch"  placeholder="¿Qué deseas buscar?">
+       		</div>
+        
+        	
+        
+        <ul class="listaSearch">
+        	<li><a href=""><i class="fas fa-search" ></i>Ofertas</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Contacto</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Experiencias</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Nosotros</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Blog</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Packs</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Reservas</a></li>
+        	<li><a href=""><i class="fas fa-search" ></i>Login</a></li>
+        	
+        </ul>
+        <div id="cover-ctn-search">
+        </div>
         <!-- carrusel-->
         <section class="row" id="carru" >
           <div class="col-md-12 " id="carrusel">
