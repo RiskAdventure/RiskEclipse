@@ -30,7 +30,8 @@
                 <th>id</th>
                 <th>Nombre</th>
                 <th>Precio</th>
-                <th>Opciones</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
             </tr>
            
            <c:if test="${fn:length(listadoActivos) > 0}">
@@ -41,10 +42,8 @@
 	                <td>${ele.idEvento}</td>
 	                <td>${ele.nombre}</td>
 	                <td>${ele.precio} €</td>
-	                <td>
-		                <a href="/riskadventure/editar/${ele.idEvento}"><i class="far fa-edit"></i> Editar</a>
-		                <a href="/riskadventure/eliminar/${ele.idEvento}"><i class="far fa-trash-alt"></i> Eliminar</a>
-	                </td>
+	                <td><a class="edit" href="/riskadventure/editar/${ele.idEvento}"> Editar</a></td>
+		            <td><a class="trash" href="/riskadventure/eliminar/${ele.idEvento}"> Eliminar</a> </td>
 	            </tr>
 	            
 	           </c:forEach>
