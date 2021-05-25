@@ -139,17 +139,17 @@ li:hover {
 	
 	
 }
-.listaSearch{
+#listaSearch{
 	position:fixed;
 	top:285px;
 	width:1200px;
 	background:white;
-	z-index:8;
+	z-index:10;
 	left:50%;
 	transform:translateX(-50%);
 	display:none;
 }
-.listaSearch li{
+#listaSearch li{
 	background-image: none;
   background-position: 0% ;
   background-repeat: no-repeat;
@@ -159,15 +159,15 @@ li:hover {
   
   padding-bottom: 4px;
 }
-.listaSearch li a{
+#listaSearch li a{
 	display:block;
 	color:#777777;
 	padding:10px 0px !important;
 }
-.listaSearch li a:hover{
+#listaSearch li a:hover{
 	background:#f3f3f3;
 }
-.listaSearch li a i{
+#listaSearch li a i{
 	margin-right:10px;
 	color:#777777;
 }
