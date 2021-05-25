@@ -111,7 +111,7 @@
             <div class="col-md-12 col-xs-12  " id="div2_1">
            		
 	           			<center>
-				        <table border="2">
+				        <table border="5">
 				        	<th>Id Evento</th><th>Descripci&oacute;n</th><th>Fecha Inicio</th><th>Duraci&oacute;n</th><th>Aforo M&aacute;ximo</th><th>M&iacute;nimo Asistencia</th><th>Precio</th>
 				        	
 				        		<tr>

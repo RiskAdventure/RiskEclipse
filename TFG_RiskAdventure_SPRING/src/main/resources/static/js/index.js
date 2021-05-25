@@ -12,7 +12,21 @@ window.onload=function(){
     var packs=document.getElementById("packs");
     var blog=document.getElementById("blog");
     var contacto=document.getElementById("contacto");
+    var bars_search=document.getElementById("ctn-bars-search");
+    var cover_ctn_search=document.getElementById("cover-ctn-search");
+    var inputSearch=document.getElementById("inputSearch");
+    var box_search=document.getElementById("box-search");
+    var buscar=document.getElementById("buscar");
     //Funciones
+    function mostrar_buscador(){
+    	bars_search.style.top="198px";
+    	cover_ctn_search.style.display="block";
+    }
+    function ocultar_buscador(){
+    	bars_search.style.top="-10px";
+    	cover_ctn_search.style.display="none";
+    	inputSearch.value="";
+    }
     function subrayaHome(){
         home.style.backgroundImage=" linear-gradient(#BA9E38,#BA9E38)";
         home.style.backgroundPosition=" 0% 100%";
@@ -105,13 +119,9 @@ window.onload=function(){
             blog.style.backgroundSize="0% 1px";  
     }
     //APLICAMOS EVENTOS
-    sobre.onclick=subrayaSobre;
-    home.onclick=subrayaHome;
-    eventos.onclick=subrayaEventos;
-    packs.onclick=subrayaPacks;
-    blog.onclick=subrayaBlog;
-    experiencias.onclick=subrayaExperiencias;
-    contacto.onclick=subrayaContacto;
+    
+    buscar.addEventListener("click",mostrar_buscador);
+    cover_ctn_search.addEventListener("click",ocultar_buscador);
 }
 
 
