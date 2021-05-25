@@ -14,46 +14,47 @@
 	    <script src="https://kit.fontawesome.com/fc00ef1987.js" crossorigin="anonymous"></script>
 	</head>
 
-<body>
+	<body>
 
-	<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
-    <h1>PANEL ADMINISTRADOR</h1>
-    <header>
-        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
-    </header>
-    <div>
-        <h2>Informacion del evento <span style="color: #ba9e38;">${evento.nombre}</span></h2>
-        <table>
-            <tr>
-                <th>id</th>
-                <th>Nombre</th>
-                <th>Descripción</th>
-                <th>Fecha de inicio</th>
-                <th>Duración</th>
-                <th>Dirección</th>
-                <th>Estado</th>
-                <th>Destacado</th>
-                <th>Aforo máximo</th>
-                <th>Asistencia mínima</th>
-                <th>Precio</th>
-            </tr>
-	        <tr>
-	            <td>${evento.idEvento}</td>
-	            <td>${evento.nombre}</td>
-	            <td>${evento.descripcion}</td>
-	            <td>${evento.fechaInicio}</td>
-	            <td>${evento.duracion} hora/s</td>
-	            <td>${evento.direccion}</td>
-	            <td>${evento.estado}</td>
-	            <td>${evento.destacado}</td>
-	            <td>${evento.aforoMaximo}</td>
-	            <td>${evento.minimoAsistencia}</td>
-	            <td>${evento.precio} €</td>
-	        </tr>
-        </table>
-        
-        <p>${mensaje}</p>
-        
-    </div>
-</body>
+		<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
+		
+	    <h1>PANEL ADMINISTRADOR</h1>
+	    <header>
+	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
+	    </header>
+	    <div>
+	        <h2>Informacion del evento <span style="color: #ba9e38;">${evento.nombre}</span></h2>
+	        <table>
+	            <tr>
+	                <th>id</th>
+	                <th>Nombre</th>
+	                <th>Descripción</th>
+	                <th>Fecha de inicio</th>
+	                <th>Duración</th>
+	                <th>Dirección</th>
+	                <th>Estado</th>
+	                <th>Destacado</th>
+	                <th>Aforo máximo</th>
+	                <th>Asistencia mínima</th>
+	                <th>Precio</th>
+	            </tr>
+		        <tr>
+		            <td>${evento.idEvento}</td>
+		            <td>${evento.nombre}</td>
+		            <td>${evento.descripcion}</td>
+		            <td>${evento.fechaInicio}</td>
+		            <td>${evento.duracion} hora/s</td>
+		            <td>${evento.direccion}</td>
+		            <td>${evento.estado}</td>
+		            <td>${evento.destacado}</td>
+		            <td>${evento.aforoMaximo}</td>
+		            <td>${evento.minimoAsistencia}</td>
+		            <td>${evento.precio} €</td>
+		        </tr>
+	        </table>
+	        
+	        <p>${mensaje}</p>
+	        
+	    </div>
+	</body>
 </html>
