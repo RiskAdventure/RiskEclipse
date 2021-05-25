@@ -14,14 +14,15 @@
 	</head>
 
 <body>
-    <h1>PANEL ADMIN</h1>
+	<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
+    <h1>PANEL ADMINISTRADOR</h1>
   
     <div class="container">
     
     <div class="activos-section">
         <h2>Listado de Ofertas activas</h2>
         
-        <a href="/riskadventure/create" class="buttonCTA last">Nueva oferta <i class="far fa-plus-square"></i></a>
+        <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a>
         
         <br>
         

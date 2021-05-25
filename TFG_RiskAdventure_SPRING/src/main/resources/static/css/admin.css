@@ -26,6 +26,10 @@ a.edit{
     text-align: center;
 }
 
+.edit:hover{
+	background-color:	blue;
+}
+
 a.trash{
 	display: block;
     background-color: red;
@@ -36,14 +40,16 @@ a.trash{
     text-align: center;
 }
 
+.trash:hover{
+	background-color:	orange;
+}
+
 header a {
     padding: 15px;
     transition: 0.3s;
 }
 
-a:hover .edit .trash  {
-    color: #ba9e38;
-}
+
 
 .activos-section {
 	float: left;
@@ -51,12 +57,18 @@ a:hover .edit .trash  {
 
 .buttonCTA {
     display: block;
-    background-color:#3F4A56;
+    background-color:#8091a5;
     border-radius: 5px;
     color: white;
     padding: 15px;
     width: 150px;
     text-align: center;
+}
+
+.buttonCTA:hover {
+    
+    background-color:#ba9e38;
+  
 }
 
 

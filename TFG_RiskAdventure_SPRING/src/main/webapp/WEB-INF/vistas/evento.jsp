@@ -15,7 +15,9 @@
 	</head>
 
 <body>
-    <h1>PANEL ADMIN</h1>
+
+	<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
+    <h1>PANEL ADMINISTRADOR</h1>
     <header>
         <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
     </header>
