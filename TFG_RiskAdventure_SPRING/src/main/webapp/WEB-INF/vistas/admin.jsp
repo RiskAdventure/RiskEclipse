@@ -23,6 +23,8 @@
         <h2>Listado de Ofertas activas</h2>
         
         <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a>
+        <p>${mensaje1}</p>
+        <p>${mensaje2}</p>
         
         <br>
         
