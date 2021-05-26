@@ -106,4 +106,8 @@ public class EventoDaoImpl implements IntEventoDao{
 		// TODO Auto-generated method stub
 		return evrepo.findByDestacado(destacado);
 	}
+	
+	
+	
+	
 }

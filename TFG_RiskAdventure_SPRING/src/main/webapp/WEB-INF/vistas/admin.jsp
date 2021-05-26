@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<title>Panel Administración | HOME</title>
 	    <meta charset="UTF-8">
 	    <!-- Link to CSS file -->
 	    <link href="<c:url value="/css/admin.css" />" rel="stylesheet">
