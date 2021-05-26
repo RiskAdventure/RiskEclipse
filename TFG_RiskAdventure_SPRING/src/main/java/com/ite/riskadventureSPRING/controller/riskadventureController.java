@@ -2,14 +2,17 @@ package com.ite.riskadventureSPRING.controller;
 
 
 	
-	import java.util.Date;
+	import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 	import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 	import org.springframework.ui.Model;
-	import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.GetMapping;
 	import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -302,8 +305,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		//Por Post, recojo las respuestas del formulario una vez relleno
 		@PostMapping("/create")
-		public /*RedirectView*/String altaEvento(Model model, Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio) {
-			String mensaje1;
+		public /*RedirectView*/String altaEvento(Model model,RedirectAttributes ratt, Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio) {
+			String mensajeinsert;
 			
 			evento.setEstado("activo");
 			evento.setDestacado("s");
@@ -312,14 +315,14 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			int altaOk = evdao.crearEvento(evento);
 			
 			if(altaOk == 1) {
-				mensaje1 = "<span style=\"color: green;\">Evento creado con éxito</span>";
-				System.out.println(mensaje1);
+				mensajeinsert = "<span style=\"color: green;\">Evento creado con éxito</span>";
+				System.out.println(mensajeinsert);
 			} else {
-				mensaje1 = "<span style=\"color: red;\">Ha habido un error al crear el evento<span>";
-				System.out.println(mensaje1);
+				mensajeinsert = "<span style=\"color: red;\">Ha habido un error al crear el evento<span>";
+				System.out.println(mensajeinsert);
 			}
 			
-			model.addAttribute("mensaje1", mensaje1);
+			model.addAttribute("mensajeinsert", mensajeinsert);
 			 return "redirect:/riskadventure/admin"; 
 			/*return new RedirectView("/riskadventure/activos");*/
 		}
@@ -327,21 +330,21 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		//Elimina el evento con el "id" que le pasemos
 		@GetMapping("/eliminar/{id}")
-		public String eliminarEvento(Model model, @PathVariable(name="id") int  idEvento) {
+		public String eliminarEvento(RedirectAttributes ratt, Model model, @PathVariable(name="id") int  idEvento) {
 				
-			String mensaje2;
+			String mensajedelete;
 				
 			int eliminado = evdao.eliminarEvento(idEvento);
 				
 			if(eliminado == 1) {
-				mensaje2 = "<span style=\"color: green;\">Se ha eliminado el evento</span>";
-				System.out.println(mensaje2);
+				mensajedelete = "<span style=\"color: green;\">Se ha eliminado el evento</span>";
+				System.out.println(mensajedelete);
 			} else {
-				mensaje2 = "<span style=\"color: red;\">Ha habido un error al intentar eliminar el evento<span>";
-				System.out.println(mensaje2);
+				mensajedelete = "<span style=\"color: red;\">Ha habido un error al intentar eliminar el evento<span>";
+				System.out.println(mensajedelete);
 			}
 				
-			model.addAttribute("mensaje2", mensaje2);
+			ratt.addFlashAttribute("mensajedelete", mensajedelete);
 				
 			List<Evento> listado = evdao.buscarEventosActivos("activo");
 			model.addAttribute("listadoActivos", listado);
@@ -354,16 +357,23 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		//Edita el evento seleccionado con el id que le pasemos
 		@GetMapping("/editar/{id}")
 		public String editarEvento(Model model, @PathVariable(name="id") int  idEvento) {
-			String mensaje;
+			String mensajeupdate;
 			
 			Evento evento = evdao.mostrarEvento(idEvento);
 			
 			if(evento == null) {
-				mensaje = "<span style=\"color: red;\">Ha habido un error al recuperar el evento<span>";
+				mensajeupdate = "<span style=\"color: red;\">Ha habido un error al recuperar el evento<span>";
 			}
 			
 			model.addAttribute("evento", evento);
 			return "evento";
+		}
+		//Clase que formatea la fecha para que al traerla de un form no de error
+		public void initBinder(WebDataBinder binder) {
+			SimpleDateFormat sdf= new SimpleDateFormat("yyyy-MM-dd");
+			sdf.setLenient(false);
+			binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf,false));
+			
 		}
 		
 		
