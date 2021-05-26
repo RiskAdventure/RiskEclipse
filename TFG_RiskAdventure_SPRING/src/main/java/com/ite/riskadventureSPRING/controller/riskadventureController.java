@@ -271,15 +271,16 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 			List<Tipo> listadoTipos = tdao.verTodos();
 			model.addAttribute("listadoTipos", listadoTipos);
-			
+			List<Empresa> listadoEmpresas=edao.verTodasEmpresas();
+			model.addAttribute("listadoEmpresas",listadoEmpresas);
 			return "nuevoevento";
 		}
 		
 		
 		//Por Post, recojo las respuestas del formulario una vez relleno
 		@PostMapping("/create")
-		public RedirectView altaEvento(Model model, Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio) {
-			String mensaje;
+		public /*RedirectView*/String altaEvento(Model model, Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio) {
+			String mensaje1;
 			
 			evento.setEstado("activo");
 			evento.setDestacado("s");
@@ -288,14 +289,14 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			int altaOk = evdao.crearEvento(evento);
 			
 			if(altaOk == 1) {
-				mensaje = "<span style=\"color: green;\">Evento creado con éxito</span>";
+				mensaje1 = "<span style=\"color: green;\">Evento creado con éxito</span>";
 			} else {
-				mensaje = "<span style=\"color: red;\">Ha habido un error al crear el evento<span>";
+				mensaje1 = "<span style=\"color: red;\">Ha habido un error al crear el evento<span>";
 			}
 			
-			model.addAttribute("mensaje", mensaje);
-			
-			return new RedirectView("/riskadventure/activos");
+			model.addAttribute("mensaje1", mensaje1);
+			 return "redirect:/riskadventure/admin"; 
+			/*return new RedirectView("/riskadventure/activos");*/
 		}
 		
 		
@@ -303,22 +304,22 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		@GetMapping("/eliminar/{id}")
 		public String eliminarEvento(Model model, @PathVariable(name="id") int  idEvento) {
 				
-			String mensaje;
+			String mensaje2;
 				
 			int eliminado = evdao.eliminarEvento(idEvento);
 				
 			if(eliminado == 1) {
-				mensaje = "<span style=\"color: green;\">Se ha eliminado el evento</span>";
+				mensaje2 = "<span style=\"color: green;\">Se ha eliminado el evento</span>";
 			} else {
-				mensaje = "<span style=\"color: red;\">Ha habido un error al intentar eliminar el evento<span>";
+				mensaje2 = "<span style=\"color: red;\">Ha habido un error al intentar eliminar el evento<span>";
 			}
 				
-			model.addAttribute("mensaje", mensaje);
+			model.addAttribute("mensaje2", mensaje2);
 				
 			List<Evento> listado = evdao.buscarEventosActivos("activo");
 			model.addAttribute("listadoActivos", listado);
-				
-			return "admin";
+			return "redirect:/riskadventure/admin";	
+			/*return "admin";*/
 		}
 		
 		

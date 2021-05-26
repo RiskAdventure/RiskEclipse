@@ -57,6 +57,14 @@
 				  
 				  </c:forEach>
 			</select>
+			<label for="etype">Nombre de empresa:</label><br>
+			<select name="empresa" id="etype" form="new-event">
+			  <c:forEach var="empresa" items="${listadoEmpresas}" varStatus="estado">
+				
+					  <option value="${empresa.idEmpresa}">${empresa.nombreEmpresa}</option>
+				  
+				  </c:forEach>
+			</select>
   			<br><br>
   			
   			
