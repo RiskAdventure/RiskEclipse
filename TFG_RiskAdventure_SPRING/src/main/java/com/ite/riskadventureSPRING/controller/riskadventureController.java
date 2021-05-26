@@ -15,14 +15,18 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 	import org.springframework.web.bind.annotation.RequestParam;
 	import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
 import com.ite.riskadventureSPRING.modelo.beans.Empresa;
 import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
+import com.ite.riskadventureSPRING.modelo.beans.Provincia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntProvinciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 
@@ -37,6 +41,10 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		IntEventoDao evdao;
 		@Autowired
 		IntTipoDao tdao;
+		@Autowired
+		IntExperienciaDao exdao;
+		@Autowired
+		IntProvinciaDao pdao;
 		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
@@ -100,19 +108,34 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		
 		
 		@GetMapping("/tipoTierra")
-		public String empresaPorExperienciaTierra(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
-			model.addAttribute("mensaje","Risk Adventure ");
+		public String empresaPorExperienciaTierra(RedirectAttributes ratt,@RequestParam(name = "idExperiencia") int idExperiencia ) {
+			ratt.addFlashAttribute("mensaje","Risk Adventure ");
 			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
-			model.addAttribute("listaTipoTierra", listaTipo);
+			ratt.addFlashAttribute("listaTipoTierra", listaTipo);
 			
-			return "tierra";
+			return "redirect:/riskadventure/tierra";
 			
 		}
 		@GetMapping("/tierra")
 		public String inicio4(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
 			
+			List <Provincia> provincias=pdao.verTodasProvincias();
+			List <Experiencia> experiencias=exdao.verTodasExperiencias();
+			model.addAttribute("provincias",provincias);
+			model.addAttribute("experiencias",experiencias);
 			return "tierra";
+			
+		}
+		//Por Post, recojo las respuestas de provincia y cargo manualmente el id de Tierra.Provincia es un select
+		@PostMapping("/tierraProvincia")
+		public String verTierraProvincia(RedirectAttributes ratt,  @RequestParam("idProvincia") int idProvincia, @RequestParam("idExperiencia") int idExperiencia) {
+			
+			List<Empresa> empresa=edao.verPorExperienciaProvincia(idProvincia, idExperiencia);
+			
+			ratt.addFlashAttribute("empresasProvinciaExperiencia",empresa);
+			
+			
+			 return "redirect:/riskadventure/tierra"; 
 			
 		}
 		
@@ -290,8 +313,10 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 			if(altaOk == 1) {
 				mensaje1 = "<span style=\"color: green;\">Evento creado con éxito</span>";
+				System.out.println(mensaje1);
 			} else {
 				mensaje1 = "<span style=\"color: red;\">Ha habido un error al crear el evento<span>";
+				System.out.println(mensaje1);
 			}
 			
 			model.addAttribute("mensaje1", mensaje1);
@@ -310,8 +335,10 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 				
 			if(eliminado == 1) {
 				mensaje2 = "<span style=\"color: green;\">Se ha eliminado el evento</span>";
+				System.out.println(mensaje2);
 			} else {
 				mensaje2 = "<span style=\"color: red;\">Ha habido un error al intentar eliminar el evento<span>";
+				System.out.println(mensaje2);
 			}
 				
 			model.addAttribute("mensaje2", mensaje2);
