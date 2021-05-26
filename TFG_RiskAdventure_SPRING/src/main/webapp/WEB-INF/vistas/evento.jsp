@@ -7,7 +7,7 @@
 <html>
 	<head>
 	    <meta charset="UTF-8">
-	    <title>Eventos | Evento</title>
+	    <title>Panel Administración | Editar</title>
 	    <!-- Link to CSS file -->
 	    <link href="<c:url value="/css/admin.css" />" rel="stylesheet">
 	    <!--Link to Fontawesome-->
