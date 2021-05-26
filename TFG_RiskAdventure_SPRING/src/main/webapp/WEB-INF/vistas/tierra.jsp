@@ -116,7 +116,7 @@
               <a href="ofertas"><div class="boton">OFERTAS</div></a>
               <a href="aire"><div class="boton">IR A AIRE</div></a><br>
               <a href="/riskadventure/tipoTierra?idExperiencia=1"><div class="boton">Ver empresas de Tierra (TODAS)</div></a>
-              <p>Si lo deseas también puedes seleccionar empresas de <b>TIERRA</b> por <b>PROVINCIA</b>:</p>
+              <p>Si lo deseas también puedes seleccionar empresas por <b>PROVINCIA</b> y por <b>TIPO DE EXPERIENCIA</b>:</p>
               <form action="/riskadventure/tierraProvincia" method="post" >
 						<select name="idProvincia">
 							
@@ -133,7 +133,7 @@
 							</c:forEach>
 						</select>
 						<br/><br/>
-						<input type="submit" value="Ver empresas de Tierra (POR PROVINCIA)"/>
+						<input type="submit" class="boton" value="Ver empresas (POR PROVINCIA)"/>
 				</form>
 
               	</div></a>
