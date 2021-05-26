@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <!DOCTYPE html>
 <html>
@@ -17,15 +17,14 @@
 
 <body>
 	
-		<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
 		
-		<h1>PANEL ADMINISTRADOR</h1>
+    	<h1>PANEL ADMINISTRADOR</h1>
 	    <header>
 	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
 	    </header>
 	    
 	    <div>
-	        <h2>Informacion del evento <span style="color: #ba9e38;">${evento.nombre}</span></h2>
+	        <h2>Información de la oferta <span style="color: #ba9e38;">${evento.nombre}</span></h2>
 	        <table>
 	            <tr>
 	                <th>id</th>
