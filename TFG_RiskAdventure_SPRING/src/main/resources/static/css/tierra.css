@@ -122,7 +122,9 @@ cursor: pointer;
 margin: auto;
 text-align: center;
 }
-
+#desplExp{
+	display:none;
+}
 
 #tierra img {
 width: 100%;
