@@ -125,9 +125,9 @@
 								<option value="${p.idProvincia}">${p.provincia}</option>
 							</c:forEach>
 						</select>
-						<select name="idExperiencia">
+						<select name="idExperiencia" id="desplExp">
 							
-							<%--el value del option será el id del tema --%>			
+							<%--el value del option será el id de experiencia igual que el name, que pasaran al request param --%>			
 							<c:forEach var="ex" items="${experiencias}" >
 								<option value="${ex.idExperiencia}">${ex.nombre}</option>
 							</c:forEach>
@@ -140,13 +140,14 @@
 	              	<c:choose>
 				        <c:when test="${empresasProvinciaExperiencia!=null && empresasProvinciaExperiencia.size()!=0}">
 					        <table class="table table-striped table-hover" >
-					        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
+					        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Experiencia</th><th>Contacto</th>
 					        	<c:forEach var="ele" items="${empresasProvinciaExperiencia }">
 					        		<tr>
 					        			<td>${ele.nombreActividad}</td>      			
 					        			<td>${ele.nombreEmpresa}</td>
 					        			<td>${ele.nombreProvincia}</td>
 					        			<td>${ele.telefono}</td>
+					        			<td>${ele.experiencia.nombre}</td>
 					        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
 					        		</tr>
 					        	</c:forEach>
@@ -156,13 +157,14 @@
              	 <c:choose>
 			        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
 				        <table class="table table-striped table-hover" >
-				        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
+				        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Experiencia</th><th>Contacto</th>
 				        	<c:forEach var="ele" items="${listaTipoTierra }">
 				        		<tr>
 				        			<td>${ele.nombreActividad}</td>      			
 				        			<td>${ele.nombreEmpresa}</td>
 				        			<td>${ele.nombreProvincia}</td>
 				        			<td>${ele.telefono}</td>
+				        			<td>${ele.experiencia.nombre}</td>
 				        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
 				        		</tr>
 				        	</c:forEach>
