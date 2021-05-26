@@ -6,22 +6,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	    <meta charset="UTF-8">
-	    <title>Panel Administración | Editar</title>
+		<title>Panel Administración | Editar</title>
+	    <meta charset="UTF-8">   
 	    <!-- Link to CSS file -->
 	    <link href="<c:url value="/css/admin.css" />" rel="stylesheet">
+	    <link href="<c:url value="/css/form.css" />" rel="stylesheet">
 	    <!--Link to Fontawesome-->
 	    <script src="https://kit.fontawesome.com/fc00ef1987.js" crossorigin="anonymous"></script>
 	</head>
 
-	<body>
-
+<body>
+	
 		<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
 		
-	    <h1>PANEL ADMINISTRADOR</h1>
+		<h1>PANEL ADMINISTRADOR</h1>
 	    <header>
 	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
 	    </header>
+	    
 	    <div>
 	        <h2>Informacion del evento <span style="color: #ba9e38;">${evento.nombre}</span></h2>
 	        <table>
