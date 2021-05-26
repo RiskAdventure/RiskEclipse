@@ -23,9 +23,10 @@
     <div class="activos-section">
         <h2>Listado de Ofertas activas</h2>
         
-        <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a>
-        <p>${mensaje1}</p>
-        <p>${mensaje2}</p>
+        <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a><br>
+        <p>${mensajedelete}</p>
+        <p>${mensajeinsert}</p>
+        <p>${mensajeupdate }</p>
         
         <br>
         
@@ -56,7 +57,7 @@
            
         </table>
         
-        <p>${mensaje}</p>
+        
         
         </div>
       
