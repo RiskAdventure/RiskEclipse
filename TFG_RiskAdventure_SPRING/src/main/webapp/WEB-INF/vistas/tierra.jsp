@@ -108,35 +108,67 @@
             </div>
         </section>  
 
-        <hr>
- 
-
-        <hr>
+        <hr><hr>
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="agua" id="consulta"><div class="boton">IR A AGUA</div></a>
               <a href="ofertas"><div class="boton">OFERTAS</div></a>
               <a href="aire"><div class="boton">IR A AIRE</div></a><br>
-              
-              <a href="/riskadventure/tipoTierra?idExperiencia=1"><div class="boton">Ver empresas de Tierra</div></a>
-              <c:choose>
-	        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
-		        <table class="table table-striped table-hover" >
-		        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
-		        	<c:forEach var="ele" items="${listaTipoTierra }">
-		        		<tr>
-		        			<td>${ele.nombreActividad}</td>      			
-		        			<td>${ele.nombreEmpresa}</td>
-		        			<td>${ele.nombreProvincia}</td>
-		        			<td>${ele.telefono}</td>
-		        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
+              <a href="/riskadventure/tipoTierra?idExperiencia=1"><div class="boton">Ver empresas de Tierra (TODAS)</div></a>
+              <p>Si lo deseas también puedes seleccionar empresas de <b>TIERRA</b> por <b>PROVINCIA</b>:</p>
+              <form action="/riskadventure/tierraProvincia" method="post" >
+						<select name="idProvincia">
+							
+							<%--el value del option será el id del tema --%>			
+							<c:forEach var="p" items="${provincias}" >
+								<option value="${p.idProvincia}">${p.provincia}</option>
+							</c:forEach>
+						</select>
+						<select name="idExperiencia">
+							
+							<%--el value del option será el id del tema --%>			
+							<c:forEach var="ex" items="${experiencias}" >
+								<option value="${ex.idExperiencia}">${ex.nombre}</option>
+							</c:forEach>
+						</select>
+						<br/><br/>
+						<input type="submit" value="Ver empresas de Tierra (POR PROVINCIA)"/>
+				</form>
 
-		        		</tr>
-		        	</c:forEach>
-		        </table>
-	        </c:when>
-        </c:choose>
+              	</div></a>
+	              	<c:choose>
+				        <c:when test="${empresasProvinciaExperiencia!=null && empresasProvinciaExperiencia.size()!=0}">
+					        <table class="table table-striped table-hover" >
+					        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
+					        	<c:forEach var="ele" items="${empresasProvinciaExperiencia }">
+					        		<tr>
+					        			<td>${ele.nombreActividad}</td>      			
+					        			<td>${ele.nombreEmpresa}</td>
+					        			<td>${ele.nombreProvincia}</td>
+					        			<td>${ele.telefono}</td>
+					        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
+					        		</tr>
+					        	</c:forEach>
+					        </table>
+				        </c:when>
+			        </c:choose>
+             	 <c:choose>
+			        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
+				        <table class="table table-striped table-hover" >
+				        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Contacto</th>
+				        	<c:forEach var="ele" items="${listaTipoTierra }">
+				        		<tr>
+				        			<td>${ele.nombreActividad}</td>      			
+				        			<td>${ele.nombreEmpresa}</td>
+				        			<td>${ele.nombreProvincia}</td>
+				        			<td>${ele.telefono}</td>
+				        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
+				        		</tr>
+				        	</c:forEach>
+				        </table>
+			        </c:when>
+		        </c:choose>
             </div>            
         </article>
         
