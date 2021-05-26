@@ -90,6 +90,7 @@
 
        
        <!-- SECTION-->
+       
        <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="agua">
              <img src="../imagenes/mas_aqua.jpg" alt="MÃ¡s experiencias Agua" title="MÃ¡s Agua"></img>
@@ -120,6 +121,44 @@
               <a href="ofertas"><div>OFERTAS</div></a>
               <a href="aire"><div>IR A AIRE</div></a>  <br>    
               <a href="/riskadventure/tipoAgua?idExperiencia=2"><div>Ver empresas de Agua</div></a>
+              <p>Si lo deseas también puedes seleccionar empresas por <b>PROVINCIA</b></p>
+              <form action="/riskadventure/aguaProvincia" method="post" >
+						<select name="idProvincia">
+							
+							<%--el value del option será el id del tema --%>			
+							<c:forEach var="p" items="${provincias}" >
+								<option value="${p.idProvincia}">${p.provincia}</option>
+							</c:forEach>
+						</select>
+						<select name="idExperiencia" id="desplExp">
+							
+							<%--el value del option será el id de experiencia igual que el name, que pasaran al request param --%>			
+							<c:forEach var="ex" items="${experiencias}" >
+								<option value="${ex.idExperiencia}">${ex.nombre}</option>
+							</c:forEach>
+						</select>
+						<br/><br/>
+						<input type="submit" class="boton" value="Ver empresas (POR PROVINCIA)"/>
+				</form>
+
+              	</div></a>
+	              	<c:choose>
+				        <c:when test="${empresasProvinciaExperiencia!=null && empresasProvinciaExperiencia.size()!=0}">
+					        <table class="table table-striped table-hover" >
+					        	<th>Actividad</th><th>Empresa</th><th>Provincia</th><th>Teléfono</th><th>Experiencia</th><th>Contacto</th>
+					        	<c:forEach var="ele" items="${empresasProvinciaExperiencia }">
+					        		<tr>
+					        			<td>${ele.nombreActividad}</td>      			
+					        			<td>${ele.nombreEmpresa}</td>
+					        			<td>${ele.nombreProvincia}</td>
+					        			<td>${ele.telefono}</td>
+					        			<td>${ele.experiencia.nombre}</td>
+					        			<td><a href="mailto:info@riskadventureclub.com"><div class="ofertas">Consultar</div></a></td>
+					        		</tr>
+					        	</c:forEach>
+					        </table>
+				        </c:when>
+			        </c:choose>
               <c:choose>
 		        <c:when test="${listaTipoAgua!=null && listaTipoAgua.size()!=0}">
 			        <table class="table table-striped table-hover" >

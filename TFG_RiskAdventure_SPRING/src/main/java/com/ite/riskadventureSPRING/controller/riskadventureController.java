@@ -73,16 +73,35 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoAgua", listaTipo);
 			
-			return "agua";
+			return "redirect:/riskadventure/agua";
 			
 		}
 		@GetMapping("/agua")
 		public String inicio2(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
+			List <Provincia> provincias=pdao.verTodasProvincias();
+			List <Experiencia> experiencias=exdao.verTodasExperiencias();
+			model.addAttribute("provincias",provincias);
+			model.addAttribute("experiencias",experiencias);
+			
 			
 			return "agua";
 			
 		}
+		
+		@PostMapping("/aguaProvincia")
+		public String verAguaProvincia(RedirectAttributes ratt,  @RequestParam("idProvincia") int idProvincia, @RequestParam("idExperiencia") int idExperiencia) {
+			
+			List<Empresa> empresa=edao.verPorExperienciaProvincia(idProvincia, idExperiencia);
+			
+			ratt.addFlashAttribute("empresasProvinciaExperiencia",empresa);
+			
+			
+			 return "redirect:/riskadventure/agua"; 
+			
+		}
+		
+		
+		
 		
 		@GetMapping("/tipoAire")
 		public String empresaPorExperienciaAire(Model model,@RequestParam(name = "idExperiencia") int idExperiencia ) {
@@ -90,16 +109,35 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			List<Empresa> listaTipo = edao.verPorExperiencia(idExperiencia);
 			model.addAttribute("listaTipoAire", listaTipo);
 			
-			return "aire";
+			return "redirect:/riskadventure/aire";
 		}
 		
 		@GetMapping("/aire")
 		public String inicio3(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
+			List <Provincia> provincias=pdao.verTodasProvincias();
+			List <Experiencia> experiencias=exdao.verTodasExperiencias();
+			model.addAttribute("provincias",provincias);
+			model.addAttribute("experiencias",experiencias);
+			
 			
 			return "aire";
 			
 		}
+		@PostMapping("/aireProvincia")
+		public String verAireProvincia(RedirectAttributes ratt,  @RequestParam("idProvincia") int idProvincia, @RequestParam("idExperiencia") int idExperiencia) {
+			
+			List<Empresa> empresa=edao.verPorExperienciaProvincia(idProvincia, idExperiencia);
+			
+			ratt.addFlashAttribute("empresasProvinciaExperiencia",empresa);
+			
+			
+			 return "redirect:/riskadventure/aire"; 
+			
+		}
+		
+		
+		
+		
 		@GetMapping("/ofertas")
 		public String inicio22(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");
@@ -129,7 +167,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "tierra";
 			
 		}
-		//Por Post, recojo las respuestas de provincia y cargo manualmente el id de Tierra.Provincia es un select
+		//Por Post, recogemos las respuestas de provincia y cargo manualmente el id de Tierra.Provincia es un select
 		@PostMapping("/tierraProvincia")
 		public String verTierraProvincia(RedirectAttributes ratt,  @RequestParam("idProvincia") int idProvincia, @RequestParam("idExperiencia") int idExperiencia) {
 			
