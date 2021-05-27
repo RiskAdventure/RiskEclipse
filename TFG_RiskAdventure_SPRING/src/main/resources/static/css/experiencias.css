@@ -323,7 +323,6 @@ li:hover {
 
 #imagenes2{
   text-align: center;
-  margin-top: 34% !important;
   
  
 }
@@ -743,28 +742,7 @@ a #restaurante {
     margin-bottom: 10px;
   }
   /*SECTION*/
-  
-  #exp1 img {
-  width: 400px;
-  height: 260px;
-  text-align: center;
-  margin-bottom: 1.5vw;
 
-}
-#exp2 img {
-  width: 400px;
-  height: 260px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
-#exp3 img {
-  width: 400px;
-  height: 260px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
 
   #home {
     margin-left: 0px !important;

@@ -104,11 +104,14 @@
             <div id="texto" class="col-md-12">
                 <div> Experiencias de <b>aventura en Tierra</b> , montes, pistas, monta&ntilde;as, senderos, v&iacute;as,... todas las
               actividades del entorno de tierra. Disfruta y c&eacute;ntrate en nuestras experiencias de tierra.
+              Podr&aacute;s ver un listado de las <b>Empresas de Tierra </b> que forman parte de <b>Risk Adventure</b> 
+                y contactar directamente con ellas para que puedan realizar una reserva o actividad a tu medida. Todas nuestras 
+                empresas tienen el <b>Sello de Calidad y Seguridad de Risk Adventure.</b>
                 </div>
             </div>
         </section>  
 
-        <hr><hr>
+        <hr>
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
