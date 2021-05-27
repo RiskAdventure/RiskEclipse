@@ -115,8 +115,9 @@ li:hover {
   border-color: inherit; 
   border-top: none;
 }
-              /*SECTION*/
 
+ /*SECTION*/
+/*Imagenes superiores*/
 
 #exp1 {
   margin: auto;
@@ -702,9 +703,7 @@ a #restaurante {
     font-size: 1vw;
     margin-bottom: 10px;
   }
-  #logo_menu {
-    width: 80vw !important;
-  }
+ 
   #home {
     margin-left: 0px !important;
   }
@@ -743,12 +742,30 @@ a #restaurante {
     font-size: 1.5vw;
     margin-bottom: 10px;
   }
-  #logo {
-    width: 100%;
-  }
-  #logo1 {
-    width: 100%;
-  }
+  /*SECTION*/
+  
+  #exp1 img {
+  width: 400px;
+  height: 260px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+
+}
+#exp2 img {
+  width: 400px;
+  height: 260px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#exp3 img {
+  width: 400px;
+  height: 260px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+
   #home {
     margin-left: 0px !important;
   }

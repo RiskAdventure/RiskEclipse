@@ -136,8 +136,9 @@
         
                                                          
         <!-- SECTION-->
+        
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-12 col-sm-6">
                     <div class="card">
                         <div class="card-color">
                             <span class="card-title">Despedidas</span>
@@ -152,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-12 col-sm-6">
                     <div class="card">
                         <div class="card-color">
                             <span class="card-title">Grupos</span>
@@ -166,7 +167,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+             </div>
+             <div class="row">   
+               
+                <div class="col-12 col-sm-6">
                     <div class="card">
                         <div class="card-color">
                             <span class="card-title">Familias</span>
@@ -181,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-12 col-sm-6">
                     <div class="card">
                         <div class="card-color">
                             <span class="card-title">Parejas</span>
@@ -197,6 +201,7 @@
                     </div>
                 </div>
             </div>
+            
             <section class="row">
                 <div class="col-md-12" id="bolitas">
                     <div id="bola1" class="bola"></div>
@@ -228,6 +233,7 @@
                     <div id="bola26" class="bola"></div>
                 </div>
             </section>
+            
             <div class="child-page-listing">
 
                 <div class="grid-container">
@@ -257,7 +263,7 @@
                         </div>
                     </article>
                 </div>
-
+			
                     <div class="row">
                         <div class="col-md-1 col-xs-1">
                             <!-- Create an icon wrapped by the fa-stack class -->
@@ -276,9 +282,9 @@
                     </div>
                     <div class="col-md-4 col-xs-12 textopacks">PAQUETES DE FIN DE SEMANA</div>
                     <div class="col-md-7 col-xs-12">
-                        <a href="contacto#nombre">
-                            <div class="boton hidden-xs" > P&Iacute;DENOS PRESUPUESTO SIN COMPROMISO</div>
-                        </a>
+                        
+                            <div class="boton"> <a href="contacto#nombre"> P&Iacute;DENOS PRESUPUESTO SIN COMPROMISO</a></div>
+                        
                     </div>
                 </div>
             <div class="row">
@@ -321,6 +327,9 @@
                     <div id="bola26" class="bola"></div>
                 </div>
             </section>
+            
+            
+      </div>      
         <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
