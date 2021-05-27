@@ -122,6 +122,9 @@ header {
     margin: auto;
     text-align: center;
     }
+    #desplExp{
+	display:none;
+	}
 
     
     #agua img {
