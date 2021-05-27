@@ -119,7 +119,7 @@
               <a href="ofertas"><div>OFERTAS</div></a>
               <a href="agua"><div>IR A AGUA</div></a><br>
               <a href="/riskadventure/tipoAire?idExperiencia=3"><div>Ver empresas de Aire (TODAS)</div></a>
-              <p>Si lo deseas también puedes seleccionar empresas por <b>PROVINCIA</b></p>
+              <p>Si lo deseas también puedes seleccionar Empresas por <b>PROVINCIA</b></p>
               <form action="/riskadventure/aireProvincia" method="post" >
 						<select name="idProvincia">
 							
