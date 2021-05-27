@@ -239,7 +239,7 @@
                 <div class="grid-container">
                     <article id="3685" class="location-listing">
                         <div class="location-image" id="lasportiva">
-                            <a href="https://www.lasportiva.com/es" target="_blank"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
+                            <a href="https://www.lasportiva.com/es" target="_blank"><img width="300" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
                         </div>
                     </article>
                     <article id="3688" class="location-listing">
