@@ -107,8 +107,8 @@
         <hr>
 
         <article class="row">
-            <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div class="boton">MOSTRAR OFERTAS PACKS & GRUPOS</div></a>
+            <div class="col-md-12 col-xs-6 div2_1">
+              <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div>MOSTRAR OFERTAS PACKS & GRUPOS</div></a>
               <a href="mailto:info@riskadventureclub.com"><div>PRESUPUESTO A MEDIDA</div></a>  <br>  
               
               <c:choose>
@@ -249,7 +249,7 @@
                     </article>
                     <article id="3691" class="location-listing">
                         <div class="location-image" id="columbia">
-                            <a href="https://www.columbiasportswear.es/" target="_blank"><img width="300" height="300" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
+                            <a href="https://www.columbiasportswear.es/" target="_blank"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
                         </div>
                     </article>
                      <article class="location-listing">
@@ -281,9 +281,9 @@
                         </p>
                     </div>
                     <div class="col-md-4 col-xs-12 textopacks">PAQUETES DE FIN DE SEMANA</div>
-                    <div class="col-md-7 col-xs-12">
+                    <div class="col-md-7 col-xs-12 div2_1">
                         
-                            <div class="boton"> <a href="contacto#nombre"> P&Iacute;DENOS PRESUPUESTO SIN COMPROMISO</a></div>
+                            <div class="div2_1"> <a href="contacto#nombre"> P&Iacute;DENOS PRESUPUESTO SIN COMPROMISO</a></div>
                         
                     </div>
                 </div>
