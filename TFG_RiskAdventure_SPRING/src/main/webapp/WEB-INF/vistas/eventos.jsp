@@ -118,11 +118,11 @@
         <section class="row">
             
             <!-- imagen partner escapada rural-->
-            <div class="col-md-3 col-xs-12 col-xm-12" id="teamb">
+            <div class="col-md-6" id="teamb">
                 <img src="../imagenes/footer_escapada_rural.jpg" alt="partner escapada rural eventos empresa">
             </div>
             <!-- imagen partner decathlon -->
-            <div class="col-md-2 col-xs-12 col-xm-12" id="decathlon">
+            <div class="col-md-6" id="decathlon">
                 <img src="../imagenes/footer_decathlon.png" alt="incentive day eventos empresa"
                     title="imagen decathlon eventos empresa">
             </div>
@@ -157,12 +157,12 @@
         <section class="row">
             
            <!-- imagen partner merrell-->
-           <div class="col-md-3 col-xs-12 col-xm-12" id="merrell">
-                <img src="../imagenes/merrell.svg" alt="partner merrell eventos empresa">
+           <div class="col-md-6" id="merrell">
+                <img src="../imagenes/merrell.svg" alt="partner merrell">
             </div>
             <!-- imagen partner the north face -->
-            <div class="col-md-2 col-xs-12 col-xm-12" id="north">
-                <img src="../imagenes/thenorthface.jpg" alt="incentive day eventos empresa">
+            <div class="col-md-6" id="north">
+                <img src="../imagenes/thenorthface.jpg" alt="partner nothface">
             </div>
         </section>
         <section class="row">
@@ -190,11 +190,11 @@
         <section class="row">
             
             <!-- imagen partner la sportiva -->
-            <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
+            <div class="col-md-6" id="sportiva">
                 <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa">
             </div>
              <!-- imagen partner restaurant -->
-             <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
+             <div class="col-md-6" id="grill">
                 <img src="../imagenes/logo_grill.png" alt="incentive day eventos empresa">
             </div>
         </section>
