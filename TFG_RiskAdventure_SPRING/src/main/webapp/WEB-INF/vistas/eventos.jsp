@@ -173,7 +173,7 @@
 
             <!-- texto eventos empresa  -->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
-                <div class="evento">Eventos de Empresa</div>
+                <div class="evento">Eventos Empresa</div>
                 <div class="texto3">Conectamos tus necesidades con nuestras ideas, entendemos que todos somos diferentes y que existe un tipo de mensaje para cada persona.
                    Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intrépidos, actividades de aventura y team building con la posibilidad de diseñar un evento totalmente personalizado.
                    ¿Te atreves?.<br><br>
