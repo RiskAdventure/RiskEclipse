@@ -104,14 +104,15 @@
             <div id="texto" class="col-md-12">
                 <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los p&aacute;jaros,... todas las actividades que te har&aacute;n
                 sentirte en libertar... Sientete como un p&aacute;jaro con nuestras experiencias en el Aire.
+                Podr&aacute;s ver un listado de las <b>Empresas de Aire </b> que forman parte de <b>Risk Adventure</b> 
+                y contactar directamente con ellas para que puedan realizar una reserva o actividad a tu medida. Todas nuestras 
+                empresas tienen el <b>Sello de Calidad y Seguridad de Risk Adventure.</b>
                 </div>
             </div>
         </section>  
 
         <hr>
 
-
-        <hr>
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">

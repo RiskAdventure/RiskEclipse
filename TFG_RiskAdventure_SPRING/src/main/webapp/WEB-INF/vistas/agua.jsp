@@ -106,14 +106,15 @@
             <div id="texto" class="col-md-12">
                 <div> Experiencias de <b>aventura en Agua</b>, Mar, R&iacute;os, Lagos,... todas las actividades que tienen que ver
                 con el entorno acu&aacute;tico. Disfruta y sum&eacute;rgete en nuestras experiencias acu&aacute;ticas.
+                Podr&aacute;s ver un listado de las <b>Empresas de Agua </b> que forman parte de <b>Risk Adventure</b> 
+                y contactar directamente con ellas para que puedan realizar una reserva o actividad a tu medida. Todas nuestras 
+                empresas tienen el <b>Sello de Calidad y Seguridad de Risk Adventure.</b>
                 </div>
             </div>
         </section>  
 
         <hr>
 
-
-        <hr>
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
