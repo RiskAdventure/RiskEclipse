@@ -91,15 +91,15 @@
         <!-- SECTION-->
        
         <section class="row" id="imagenes" >
-          <div class="col-md-4 col-xs-12 col-xm-12" id="exp1">
+          <div class="col-md-4" id="exp1">
              <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
              <a href="tierra"><div class="button" id="boton1"> TIERRA</div></a>
           </div>
-          <div class="col-md-4 col-xs-12 col-xm-12" id="exp2">
+          <div class="col-md-4" id="exp2">
              <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
              <a href="agua"><div class="button" id="boton2"> AGUA</div></a>
           </div>
-          <div class="col-md-4 col-xs-12 col-xm-12" id="exp3">
+          <div class="col-md-4" id="exp3">
              <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
              <a href="aire"><div class="button" id="boton3"> AIRE</div></a>
           </div>
