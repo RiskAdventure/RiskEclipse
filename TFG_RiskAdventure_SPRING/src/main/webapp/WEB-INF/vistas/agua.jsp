@@ -120,7 +120,7 @@
               <a href="tierra" id="consulta"><div>IR A TIERRA</div></a>
               <a href="ofertas"><div>OFERTAS</div></a>
               <a href="aire"><div>IR A AIRE</div></a>  <br>    
-              <a href="/riskadventure/tipoAgua?idExperiencia=2"><div>Ver empresas de Agua</div></a>
+              <a href="/riskadventure/tipoAgua?idExperiencia=2"><div>Ver empresas de Agua (TODAS)</div></a>
               <p>Si lo deseas también puedes seleccionar empresas por <b>PROVINCIA</b></p>
               <form action="/riskadventure/aguaProvincia" method="post" >
 						<select name="idProvincia">
@@ -141,7 +141,7 @@
 						<input type="submit" class="boton" value="Ver empresas (POR PROVINCIA)"/>
 				</form>
 
-              	</div></a>
+              	</div>
 	              	<c:choose>
 				        <c:when test="${empresasProvinciaExperiencia!=null && empresasProvinciaExperiencia.size()!=0}">
 					        <table class="table table-striped table-hover" >

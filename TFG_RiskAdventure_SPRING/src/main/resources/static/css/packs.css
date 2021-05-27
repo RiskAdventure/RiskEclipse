@@ -134,14 +134,14 @@ li:hover {
     }
 
 
-    #div2_1{
+    .div2_1{
 
     text-align: center;
     
     }
     
     /*Botones*/
-    #div2_1 div{
+    .div2_1 div{
     padding: 1%;
     background-color: #8091a5;  
     margin-left: 4%;
@@ -152,11 +152,14 @@ li:hover {
     color: white;
     margin-bottom: 4%;
     }
-    #div2_1 div:hover{
+    .div2_1 div:hover{
     background-color: #ba9e38;
     
     }
     
+    .div2_1 a{
+    color: white;
+    }
 
 /*PACKS*/
 .row {

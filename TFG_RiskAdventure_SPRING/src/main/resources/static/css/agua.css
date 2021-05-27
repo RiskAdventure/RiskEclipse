@@ -1,4 +1,3 @@
-/*CONTAINER---COMÚN*/
 .container {
     width: 80vw;
     background-size: contain;
@@ -122,9 +121,7 @@ header {
     margin: auto;
     text-align: center;
     }
-    #desplExp{
-	display:none;
-	}
+   
 
     
     #agua img {

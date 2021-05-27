@@ -136,7 +136,7 @@
 						<input type="submit" class="boton" value="Ver empresas (POR PROVINCIA)"/>
 				</form>
 
-              	</div></a>
+              	</div>
 	              	<c:choose>
 				        <c:when test="${empresasProvinciaExperiencia!=null && empresasProvinciaExperiencia.size()!=0}">
 					        <table class="table table-striped table-hover" >
