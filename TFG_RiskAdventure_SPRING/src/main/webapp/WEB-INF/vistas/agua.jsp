@@ -133,9 +133,9 @@
 						<select name="idExperiencia" id="desplExp">
 							
 							<%--el value del option será el id de experiencia igual que el name, que pasaran al request param --%>			
-							<c:forEach var="ex" items="${experiencias}" >
-								<option value="${ex.idExperiencia}">${ex.nombre}</option>
-							</c:forEach>
+							
+								<option value="2">AGUA</option>
+							
 						</select>
 						<br/><br/>
 						<input type="submit" class="boton" value="Ver empresas (POR PROVINCIA)"/>
