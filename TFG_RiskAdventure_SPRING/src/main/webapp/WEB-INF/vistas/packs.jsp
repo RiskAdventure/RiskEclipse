@@ -249,7 +249,7 @@
                     </article>
                     <article id="3691" class="location-listing">
                         <div class="location-image" id="columbia">
-                            <a href="https://www.columbiasportswear.es/" target="_blank"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
+                            <a href="https://www.columbiasportswear.es/" target="_blank"><img width="300" height="300" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
                         </div>
                     </article>
                      <article class="location-listing">
