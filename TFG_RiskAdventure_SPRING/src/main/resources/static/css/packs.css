@@ -388,6 +388,8 @@ hr {
   width: 7px;
   height: 7px;
 }
+
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -430,7 +432,7 @@ hr {
 .boton {
   margin-left: 15vw;
   background-color: #8091a5;
-  color: white;
+  color: #ba9e38;
   text-align: center;
   padding-top: 1vw;
   font-size: 1vw;
@@ -438,7 +440,7 @@ hr {
   height: 5vw;
   border-radius: 7px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   padding-bottom: 5vw;
 }
@@ -688,6 +690,11 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
+  .card{
+  margin-left: 0px;
+  width: 100%;
+  }
+  
   
   /*EFECTO BOLAS--------COMÚN*/
   .bola {
