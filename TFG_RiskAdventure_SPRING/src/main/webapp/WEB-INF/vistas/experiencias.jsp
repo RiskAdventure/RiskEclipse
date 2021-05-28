@@ -91,37 +91,37 @@
         <!-- SECTION-->
        
         <section class="row" id="imagenes" >
-          <div class="col-md-4" id="exp1">
-             <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
-             <a href="tierra"><div class="button" id="boton1"> TIERRA</div></a>
+          <div class="col-md-4 text-center">
+             <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"/>
+             <p><a href="tierra" class="button" id="boton1">TIERRA</a></p>
           </div>
-          <div class="col-md-4" id="exp2">
-             <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
-             <a href="agua"><div class="button" id="boton2"> AGUA</div></a>
+          <div class="col-md-4 text-center">
+             <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"/>
+             <p><a href="agua" class="button" id="boton2">AGUA</a></p>
           </div>
-          <div class="col-md-4" id="exp3">
-             <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
-             <a href="aire"><div class="button" id="boton3"> AIRE</div></a>
+          <div class="col-md-4 text-center">
+             <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"/>
+             <p><a href="aire" class="button" id="boton3">AIRE</a></p>
           </div>
         </section>
         
         <!-- texto bajo imÃ¡genes-->
         <section>
-            <div class="container" id="texto1">
-                <div class="row mb-3" id="partners">
+            <div class="container2">
+                <div class="row mb-3" >
                     <!-- imagen sportiva-->
-                    <div class="col-4" id="sportiva">
-                        <img src="../imagenes/la_sportiva.jpg">
+                    <div class="col-4" >
+                        <img src="../imagenes/la_sportiva.jpg"/>
                     </div>
                     <!-- texto central entre partners-->
-                    <div class="col-4" id="text1">
-                        <h1>EXPERIENCIAS &Uacute;NICAS</h1>
+                    <div class="col-4" >
+                        <h2>EXPERIENCIAS &Uacute;NICAS</h2>
                         Sin riesgo no hay aventura, sum&eacute;rgete<br>
                         en una nueva sensaci&oacute;n...
                     </div>
                     <!-- imagen grill-->
-                    <div class="col-4" id="grill">
-                        <img src="../imagenes/logo_grill.png">
+                    <div class="col-4">
+                        <img src="../imagenes/logo_grill.png"/>
                     </div>
                 </div>
             </div>  
@@ -211,9 +211,10 @@
         <!-- imagen blog-->
             
             <!-- texto enlace a blog-->
-            <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
-                <div id="tituloblog">Confiamos en los mejores</div>
-                    <div id="texto3">Las <b>experiencias outdoor</b> cuentan con m&aacute;s fans cada vez. 
+            <div class="col-md-12" >
+            <h1>Confiamos en los mejores</h1> 
+            
+                    <p class="texto3">Las <b>experiencias outdoor</b> cuentan con m&aacute;s fans cada vez. 
                         Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente n&uacute;mero de aficionados</b>, 
                         que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
                         de <b>experiencias</b> son una gran opci&oacute;n de dexconexi&oacute;n y se ofertan cada vez m&aacute;s, sobre todo en tiempos de estress y de no tener tiempo para nada. 
@@ -222,7 +223,7 @@
                         o tiendas especializadas para la compra de equipos y gadgets muy &uacute;tiles para emprender la aventura de irnos de vacaciones en contacto con 
                         parajes naturales, los <b>m&aacute;s bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las &uacute;ltimas novedades y te hablaremos de 
                         nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>.
-                    </div>
+                    </p>
             </div>
             <section class="row" id="imagenes2" >
                 <div class="col-md-3" id="blog1">
