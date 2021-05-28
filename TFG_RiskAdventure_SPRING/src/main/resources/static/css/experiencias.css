@@ -671,6 +671,15 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
+  
+  
+  .text-center img {
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+
+}
                                              /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
