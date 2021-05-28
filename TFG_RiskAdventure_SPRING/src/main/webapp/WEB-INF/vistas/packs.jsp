@@ -107,7 +107,7 @@
         <hr>
 
         <article class="row">
-            <div class="col-md-12 col-xs-6 div2_1">
+            <div class="col-md-12 div2_1">
               <a href="/riskadventure/tipoOfertaDestacado?destacado=s"><div>MOSTRAR OFERTAS PACKS & GRUPOS</div></a>
               <a href="mailto:info@riskadventureclub.com"><div>PRESUPUESTO A MEDIDA</div></a>  <br>  
               

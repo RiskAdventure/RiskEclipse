@@ -93,15 +93,15 @@
         <section class="row">
           <div class="col-md-4 text-center">
              <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"/>
-             <p><a href="tierra" class="button" id="boton1">TIERRA</a></p>
+             <p><a href="tierra" class="button">TIERRA</a></p>
           </div>
           <div class="col-md-4 text-center">
              <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"/>
-             <p><a href="agua" class="button" id="boton2">AGUA</a></p>
+             <p><a href="agua" class="button">AGUA</a></p>
           </div>
           <div class="col-md-4 text-center">
              <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"/>
-             <p><a href="aire" class="button" id="boton3">AIRE</a></p>
+             <p><a href="aire" class="button">AIRE</a></p>
           </div>
         </section>
         
