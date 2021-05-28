@@ -119,40 +119,20 @@ li:hover {
  /*SECTION*/
 /*Imagenes superiores*/
 
-#exp1 {
-  margin: auto;
-  text-align: center;
-}
-#exp2 {
-  margin: auto;
-  text-align: center;
-}
-#exp3 {
+
+.text-center{
   margin: auto;
   text-align: center;
 }
 
-#exp1 img {
+.text-center img {
   width: 400px;
   height: 260px;
   text-align: center;
   margin-bottom: 1.5vw;
 
 }
-#exp2 img {
-  width: 400px;
-  height: 260px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
-#exp3 img {
-  width: 400px;
-  height: 260px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
+
 
 /*botones experiencias*/
 .button {
@@ -174,11 +154,11 @@ li:hover {
 }
 /*texto bajo imágenes experiencias*/
 
-#texto1{
+.container2 {
   text-align: center;
 }
 
-#texto1 div{
+.container2 div{
   text-align: center;
   font-size: 140%;
   display: inline-block;
@@ -186,12 +166,10 @@ li:hover {
 }
 
 
-#texto1 h1{
-  font-style: italic;
-}
 
 
-#texto1 img{
+
+.container2 img{
   width: 250px;
   height: 150px;
 }
@@ -306,14 +284,14 @@ li:hover {
   margin: auto !important;
   text-align: center;
 }
-#tituloblog{
+h1{
   text-align: center;
   color:#3F4A56;
   font-weight: 800;
-  font-size: 700%;
+  font-size: 400%;
 }
 
-#texto3{
+.texto3{
   margin: auto;
   text-align: justify;
   color:#3F4A56;
