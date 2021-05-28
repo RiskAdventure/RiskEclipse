@@ -96,11 +96,9 @@
         </header>                                                  
                                                        <!-- SECTION-->
         <!-- buscador oculto -->
-        <div id="ctn-bars-search">
-        		<input type="text" id="inputSearch"  placeholder="¿Qué deseas buscar?">
-       		</div>
-        
-        	
+   		<div id="ctn-bars-search">
+    			<input type="text" id="inputSearch"  placeholder="¿Qué deseas buscar?">
+   		</div>        	
         
         <ul id="listaSearch">
         	<li><a href="ofertas"><i class="fas fa-search" ></i>OFERTAS</a></li>

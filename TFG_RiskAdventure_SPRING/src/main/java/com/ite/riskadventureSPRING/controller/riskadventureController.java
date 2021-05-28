@@ -347,7 +347,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 				System.out.println(mensajeinsert);
 			}
 			
-			model.addAttribute("mensajeinsert", mensajeinsert);
+			ratt.addFlashAttribute("mensajeinsert", mensajeinsert);
 			 return "redirect:/riskadventure/admin"; 
 			/*return new RedirectView("/riskadventure/activos");*/
 		}
