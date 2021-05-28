@@ -90,7 +90,7 @@
 
         <!-- SECTION-->
        
-        <section class="row" id="imagenes" >
+        <section class="row">
           <div class="col-md-4 text-center">
              <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"/>
              <p><a href="tierra" class="button" id="boton1">TIERRA</a></p>
