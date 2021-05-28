@@ -129,14 +129,13 @@
         <hr>
         <!--PARTE CENTRAL VER MAS-->
         <section class="row">
-            <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="tierra"><img src="../imagenes/mas_tierra.jpg" alt="Tierra"
-                    title="Experiencias Tierra"></img></a>
+            <div class="col-md-3 col-xs-12 circ2">
+            <a href="tierra"><img src="../imagenes/mas_tierra.jpg" alt="Tierra" title="Experiencias Tierra"/></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">TIERRA</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
-                    <div class="col-md-12 col-xs-12  " id="div2_1">
+                    <div class="col-md-12 col-xs-12 div2_1">
                         <a href="tierra" id="consulta"><div>ESCALADA</div></a>
                         <a href="tierra"><div>SEGWAY</div></a>
                         <a href="tierra"><div>SENDERISMO</div></a>
@@ -154,14 +153,13 @@
         </section>
         <hr>
         <section class="row">
-            <div class="col-md-3 col-xs-12" id="circ2">
-                <a href="agua"><img src="../imagenes/mas_agua.jpg" alt="Agua"
-                        title="Experiencias Agua"></img></a>
+            <div class="col-md-3 circ2">
+                <a href="agua"><img src="../imagenes/mas_agua.jpg" alt="Agua" title="Experiencias Agua"/></a>
                 </div>
             <div class="col-md-2 col-xs-12 nombre">AGUA</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
-                    <div class="col-md-12 col-xs-12  " id="div2_1">
+                    <div class="col-md-12 col-xs-12 div2_1">
                         <a href="agua" id="consulta"><div>BARRANQUISMO</div></a>
                         <a href="agua"><div>SURF</div></a>
                         <a href="agua"><div>VELA</div></a>
@@ -179,14 +177,13 @@
         </section>
         <hr>
         <section class="row">
-            <div class="col-md-3 col-xs-12" id="circ2">
-                <a href="aire"><img src="../imagenes/mas_aire.jpg" alt="Aire"
-                        title="Experiencias Aire"></img></a>
+            <div class="col-md-3 col-xs-12 circ2">
+                <a href="aire"><img src="../imagenes/mas_aire.jpg" alt="Aire" title="Experiencias Aire"/></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">AIRE</div>
             <div class="col-md-7 col-xs-12 descripcion">
                 <article class="row">
-                    <div class="col-md-12 col-xs-12  " id="div2_1">
+                    <div class="col-md-12 col-xs-12 div2_1">
                         <a href="aire" id="consulta"><div>PARAPENTE</div></a>
                         <a href="aire"><div>PASEO EN GLOBO</div></a>
                         <a href="aire"><div>VUELO SIN MOTOR</div></a>
@@ -225,31 +222,31 @@
                         nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>.
                     </p>
             </div>
-            <section class="row" id="imagenes2" >
-                <div class="col-md-3" id="blog1">
-                    <img src="../imagenes/material_escalada.jpg"></img>
-                    <a href="vermasblog"><p>Material adecuado de escalada</p></a>    
+            
+                <div class="col-md-3 blog1">
+                    <img src="../imagenes/material_escalada.jpg"/>
+                    <p><a href="vermasblog">Material adecuado de escalada</a> </p>   
                 </div>
-                <div class="col-md-3" id="blog2">
-                    <img src="../imagenes/calzado_senderismo.jpg"></img>
-                    <a href="vermasblog"><p>Mejor calzado de Senderismo</p></a>
+                <div class="col-md-3 blog1">
+                    <img src="../imagenes/calzado_senderismo.jpg"/>
+                    <p><a href="vermasblog"><p>Mejor calzado de Senderismo</a></p>
                 </div>
-                <div class="col-md-3" id="blog3">
-                    <img src="../imagenes/mountain_bikes.jpg"></img>
-                    <a href="vermasblog"><p>Selecci&oacute;n Bicicletas de Monta&ntilde;a 2020</p></a>
+                <div class="col-md-3 blog1">
+                    <img src="../imagenes/mountain_bikes.jpg"/>
+                    <p><a href="vermasblog"><p>Selecci&oacute;n Bicicletas de Monta&ntilde;a 2020</a></p>
                 </div>
-                <div class="col-md-3" id="blog4">
-                    <img src="../imagenes/5amigosblog.jpg"></img>
-                    <a href="vermasblog"><p>5 aventureros, 5 amigos...</p></a>
+                <div class="col-md-3 blog1">
+                    <img src="../imagenes/5amigosblog.jpg"/>
+                    <p><a href="vermasblog"><p>5 aventureros, 5 amigos...</a></p>
                 </div>    
-            </section> 
+            
 
             <!-- botÃ³n central inferior blog-->
-            <section class="row" >
-                <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
-                <a href="blog"><div  class="boton_blog_centro"> IR AL BLOG</div></a>
-                </div>
-            </section> 
+            
+                <div class="col-md-12 text-center">
+                <p ><a href="blog" class="boton_blog_centro">IR AL BLOG</a></p>
+               </div>
+           
         <!--fin parte INFERIOR-->
         <!-- efecto bolitas----COMÃN-->  
         <section class="row">
