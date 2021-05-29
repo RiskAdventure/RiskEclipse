@@ -29,7 +29,7 @@
 	       <form action="/riskadventure/modificar" id="new-event" method="post">
         	
         	<label for="eid">Id de la Oferta:</label><br>
-  			<input type="number" id="eid" name="id" value="${evento.idEvento}"><br><br>
+  			<input type="number" id="eid" name="idEvento" value="${evento.idEvento}"><br><br>
         	
         	<label for="ename">Nombre de la Oferta:</label><br>
   			<input type="text" id="ename" name="nombre" value="${evento.nombre}"><br><br>
