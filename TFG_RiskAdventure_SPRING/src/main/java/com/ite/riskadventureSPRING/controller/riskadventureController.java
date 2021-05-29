@@ -402,6 +402,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		public String procesarFormularioEditar(RedirectAttributes ratt,Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio ) {
 			
 			String mensajeupdate;
+			evento.setFechaInicio(fechaInicio);
 			int modificado=evdao.modificarEvento(evento);
 			
 			if(modificado == 1) {
