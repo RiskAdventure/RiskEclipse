@@ -112,6 +112,9 @@
         	<li><a href="aire"><i class="fas fa-search" ></i>AIRE</a></li>
         	<li><a href="packs"><i class="fas fa-search" ></i>PAREJAS</a></li>
         	<li><a href="vermasblog"><i class="fas fa-search" ></i>ARTICULOS</a></li>
+        	<li><a href="politica_privacidad"><i class="fas fa-search" ></i>POLÍTICA</a></li>
+        	<li><a href="aviso_legal"><i class="fas fa-search" ></i>AVISO</a></li>
+        	<li><a href="cookies"><i class="fas fa-search" ></i>COOKIES</a></li>
         	
         </ul>
         <div id="cover-ctn-search">

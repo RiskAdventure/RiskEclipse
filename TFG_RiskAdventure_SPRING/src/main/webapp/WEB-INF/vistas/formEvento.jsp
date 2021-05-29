@@ -16,9 +16,10 @@
 	</head>
 
 <body>
-	
+		
 		
     	<h1>PANEL ADMINISTRADOR</h1>
+    	
 	    <header>
 	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
 	    </header>
