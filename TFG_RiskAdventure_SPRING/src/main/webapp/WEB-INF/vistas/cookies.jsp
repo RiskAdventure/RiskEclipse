@@ -171,8 +171,7 @@
                 </div>
             </div>
         </section>
-
-       <!--COOKIES-->
+<!--COOKIES-->
 		<style>
 		 .cookies {
 		     position: fixed;
@@ -317,6 +316,7 @@
 		</script>
 		
         <!--COOKIES-->
+       
         <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
