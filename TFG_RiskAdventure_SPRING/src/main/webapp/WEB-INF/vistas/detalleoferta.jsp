@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
-<%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
+<%@taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,10 +89,10 @@
           </div>
         </header> 
 
-        <!-- SECTION-->
+      
      	<!-- buscador oculto -->
    		<div id="ctn-bars-search">
-    			<input type="text" id="inputSearch"  placeholder="�Qu� deseas buscar?">
+    			<input type="text" id="inputSearch"  placeholder="&iquest;Qu&eacute; deseas buscar?">
    		</div>        	
         
         <ul id="listaSearch">
@@ -122,6 +122,8 @@
         </ul>
         <div id="cover-ctn-search">
         </div>
+        
+          <!-- SECTION-->
         <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="ofertas">
              <img src="../imagenes/verdetalle.jpg"></img>
@@ -135,7 +137,7 @@
                 <div>EL DETALLE DE LA OFERTA QUE HAS SELECCIONADO ES EL SIGUIENTE:</div>
             </div>
 
-            </div>
+            
         </section>          
 		<br><br>
         <article class="row">

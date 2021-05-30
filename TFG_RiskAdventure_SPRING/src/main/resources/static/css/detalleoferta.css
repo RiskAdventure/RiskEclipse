@@ -245,7 +245,7 @@ header {
   border-radius: 7px;
   font-weight: bolder;
   display: inline-block;
-  color: white;
+  color: white !important;
   margin-bottom: 4%;
   }
   #div2_1 div:hover{
