@@ -123,6 +123,9 @@
         </ul>
         <div id="cover-ctn-search">
         </div>
+        
+        
+        <!-- SECTION -->
         <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="ofertas">
              <img src="../imagenes/ofertas.jpg"></img>
