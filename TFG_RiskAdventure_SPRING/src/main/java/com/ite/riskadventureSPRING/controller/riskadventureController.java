@@ -27,11 +27,13 @@ import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Provincia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
+import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntProvinciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntUsuarioDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 
 	
@@ -49,6 +51,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		IntExperienciaDao exdao;
 		@Autowired
 		IntProvinciaDao pdao;
+		@Autowired
+		IntUsuarioDao udao;
 		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
@@ -56,6 +60,26 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "index";
+			
+		}
+		//Controlador de registro--------------------------------------
+		@PostMapping("/registro")
+		public String registro(RedirectAttributes ratt,  @RequestParam("usuario") Usuario usuario) {
+			String mensaje;
+			int registrado=udao.insertarUsuario(usuario);
+			
+			if(registrado==1) {
+				mensaje="Se ha registrado correctamente. Loguese para acceder a sus reservas";
+				ratt.addFlashAttribute("mensaje", mensaje);
+				return "login"; 
+			}else {
+				
+				mensaje="No se ha registrado,intentelo de nuevo";
+				ratt.addFlashAttribute("mensaje", mensaje);
+				return "registro";
+				
+			}
+			
 			
 		}
 		
@@ -328,7 +352,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "nuevoevento";
 		}
 		
-		
+		//Alta o insert
 		//Por Post, recojo las respuestas del formulario una vez relleno
 		@PostMapping("/create")
 		public /*RedirectView*/String altaEvento(Model model,RedirectAttributes ratt, Evento evento, @RequestParam("efechaInicio") @DateTimeFormat(pattern = "yyyy-MM-dd") Date fechaInicio) {
