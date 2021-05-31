@@ -45,19 +45,19 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<form method="POST" action="carrito.php">
+				<form method="POST" action="/riskadventure/login" >
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="username" name="user" required>
+						<input type="text" class="form-control" placeholder="username" name="username" required>
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="password" name="pass" required>
+						<input type="password" class="form-control" placeholder="password" name="password" required>
 					</div>
           
           
