@@ -60,7 +60,9 @@
 						<input type="password" class="form-control" placeholder="password" name="password" required>
 					</div>
           
-          
+          			<div class="form-group">
+						<span>${mensaje}</span>
+					</div>
 					
 					<div class="form-group">
 						<input type="submit" value="Login" class="btn float-right login_btn">

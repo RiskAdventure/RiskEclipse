@@ -59,24 +59,25 @@
 						</div>
 						<input type="password" class="form-control" placeholder="Password" name="password" required>
 					</div>
-          <div class="input-group form-group">
+         			 <div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
 						</div>
 						<input type="text" class="form-control" placeholder="Direcci&oacute;n" name="direccion" required>
 					</div>
-          <div class="input-group form-group">
+          			<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
 						</div>
 						<input type="email" class="form-control" placeholder="Email" name="email" required>
 					</div>
-          <div class="input-group form-group">
+         			 <div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-id-card"></i></span>
 						</div>
 						<input type="text" class="form-control" placeholder="Nombre Completo" name="nombre" required>
 					</div>
+					
           
 					
 					<div class="form-group">

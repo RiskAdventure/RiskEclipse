@@ -64,17 +64,22 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		//Controlador de registro--------------------------------------
 		@PostMapping("/registro")
-		public String registro(RedirectAttributes ratt,  @RequestParam("usuario") Usuario usuario) {
+		public String registro(RedirectAttributes ratt, Usuario usuario) {
 			String mensaje;
+			usuario.setEnabled(1);
+			Date fechaRegistro=new Date();
+			usuario.setFechaRegistro(fechaRegistro);
 			int registrado=udao.insertarUsuario(usuario);
 			
 			if(registrado==1) {
 				mensaje="Se ha registrado correctamente. Loguese para acceder a sus reservas";
+				System.out.println(mensaje);
 				ratt.addFlashAttribute("mensaje", mensaje);
 				return "login"; 
 			}else {
 				
 				mensaje="No se ha registrado,intentelo de nuevo";
+				System.out.println(mensaje);
 				ratt.addFlashAttribute("mensaje", mensaje);
 				return "registro";
 				
