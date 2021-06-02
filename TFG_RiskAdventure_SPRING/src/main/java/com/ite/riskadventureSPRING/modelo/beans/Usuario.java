@@ -2,6 +2,9 @@ package com.ite.riskadventureSPRING.modelo.beans;
 
 import java.io.Serializable;
 import javax.persistence.*;
+
+
+
 import java.util.Date;
 import java.util.List;
 
@@ -17,41 +20,68 @@ public class Usuario implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="ID_USUARIO")
-	private int idUsuario;
-	
 	private String username;
-	
-	private String password;
-	
-	private String email;
-	
-	private String nombre;
-	
+
+	private String apellidos;
+
 	private String direccion;
-	
+
 	private int enabled;
 
 	@Temporal(TemporalType.DATE)
 	@Column(name="FECHA_REGISTRO")
 	private Date fechaRegistro;
 
-	//bi-directional many-to-one association to UsuarioPerfile
-	@OneToMany(mappedBy="usuario")
-	private List<UsuarioPerfile> usuarioPerfiles;
+	private String nombre;
+
+	private String password;
+
+	//uni-directional many-to-many association to Perfile
+	@ManyToMany(cascade = CascadeType.ALL)
+	@JoinTable(
+		name="usuario_perfiles"
+		, joinColumns={
+			@JoinColumn(name="USERNAME")
+			}
+		, inverseJoinColumns={
+			@JoinColumn(name="ID_PERFIL")
+			}
+		)
+	private List<Perfile> perfiles;
 
 	public Usuario() {
 	}
+	
 
-	public int getIdUsuario() {
-		return this.idUsuario;
+	public Usuario(String username, String apellidos, String direccion, int enabled, Date fechaRegistro, String nombre,
+			String password, List<Perfile> perfiles) {
+		super();
+		this.username = username;
+		this.apellidos = apellidos;
+		this.direccion = direccion;
+		this.enabled = enabled;
+		this.fechaRegistro = fechaRegistro;
+		this.nombre = nombre;
+		this.password = password;
+		this.perfiles = perfiles;
 	}
 
-	public void setIdUsuario(int idUsuario) {
-		this.idUsuario = idUsuario;
+
+	public String getUsername() {
+		return this.username;
 	}
 
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getApellidos() {
+		return this.apellidos;
+	}
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
 
 	public String getDireccion() {
 		return this.direccion;
@@ -59,14 +89,6 @@ public class Usuario implements Serializable {
 
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
-	}
-
-	public String getEmail() {
-		return this.email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 
 	public int getEnabled() {
@@ -84,7 +106,6 @@ public class Usuario implements Serializable {
 	public void setFechaRegistro(Date fechaRegistro) {
 		this.fechaRegistro = fechaRegistro;
 	}
-	
 
 	public String getNombre() {
 		return this.nombre;
@@ -94,8 +115,6 @@ public class Usuario implements Serializable {
 		this.nombre = nombre;
 	}
 
-	
-
 	public String getPassword() {
 		return this.password;
 	}
@@ -104,37 +123,13 @@ public class Usuario implements Serializable {
 		this.password = password;
 	}
 
-	
-
-	
-	public String getUsername() {
-		return this.username;
+	public List<Perfile> getPerfiles() {
+		return this.perfiles;
 	}
 
-	public void setUsername(String username) {
-		this.username = username;
+	public void setPerfiles(List<Perfile> perfiles) {
+		this.perfiles = perfiles;
 	}
 
-	public List<UsuarioPerfile> getUsuarioPerfiles() {
-		return this.usuarioPerfiles;
-	}
-
-	public void setUsuarioPerfiles(List<UsuarioPerfile> usuarioPerfiles) {
-		this.usuarioPerfiles = usuarioPerfiles;
-	}
-
-	public UsuarioPerfile addUsuarioPerfile(UsuarioPerfile usuarioPerfile) {
-		getUsuarioPerfiles().add(usuarioPerfile);
-		usuarioPerfile.setUsuario(this);
-
-		return usuarioPerfile;
-	}
-
-	public UsuarioPerfile removeUsuarioPerfile(UsuarioPerfile usuarioPerfile) {
-		getUsuarioPerfiles().remove(usuarioPerfile);
-		usuarioPerfile.setUsuario(null);
-
-		return usuarioPerfile;
-	}
 
 }

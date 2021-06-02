@@ -3,6 +3,7 @@ package com.ite.riskadventureSPRING.controller;
 
 	
 	import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -25,12 +26,14 @@ import org.springframework.web.servlet.view.RedirectView;
 import com.ite.riskadventureSPRING.modelo.beans.Empresa;
 import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
+import com.ite.riskadventureSPRING.modelo.beans.Perfile;
 import com.ite.riskadventureSPRING.modelo.beans.Provincia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntPerfilDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntProvinciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntUsuarioDao;
@@ -53,6 +56,8 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		IntProvinciaDao pdao;
 		@Autowired
 		IntUsuarioDao udao;
+		@Autowired
+		IntPerfilDao pedao;
 		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
@@ -62,13 +67,19 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "index";
 			
 		}
+		
 		//Controlador de registro--------------------------------------
 		@PostMapping("/registro")
-		public String registro(RedirectAttributes ratt, Usuario usuario) {
+		public String registro(RedirectAttributes ratt, Usuario usuario ) {
 			String mensaje;
 			usuario.setEnabled(1);
 			Date fechaRegistro=new Date();
 			usuario.setFechaRegistro(fechaRegistro);
+			Perfile perfil=new Perfile(2,"WEB");
+			List<Perfile> lista=new ArrayList<Perfile>();
+			lista.add(perfil);
+			
+			usuario.setPerfiles(lista);
 			int registrado=udao.insertarUsuario(usuario);
 			
 			if(registrado==1) {
