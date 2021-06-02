@@ -61,7 +61,7 @@
 					</div>
           
           			<div class="form-group">
-						<span>${mensaje}</span>
+						<span>${mensajeAlta}</span>
 					</div>
 					
 					<div class="form-group">
