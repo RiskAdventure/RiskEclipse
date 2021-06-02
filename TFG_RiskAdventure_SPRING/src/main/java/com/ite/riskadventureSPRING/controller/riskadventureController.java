@@ -84,9 +84,18 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		
 		//Controlador de registro--------------------------------------
+		@GetMapping("/registro")
+		public String mostrarRegistro(Model model) {
+			
+			
+			return "registro";
+			
+		}
+		
 		@PostMapping("/registro")
 		public String registro(RedirectAttributes ratt, Usuario usuario ) {
 			String mensajeAlta;
+			System.out.println(usuario);
 			usuario.setEnabled(1);
 			Date fechaRegistro=new Date();
 			usuario.setFechaRegistro(fechaRegistro);
@@ -96,7 +105,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			
 			usuario.setPerfiles(lista);
 			int registrado=udao.insertarUsuario(usuario);
-			
+			System.out.println(registrado);
 			if(registrado==1) {
 				mensajeAlta="Se ha registrado correctamente. Loguese para acceder a sus reservas";
 				System.out.println(mensajeAlta);
@@ -325,13 +334,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "politica_privacidad";
 			
 		}
-		@GetMapping("/registro")
-		public String inicio16(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
-			
-			return "registro";
-			
-		}
+		
 		@GetMapping("/vermasblog")
 		public String inicio17(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");
