@@ -21,8 +21,12 @@ public class Usuario implements Serializable {
 
 	@Id
 	private String username;
+	
+	private String password;
 
-	private String apellidos;
+	private String email;
+	
+	private String nombre;
 
 	private String direccion;
 
@@ -32,9 +36,7 @@ public class Usuario implements Serializable {
 	@Column(name="FECHA_REGISTRO")
 	private Date fechaRegistro;
 
-	private String nombre;
-
-	private String password;
+	
 
 	//uni-directional many-to-many association to Perfile
 	@ManyToMany(cascade = CascadeType.ALL)
@@ -53,11 +55,11 @@ public class Usuario implements Serializable {
 	}
 	
 
-	public Usuario(String username, String apellidos, String direccion, int enabled, Date fechaRegistro, String nombre,
+	public Usuario(String username,  String direccion,String email, int enabled, Date fechaRegistro, String nombre,
 			String password, List<Perfile> perfiles) {
 		super();
 		this.username = username;
-		this.apellidos = apellidos;
+		this.email=email;
 		this.direccion = direccion;
 		this.enabled = enabled;
 		this.fechaRegistro = fechaRegistro;
@@ -74,14 +76,15 @@ public class Usuario implements Serializable {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-
-	public String getApellidos() {
-		return this.apellidos;
+	public String geEmail() {
+		return this.email;
 	}
 
-	public void setApellidos(String apellidos) {
-		this.apellidos = apellidos;
+	public void setEmail(String email) {
+		this.email = email;
 	}
+
+	
 
 	public String getDireccion() {
 		return this.direccion;

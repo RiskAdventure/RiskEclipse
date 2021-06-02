@@ -1,4 +1,4 @@
-package com.ite.riskadventureSPRING.controller;
+ package com.ite.riskadventureSPRING.controller;
 
 
 	
@@ -67,31 +67,46 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "index";
 			
 		}
+		//Login
+		@GetMapping("/formLogin")
+		public String inicio12(Model model) {
+			
+			
+			return "formLogin";
+			
+		}
+		@PostMapping("/formLogin")
+		public String inicio99(Model model) {
+			
+			
+			return "carrito";
+			
+		}
 		
 		//Controlador de registro--------------------------------------
 		@PostMapping("/registro")
 		public String registro(RedirectAttributes ratt, Usuario usuario ) {
-			String mensaje;
+			String mensajeAlta;
 			usuario.setEnabled(1);
 			Date fechaRegistro=new Date();
 			usuario.setFechaRegistro(fechaRegistro);
-			Perfile perfil=new Perfile(2,"WEB");
+			usuario.setPassword("{noop}"+usuario.getPassword());
 			List<Perfile> lista=new ArrayList<Perfile>();
-			lista.add(perfil);
+			lista.add(new Perfile(2,"WEB"));
 			
 			usuario.setPerfiles(lista);
 			int registrado=udao.insertarUsuario(usuario);
 			
 			if(registrado==1) {
-				mensaje="Se ha registrado correctamente. Loguese para acceder a sus reservas";
-				System.out.println(mensaje);
-				ratt.addFlashAttribute("mensaje", mensaje);
-				return "login"; 
+				mensajeAlta="Se ha registrado correctamente. Loguese para acceder a sus reservas";
+				System.out.println(mensajeAlta);
+				ratt.addFlashAttribute("mensajeAlta", mensajeAlta);
+				return "redirect:/riskadventure/formLogin"; 
 			}else {
 				
-				mensaje="No se ha registrado,intentelo de nuevo";
-				System.out.println(mensaje);
-				ratt.addFlashAttribute("mensaje", mensaje);
+				mensajeAlta="No se ha registrado,intentelo de nuevo";
+				System.out.println(mensajeAlta);
+				ratt.addFlashAttribute("mensajeAlta", mensajeAlta);
 				return "registro";
 				
 			}
@@ -288,13 +303,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			return "eventos";
 			
 		}
-		@GetMapping("/login")
-		public String inicio12(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
-			
-			return "login";
-			
-		}
+		
 		@GetMapping("/nosotros")
 		public String inicio13(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");

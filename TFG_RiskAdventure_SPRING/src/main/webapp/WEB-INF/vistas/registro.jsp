@@ -78,6 +78,7 @@
 						<input type="text" class="form-control" placeholder="Nombre Completo" name="nombre" required>
 					</div>
 					
+					
           
 					
 					<div class="form-group">
