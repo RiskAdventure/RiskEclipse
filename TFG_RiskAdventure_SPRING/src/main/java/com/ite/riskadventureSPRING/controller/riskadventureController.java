@@ -107,7 +107,7 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 			int registrado=udao.insertarUsuario(usuario);
 			System.out.println(registrado);
 			if(registrado==1) {
-				mensajeAlta="Se ha registrado correctamente. Loguese para acceder a sus reservas";
+				mensajeAlta="Se ha registrado correctamente.<br> Loguese para acceder a sus reservas";
 				System.out.println(mensajeAlta);
 				ratt.addFlashAttribute("mensajeAlta", mensajeAlta);
 				return "redirect:/riskadventure/formLogin"; 
