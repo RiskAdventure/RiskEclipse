@@ -33,11 +33,22 @@ header {
 #iconos {
   text-align: right;
   padding-right: 2vw;
+  margin-left: 7%;
 }
 
 #login {
   margin-left: 7%;
 }
+
+#logout {
+  margin-left: 7%;
+}
+#logout:hover {
+  cursor: pointer;
+  background-color: #ba9e38;
+  color: white;
+}
+
 #buscar {
   margin-left: 7%;
 }
