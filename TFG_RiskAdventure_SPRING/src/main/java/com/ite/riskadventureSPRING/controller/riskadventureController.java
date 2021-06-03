@@ -69,8 +69,7 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
-		@Autowired
-		IntReservaDao rdao;
+		
 		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
