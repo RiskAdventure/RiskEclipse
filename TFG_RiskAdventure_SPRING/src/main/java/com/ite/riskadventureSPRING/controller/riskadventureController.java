@@ -85,24 +85,15 @@ import javax.servlet.http.HttpSession;
 			return "formLogin";
 			
 		}
-		@GetMapping("/logins")
+		@GetMapping("/login")
 		
 		public String procesarLogin(Authentication aut, Model model,HttpSession sesion) {
 			
 				
-				System.out.println("usuario : " + aut.getName());
-				System.out.println();
 				
-				for (GrantedAuthority ele: aut.getAuthorities())
-					System.out.println("ROL : " + ele.getAuthority());
-				
-				model.addAttribute("mensaje", aut.getAuthorities());
-				
-				
-				return "redirect:/";
 			
 			
-			/* System.out.println("hola");
+			 System.out.println("hola");
 			String perfil = null;
 			String ir="";
 			
@@ -122,7 +113,7 @@ import javax.servlet.http.HttpSession;
 				
 			ir="admin";	
 			}
-			return ir;*/
+			return ir;
 			
 		}
 		//Controlador de registro--------------------------------------
