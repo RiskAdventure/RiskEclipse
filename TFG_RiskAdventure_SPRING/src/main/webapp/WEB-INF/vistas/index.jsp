@@ -30,6 +30,7 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
+              <p>${usuario.username}</p>
                 <a href="carrito"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
                 <a href="/riskadventure/formLogin"><i class="fas fa-user" id="login" title="login"></i></a>
 
