@@ -33,7 +33,7 @@
                
               	
                 <a href="carrito"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
-                <a href="formLogin"><i class="fas fa-user" id="login" title="login"></i></a>
+                <a href="/riskadventure/formLogin"><i class="fas fa-user" id="login" title="login"></i></a>
                 <a href="logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
