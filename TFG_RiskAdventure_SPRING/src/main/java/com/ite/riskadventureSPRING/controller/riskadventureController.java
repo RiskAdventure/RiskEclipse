@@ -7,9 +7,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-	import org.springframework.beans.factory.annotation.Autowired;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Controller;
 	import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
@@ -38,12 +42,18 @@ import com.ite.riskadventureSPRING.modelo.dao.IntProvinciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntUsuarioDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 	
 
 	@Controller
 	@RequestMapping("/riskadventure")
-	public class riskadventureController {
+	public class riskadventureController  {
 		@Autowired
 		IntEmpresaDao edao;
 		@Autowired
@@ -69,20 +79,52 @@ import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
 		}
 		//Login
 		@GetMapping("/formLogin")
-		public String inicio12(Model model) {
-			
+		public String login(Model model) {
+			model.addAttribute("mensaje","Risk Adventure ");
 			
 			return "formLogin";
 			
 		}
-		@PostMapping("/formLogin")
-		public String inicio99(Model model) {
+		@GetMapping("/logins")
+		
+		public String procesarLogin(Authentication aut, Model model,HttpSession sesion) {
+			
+				
+				System.out.println("usuario : " + aut.getName());
+				System.out.println();
+				
+				for (GrantedAuthority ele: aut.getAuthorities())
+					System.out.println("ROL : " + ele.getAuthority());
+				
+				model.addAttribute("mensaje", aut.getAuthorities());
+				
+				
+				return "redirect:/";
 			
 			
-			return "carrito";
+			/* System.out.println("hola");
+			String perfil = null;
+			String ir="";
+			
+			for (GrantedAuthority ele: aut.getAuthorities()) 
+				
+				perfil= ele.getAuthority();
+			
+			Usuario usuario=	udao.usuarioPorUser(aut.getName());
+			sesion.setAttribute("usuario", usuario);
+			
+			if(perfil=="WEB") {
+				
+			ir= "carrito";
+				
+			}
+			if(perfil=="ADMIN") {
+				
+			ir="admin";	
+			}
+			return ir;*/
 			
 		}
-		
 		//Controlador de registro--------------------------------------
 		@GetMapping("/registro")
 		public String mostrarRegistro(Model model) {
