@@ -39,6 +39,7 @@ import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntPerfilDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntProvinciaDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntReservaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntUsuarioDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
@@ -68,6 +69,8 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
+		@Autowired
+		IntReservaDao rdao;
 		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
