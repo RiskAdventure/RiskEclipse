@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<form method="POST" action="/riskadventure/login" >
+				<form  action="/riskadventure/logins" method="get" >
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>

@@ -34,4 +34,8 @@ public class UsuarioDaoImpl implements IntUsuarioDao {
 		//Si existe, devuelve el evento. Sino, devuelve nulo
 		return urepo.findById(idUsuario).orElse(null);
 	}
+	public Usuario usuarioPorUser(String username) {
+		
+		return urepo.findByUser(username);
+	}
 }

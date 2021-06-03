@@ -35,12 +35,11 @@ protected void configure(HttpSecurity http) throws Exception {
 		
 		// Las vistas públicas no requieren autenticación
 		.antMatchers("/riskadventure/**","/css/**",  "/imagenes/**",  "/js/**",  
-		"/riskadventure/formLogin/**").permitAll()
+		"/riskadventure/formLogin/**","/login").permitAll()
 		
 		// Asignar permisos a URLs por ROLES
-		.antMatchers("/app/usuarios/**").hasAnyAuthority("GESTOR","ADMIN")
-		.antMatchers("/app/perfiles/**").hasAnyAuthority("ADMINISTRADOR")
-		.antMatchers("/app/tipos/**").hasAnyAuthority("GESTOR")
+		.antMatchers("/riskadventure/admin/**").hasAnyAuthority("ADMIN")
+		
 		
 		// Todas las demás URLs de la Aplicación requieren autenticación
 		.anyRequest().authenticated()
