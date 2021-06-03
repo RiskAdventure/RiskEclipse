@@ -30,8 +30,6 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-               
-              	
                 <a href="carrito"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
                 <a href="formLogin"><i class="fas fa-user" id="login" title="login"></i></a>
                 <a href="logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
