@@ -56,7 +56,7 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index">HOME</a></li>
+                      <li><a id="home" href="inicio">HOME</a></li>
                       <li class="dropdown">
 				        <a href="experiencias" class="dropdown-toggle" data-toggle="dropdown">
 				          EXPERIENCIAS<b class="caret"></b>

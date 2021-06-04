@@ -52,9 +52,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 	
-
-	@Controller
 	@RequestMapping("/riskadventure")
+	@Controller
+	
 	public class riskadventureController  {
 		@Autowired
 		IntEmpresaDao edao;
@@ -72,19 +72,20 @@ import javax.servlet.http.HttpSession;
 		IntPerfilDao pedao;
 		
 		//Login
-		@GetMapping("/login")
-		public String login() {
-			
-			
-			return "formLogin";
-			
-		}
+		
 		//Controlador pagina inicio-------------------------------------
 				@GetMapping("/inicio")
-				public String inicial() {
+				public String ini() {
 					
 					
 					return "inicio";
+					
+				}
+				@GetMapping("/login")
+				public String login() {
+					
+					
+					return "formLogin";
 					
 				}
 		@GetMapping("/index")
@@ -99,8 +100,9 @@ import javax.servlet.http.HttpSession;
 			model.addAttribute("mensaje", aut.getAuthorities());
 			misesion.setAttribute("usuario",usuario);
 			
-			return "redirect:/riskadventure/inicio";
+			return "inicio";
 		}
+		
 		//logout
 		@GetMapping("/logout")
 		public String logout(HttpServletRequest request) {
@@ -139,7 +141,7 @@ import javax.servlet.http.HttpSession;
 				mensajeAlta="Se ha registrado correctamente.<br> Loguese para acceder a sus reservas";
 				System.out.println(mensajeAlta);
 				ratt.addFlashAttribute("mensajeAlta", mensajeAlta);
-				return "redirect:/login"; 
+				return "redirect:/riskadventure/login"; 
 			}else {
 				
 				mensajeAlta="No se ha registrado,intentelo de nuevo";
