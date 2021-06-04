@@ -71,73 +71,35 @@ import javax.servlet.http.HttpSession;
 		@Autowired
 		IntPerfilDao pedao;
 		
-		
-		//Controlador de index--------------------------------------
-		@GetMapping("/index")
-		public String inicio(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
-			
-			return "index";
-			
-		}
 		//Login
-		@GetMapping("/formLogin")
-		public String login(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
+		@GetMapping("/login")
+		public String login() {
+			
 			
 			return "formLogin";
 			
 		}
-		@PostMapping("/login")
-		
-		public String procesarLogin( Model model,HttpSession sesion,@RequestParam("username") String username,@RequestParam("password") String password) {
+		//Controlador pagina inicio-------------------------------------
+				@GetMapping("/inicio")
+				public String inicial() {
+					
+					
+					return "inicio";
+					
+				}
+		@GetMapping("/index")
+		public String procesarLogin(Authentication aut, Model model, HttpSession misesion) {
+	
+			System.out.println("usuario : " + aut.getName());
+			System.out.println();
+			Usuario usuario=	udao. usuarioPorUser(aut.getName());
+			for (GrantedAuthority ele: aut.getAuthorities())
+				System.out.println("ROL : " + ele.getAuthority());
 			
+			model.addAttribute("mensaje", aut.getAuthorities());
+			misesion.setAttribute("usuario",usuario);
 			
-			Usuario usuario=	udao.usuarioPorUserPass(username,password);
-			List<Perfile> perfiles=new ArrayList<Perfile>();
-			String perfil = null;
-			String ir=null;
-			for (Perfile ele: perfiles) 
-			
-			perfil= ele.getNombre();
-			
-			sesion.setAttribute("usuario", usuario);
-			System.out.println(perfil);
-			System.out.println(usuario.getUsername());
-			if(perfil=="WEB") {
-				
-			ir= "carrito";
-				
-			}
-			if(perfil=="ADMIN") {
-				
-			ir="admin";	
-			}
-			return ir;
-			
-		/*				
-			 System.out.println("hola");
-			String perfil = null;
-			String ir="";
-			
-			for (GrantedAuthority ele: aut.getAuthorities()) 
-				
-				perfil= ele.getAuthority();
-			
-			Usuario usuario=	udao.usuarioPorUser(aut.getName());
-			sesion.setAttribute("usuario", usuario);
-			
-			if(perfil=="WEB") {
-				
-			ir= "carrito";
-				
-			}
-			if(perfil=="ADMIN") {
-				
-			ir="admin";	
-			}
-			return ir;*/
-			
+			return "redirect:/riskadventure/inicio";
 		}
 		//logout
 		@GetMapping("/logout")
@@ -146,7 +108,7 @@ import javax.servlet.http.HttpSession;
 				SecurityContextLogoutHandler logoutHandler=new SecurityContextLogoutHandler();
 				logoutHandler.logout(request,null,null);
 			System.out.println("te has deslogado");
-			return "index";
+			return "redirect:/riskadventure/inicio";
 			
 		}
 		
@@ -177,7 +139,7 @@ import javax.servlet.http.HttpSession;
 				mensajeAlta="Se ha registrado correctamente.<br> Loguese para acceder a sus reservas";
 				System.out.println(mensajeAlta);
 				ratt.addFlashAttribute("mensajeAlta", mensajeAlta);
-				return "redirect:/riskadventure/formLogin"; 
+				return "redirect:/login"; 
 			}else {
 				
 				mensajeAlta="No se ha registrado,intentelo de nuevo";
@@ -190,7 +152,10 @@ import javax.servlet.http.HttpSession;
 			
 		}
 		
+		
+		
 		//controladores de landings---------------------------------
+	
 		@GetMapping("/experiencias")
 		public String inicio1(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");
