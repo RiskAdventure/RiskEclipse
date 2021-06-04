@@ -4,15 +4,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home Risk Adventure</title><!-- título-->
+    <title>Home Risk Adventure</title><!-- tÃ­tulo-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Team Building,Incentive Day,Fin de semana,Escalada,Quads,Alpinismo,Montaña,Outdoor"><!-- palabras clave-->
-    <meta name="description" content="Risk Adventure buscador y guía de experiencias únicas de calidad para todos los usuarios, donde encontrarás las mejores empresas de Multiaventura"><!-- descripción-->
-    <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
+    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,EsquÃ­,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Team Building,Incentive Day,Fin de semana,Escalada,Quads,Alpinismo,MontaÃ±a,Outdoor"><!-- palabras clave-->
+    <meta name="description" content="Risk Adventure buscador y guÃ­a de experiencias Ãºnicas de calidad para todos los usuarios, donde encontrarÃ¡s las mejores empresas de Multiaventura"><!-- descripciÃ³n-->
+    <meta name="author" content="RaÃºl Montero, Pilar Bermejo, Lidia MartÃ­nez"><!-- autores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualizaciÃ³n-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librerÃ­a jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/index.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -20,8 +20,8 @@
   </head>
   <body>
 
-    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
-     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
+    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirÃ¡ hacer
+     nuestra pÃ¡gina responsive y que se adapte a diferentes tamaÃ±os de pantalla. Para ello nos serviremos tambiÃ©n
       de las media queries @-->
 
       <div class="container">
@@ -30,18 +30,21 @@
         <header>
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
+              <p>${usuario.username}</p>
                 <a href="carrito"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
                 <a href="/riskadventure/formLogin"><i class="fas fa-user" id="login" title="login"></i></a>
+
                 <a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
+
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
           
-         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÃšN-->
           <div class="row" id="nav"> 
             <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menú se agrupan
-                      para mostrarlos mejor en los dispositivos móviles -->
+                  <!-- El logotipo y el icono que despliega el menÃº se agrupan
+                      para mostrarlos mejor en los dispositivos mÃ³viles -->
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
@@ -52,7 +55,7 @@
                     </button>
                     <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
-                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -81,7 +84,7 @@
 				        </a>
 				        <ul class="dropdown-menu">
 				        	<li><a href="blog">BLOG</a></li>
-				          <li><a href="vermasblog">ART�CULOS</a></li>
+				          <li><a href="vermasblog">ARTÍCULOS</a></li>
 				          </ul>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
                       
@@ -98,7 +101,7 @@
                                                        <!-- SECTION-->
         <!-- buscador oculto -->
    		<div id="ctn-bars-search">
-    			<input type="text" id="inputSearch"  placeholder="�Qu� deseas buscar?">
+    			<input type="text" id="inputSearch"  placeholder="¿Qué deseas buscar?">
    		</div>        	
         
         <ul id="listaSearch">
@@ -121,7 +124,7 @@
         	<li><a href="aire"><i class="fas fa-search" ></i>AIRE</a></li>
         	<li><a href="packs"><i class="fas fa-search" ></i>PAREJAS</a></li>
         	<li><a href="vermasblog"><i class="fas fa-search" ></i>ARTICULOS</a></li>
-        	<li><a href="politica_privacidad"><i class="fas fa-search" ></i>POL�TICA</a></li>
+        	<li><a href="politica_privacidad"><i class="fas fa-search" ></i>POLÍTICA</a></li>
         	<li><a href="aviso_legal"><i class="fas fa-search" ></i>AVISO</a></li>
         	<li><a href="cookies"><i class="fas fa-search" ></i>COOKIES</a></li>
         	
@@ -138,7 +141,7 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
-              <!--Cuerpo Carrusel con imágenes tamaño de las imagenes 1800x480-->
+              <!--Cuerpo Carrusel con imÃ¡genes tamaÃ±o de las imagenes 1800x480-->
               <div class="carousel-inner">
                 <div class="item active">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_portada.jpg"></a>
@@ -186,7 +189,7 @@
             </div>
           </div>
         </section>
-                                                <!-- efecto bolitas--- COMÚN-->
+                                                <!-- efecto bolitas--- COMÃšN-->
         <hr>
         <section class="row">
           <div class="col-md-12 col-xs-12" id="bolitas">
@@ -221,7 +224,7 @@
         </section>  
                                             <!--Continuamos con el SECTION-->
         <!-- tarjetas circulares con sus botones,texto y boton central-->  
-        <!-- imágenes circulares y botones-->  
+        <!-- imÃ¡genes circulares y botones-->  
         <section class="row"  >
           <div class="col-md-3" id="circ1">
              <img src="../imagenes/home_packs_despedida2.jpg" alt="Despedidas" title="Despedidas"/>
@@ -240,7 +243,7 @@
              <a href="packs"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
         </section>
-        <!-- texto bajo imágenes-->
+        <!-- texto bajo imÃ¡genes-->
         <section class="row">
             <div class="col-md-12 " id="texto2">
                <div>
@@ -250,13 +253,13 @@
               </div>
             </div>
         </section>
-        <!-- botón central imágenes-->
+        <!-- botÃ³n central imÃ¡genes-->
         <section class="row" >
             <div class="col-md-12 " id="boton_packs" > 
               <a href="packs"><div  class="boton_pack" id="boton5"> PACKS &amp; GRUPOS</div></a>
             </div>
         </section>    
-                                          <!-- efecto bolitas----COMÚN-->   
+                                          <!-- efecto bolitas----COMÃšN-->   
         <hr>          
         <section class="row">
           <div class="col-md-12" id="bolitas">
@@ -290,7 +293,7 @@
           </div>
         </section> 
                                                    <!--CONTINUAMOS CON EL SECTION-->
-        <!-- parte central listos,texto y botones ver más y contacto-->
+        <!-- parte central listos,texto y botones ver mÃ¡s y contacto-->
         <section class="row" >
         <!-- imagen listos paracaidas-->
             <div class="col-md-7 col-xs-12 col-xm-12  " id="listos" > 
@@ -308,14 +311,14 @@
                 </div>
             </div>
         </section> 
-        <!-- botones ver más y contacto-->
+        <!-- botones ver mÃ¡s y contacto-->
         <section class="row" >
             <div class="col-md-12 " id="boton_listo" > 
               <a href="eventos"><div  class="boton_pack" id="ver"> VER M&Aacute;S</div></a>
               <a href="contacto#consulta"><div  class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div></a>  
             </div>
         </section>   
-                                               <!-- efecto bolitas----COMÚN-->
+                                               <!-- efecto bolitas----COMÃšN-->
         <hr>
         <section class="row">
           <div class="col-md-12" id="bolitas">
@@ -348,11 +351,11 @@
             <div id="bola26" class="bola"></div>
           </div>
         </section> 
-                                                             <!-- FOOTER-----COMÚN-->
+                                                             <!-- FOOTER-----COMÃšN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
-            <!-- sección de contáctanos-->
+            <!-- secciÃ³n de contÃ¡ctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
             <div id="dire">
@@ -388,7 +391,7 @@
               <p>2020 &copy; Copyright</p>
           </div>
           
-          <!--enlaces a aviso legal, política de privacidad y cookies--> 
+          <!--enlaces a aviso legal, polÃ­tica de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/index.js"></script> <!--Enlace externo a archivo JS-->

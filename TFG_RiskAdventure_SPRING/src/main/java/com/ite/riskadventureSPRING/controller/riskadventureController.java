@@ -14,6 +14,7 @@ import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 	import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
@@ -39,6 +40,7 @@ import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntPerfilDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntProvinciaDao;
+import com.ite.riskadventureSPRING.modelo.dao.IntReservaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntTipoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntUsuarioDao;
 import com.ite.riskadventureSPRING.modelo.dao.TipoDaoImpl;
@@ -69,6 +71,7 @@ import javax.servlet.http.HttpSession;
 		@Autowired
 		IntPerfilDao pedao;
 		
+		
 		//Controlador de index--------------------------------------
 		@GetMapping("/index")
 		public String inicio(Model model) {
@@ -85,14 +88,34 @@ import javax.servlet.http.HttpSession;
 			return "formLogin";
 			
 		}
-		@GetMapping("/login")
+		@PostMapping("/login")
 		
-		public String procesarLogin(Authentication aut, Model model,HttpSession sesion) {
+		public String procesarLogin( Model model,HttpSession sesion,@RequestParam("username") String username,@RequestParam("password") String password) {
 			
+			
+			Usuario usuario=	udao.usuarioPorUserPass(username,password);
+			List<Perfile> perfiles=new ArrayList<Perfile>();
+			String perfil = null;
+			String ir=null;
+			for (Perfile ele: perfiles) 
+			
+			perfil= ele.getNombre();
+			
+			sesion.setAttribute("usuario", usuario);
+			System.out.println(perfil);
+			System.out.println(usuario.getUsername());
+			if(perfil=="WEB") {
 				
+			ir= "carrito";
 				
+			}
+			if(perfil=="ADMIN") {
+				
+			ir="admin";	
+			}
+			return ir;
 			
-			
+		/*				
 			 System.out.println("hola");
 			String perfil = null;
 			String ir="";
@@ -113,9 +136,20 @@ import javax.servlet.http.HttpSession;
 				
 			ir="admin";	
 			}
-			return ir;
+			return ir;*/
 			
 		}
+		//logout
+		@GetMapping("/logout")
+		public String logout(HttpServletRequest request) {
+			
+				SecurityContextLogoutHandler logoutHandler=new SecurityContextLogoutHandler();
+				logoutHandler.logout(request,null,null);
+			System.out.println("te has deslogado");
+			return "index";
+			
+		}
+		
 		//Controlador de registro--------------------------------------
 		@GetMapping("/registro")
 		public String mostrarRegistro(Model model) {
