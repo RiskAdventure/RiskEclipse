@@ -34,10 +34,11 @@ protected void configure(HttpSecurity http) throws Exception {
 //		"/bootstrap/**",  "/images/**",  "/tinymce/**",  "/logos/**").permitAll()
 		
 		// Las vistas públicas no requieren autenticación
-		.antMatchers("/css/**","/riskadventure/index","riskadventure/logout/**","/","/login/**","/registro",  "/imagenes/**",  "/js/**").permitAll()
+		.antMatchers("/css/**","/riskadventure/inicio","/riskadventure/logout","/riskadventure/login","/riskadventure/registro",  "/imagenes/**",  "/js/**").permitAll()
 		
 		// Asignar permisos a URLs por ROLES
 		.antMatchers("/riskadventure/admin").hasAnyAuthority("ADMIN")
+		.antMatchers("/riskadventure/carrito").hasAnyAuthority("ADMIN","WEB")
 		
 		
 		// Todas las demás URLs de la Aplicación requieren autenticación
@@ -45,6 +46,7 @@ protected void configure(HttpSecurity http) throws Exception {
 		
 		// El formulario de Login no requiere autenticacion
 		.and().formLogin().loginPage("/riskadventure/login"). permitAll().and().csrf().disable();
+		
 		
 		
 
