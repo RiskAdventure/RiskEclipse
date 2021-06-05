@@ -395,19 +395,46 @@ import javax.servlet.http.HttpSession;
 		
 		//Insertar reserva
 		
-				
-		@GetMapping("/cogeReserva")
-		public String cogereserva(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
+		@GetMapping("/indexMiReserva")
+		public String miReserva(Authentication aut, Model model, HttpSession misesion) {
+	
+			System.out.println("usuario : " + aut.getName());
+			System.out.println();
+			Usuario usuario=	udao. usuarioPorUser(aut.getName());
+			for (GrantedAuthority ele: aut.getAuthorities())
+				System.out.println("ROL : " + ele.getAuthority());
 			
-			return "formReserva";
+			model.addAttribute("mensaje", aut.getAuthorities());
+			misesion.setAttribute("usuario",usuario);
+			
+			return "redirect:/riskadventure/formReserva";
+		}		
+		@GetMapping("/cogeReserva")
+		public String cogereserva(RedirectAttributes ratt, Model model, @RequestParam(name = "idEvento") int idEvento,HttpSession sesionre) {
+			Evento miOferta=evdao.mostrarEvento(idEvento);
+			System.out.println(miOferta.getIdEvento()+"oferta");
+			sesionre.setAttribute("miOferta", miOferta);
+			Usuario usuario=(Usuario)sesionre.getAttribute("usuario");
+			if(usuario!=null) {
+				return "redirect:/riskadventure/formReserva";
+			}else {
+				return "redirect:/riskadventure/indexMiReserva";
+			}
 			
 		}
 		@PostMapping("/insertaReserva")
-		public String insertareserva(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
+		public String insertareserva(Model model,Reserva reserva, RedirectAttributes ratt, HttpSession ses) {
+			String insertarReserva;
 			
-			return "carrito";
+			int reservaOk=rdao.insertarReserva(reserva);
+			if(reservaOk==1) {
+				insertarReserva = "Reservada oferta con exito: ";//+reserva.getEvento().getDescripcion();
+				ratt.addFlashAttribute("insertarReserva",insertarReserva);
+			}else {
+				insertarReserva = "La oferta: no se reservó ";//+reserva.getEvento().getDescripcion()+" no se pudo reservar";
+				ratt.addFlashAttribute("insertarReserva",insertarReserva);
+			}
+			return "redirect:/riskadventure/carrito";
 			
 		}
 		//formreserva
