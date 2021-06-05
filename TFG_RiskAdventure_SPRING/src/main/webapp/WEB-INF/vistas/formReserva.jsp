@@ -21,7 +21,7 @@
     	<h1>PANEL DE RESERVA</h1>
     	
 	    <header>
-	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver</a>
+	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver a OFERTAS</a>
 	    </header>
 	    
 	    <div>
@@ -29,31 +29,36 @@
 	        <h3>Serás dirigido al panel de reservas para que puedas visualizarla</h3>
 	       <form action="/riskadventure/insertaReserva" id="new-event" method="post">
         	
-        	<label for="eid">Id de la Reserva:</label><br>
-  			<input type="number" id="eid" name="idReserva" value="${reserva.idReserva}"><br><br>
+        	
         	<label for="eid">Id de la Oferta:</label><br>
-  			<input type="number" id="eid" name="idReserva" value="${reserva.evento.idEvento}"><br><br>
+  			<input type="number" id="eid" name="idEvento" value="${miOferta.idEvento}" disabled ><br><br>
         	
         	<label for="ename">Username:</label><br>
-  			<input type="text" id="ename" name="nombre" value="${reserva.usuario.username}"><br><br>
+  			<input type="text" id="ename" name="username" value="${usuario.username}" disabled><br><br>
   			
   			<label for="edate">Precio Venta:</label><br>
-  			<input type="date" id="edate" name="efechaInicio" value="${evento.fechaInicio}"><br><br>
+  			<input type="number" id="edate" name="precioVenta" value="${miOferta.precio}" disabled><br><br>
   			
   			<label for="edescription">Observaciones:</label><br>
-  			<textarea id="edescription" name="descripcion" value="${reserva.}">${evento.descripcion}</textarea> <br><br>
+  			<textarea id="edescription" name="descripcion" placeholder="Escriba cualquier cosa que quiera indicarnos"></textarea> <br><br>
   			  			
   			<label for="eduration">Cantidad:</label><br>
-  			<input type="number" id="eduration" name="duracion" value="${evento.duracion}"><br><br>
+  			<input type="number" id="eduration" name="cantidad" ><br><br>
   			
   					
   			<br><br>
+  			<p>${insertarReserva}</p>
   			
+  			<br>
   			
  			<button type="submit">RESERVAR <i class="far fa-check-square"></i></button>
+ 			<br><br>
+ 			<button ><a href="carrito">VER CARRITO <i class="far fa-check-square"></i></a></button>
+ 			
         </form>
 	       
-	       
+	      
+	      
 	       
 	       
 	       
@@ -89,7 +94,7 @@
 		        </tr>
 	        </table>
 	        -->
-	        <p>${mensaje}</p>
+	        
 	        
 	    </div>
 	</body>

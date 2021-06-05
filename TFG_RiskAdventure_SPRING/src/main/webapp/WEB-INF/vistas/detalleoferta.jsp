@@ -156,7 +156,7 @@
 				        			<td>${verDetalleEvento.aforoMaximo}</td>
 				        			<td>${verDetalleEvento.minimoAsistencia}</td>
 				        			<td>${verDetalleEvento.precio}&euro;</td>
-				        			<td><a href="carrito"><div class="ofertas">Reservar</div></a></td>
+				        			<td><a href="/riskadventure/cogeReserva?idEvento=${verDetalleEvento.idEvento }"><div class="ofertas">Reservar</div></a></td>
 				        			
 				        		</tr>
 				        	

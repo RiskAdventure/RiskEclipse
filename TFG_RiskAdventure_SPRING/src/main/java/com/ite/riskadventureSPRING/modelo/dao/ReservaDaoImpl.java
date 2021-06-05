@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.ite.riskadventureSPRING.modelo.beans.Reserva;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
@@ -16,17 +16,20 @@ public class ReservaDaoImpl implements IntReservaDao{
 	ReservaRepository rerepo;
 
 	@Override
-	public String insertarReserva(Reserva miReserva) {
-		
-		String insertarRdo = "Error desconocido";
+	public int insertarReserva(Reserva miReserva) {
+		int filas=0;
+		String insertarReserva ;
 		try {
 			rerepo.save(miReserva);
-			insertarRdo = "Reserva "+miReserva.getIdReserva()+" insertada correctamente";
+			insertarReserva = "Reserva "+miReserva.getIdReserva()+" insertada correctamente";
+			System.out.println(insertarReserva);
+			filas=1;
 		} catch (Exception e) {
-			insertarRdo = "Error al insertar la reserva. Posible error de BBDD";
+			insertarReserva = "Error al insertar la reserva. Posible error de BBDD";
+			System.out.println(insertarReserva);
 			e.printStackTrace();
 		}
-		return insertarRdo;
+		return filas;
 	}
 
 	@Override

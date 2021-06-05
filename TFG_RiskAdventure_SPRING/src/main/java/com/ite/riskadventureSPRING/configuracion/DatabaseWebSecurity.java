@@ -50,6 +50,7 @@ protected void configure(HttpSecurity http) throws Exception {
 		.antMatchers("/riskadventure/admin").hasAnyAuthority("ADMIN")
 		.antMatchers("/riskadventure/carrito").hasAnyAuthority("ADMIN","WEB")
 		.antMatchers("/riskadventure/login").hasAnyAuthority("ADMIN","WEB")
+		.antMatchers("/riskadventure/formCarrito").hasAnyAuthority("ADMIN","WEB")
 		
 		
 		// Todas las demás URLs de la Aplicación requieren autenticación

@@ -7,6 +7,6 @@ import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 
 public interface IntReservaDao {
 
-	public String insertarReserva(Reserva miReserva);
+	public int insertarReserva(Reserva miReserva);
 	List<Reserva> verReservas(String username);
 }
