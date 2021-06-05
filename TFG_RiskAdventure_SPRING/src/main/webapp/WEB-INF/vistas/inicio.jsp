@@ -313,7 +313,7 @@
         <section class="row" >
             <div class="col-md-12 " id="boton_listo" > 
               <a href="eventos"><div  class="boton_pack" id="ver"> VER M&Aacute;S</div></a>
-              <a href="contacto#consulta"><div  class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div></a>  
+              <a href="contacto"><div  class="boton_pack" id="contact"> CONT&Aacute;CTANOS</div></a>  
             </div>
         </section>   
                                                <!-- efecto bolitas----COMÃšN-->
