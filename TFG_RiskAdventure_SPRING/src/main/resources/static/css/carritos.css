@@ -198,6 +198,14 @@ li:hover {
   background-color: #ba9e38;
   
   }
+  table, th, td {
+
+    border: 2px solid #D3D3D3;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+  }
 
 
                                         /*FOOTER-------------COMÚN*/
