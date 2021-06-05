@@ -128,7 +128,13 @@
 			        <c:choose>
 				        <c:when test="${listaReservas!=null && listaReservas.size()!=0}">
 					        <table border="2">
-					        	<th>Id Reserva</th><th>Id Evento</th><th>Username</th><th>Precio Venta</th><th>Observaciones</th><th>Cantidad</th>
+					        	<th>Id Reserva</th>
+					        	<th>Id Evento</th>
+					        	<th>Username</th>
+					        	<th>Precio Venta</th>
+					        	<th>Observaciones</th>
+					        	<th>Cantidad</th>
+					        	<th>Eliminar</th>
 					        	<c:forEach var="ele" items="${listaReservas }">
 					        		<tr>
 					        			<td>${ele.idReserva}</td>
@@ -137,6 +143,7 @@
 					        			<td>${ele.precioVenta}</td>
 					        			<td>${ele.observaciones}</td>
 					        			<td>${ele.cantidad}</td>
+					        			<td><a class="trash" href="/riskadventure/eliminareserva/${ele.idReserva}">Eliminar</a></td>
 					        		</tr>					        		
 					        	</c:forEach>					        	
 					        </table><br>

@@ -418,6 +418,35 @@ import javax.servlet.http.HttpSession;
 			return "formReserva";
 			
 		}
+		
+		//Elimina la reserva con el "id" que le pasemos
+		@GetMapping("/eliminareserva/{id}")
+		public String eliminarReserva(RedirectAttributes ratt, Model model, @PathVariable(name="id") int  idReserva) {
+				
+			String mensajedelete;
+				
+			int eliminado = rdao.eliminarReserva(idReserva);
+				
+			if(eliminado == 1) {
+				mensajedelete = "<span style=\"color: green;\">Se ha eliminado la reserva</span>";
+				System.out.println(mensajedelete);
+			} else {
+				mensajedelete = "<span style=\"color: red;\">Ha habido un error al intentar eliminar la reserva<span>";
+				System.out.println(mensajedelete);
+			}
+				
+			ratt.addFlashAttribute("mensajedelete", mensajedelete);
+				
+			List<Reserva> listado = rdao.verReservas("activo");
+			model.addAttribute("listadoActivos", listado);
+			return "redirect:/riskadventure/indexReserva";	
+			
+		}
+		
+	
+		
+		
+		
 		//-------------------------------------------------------------
 		@GetMapping("/cookies")
 		public String inicio10(Model model) {

@@ -57,7 +57,7 @@
 	                <td>${ele.nombre}</td>
 	                <td>${ele.precio} €</td>
 	                <td><a class="edit" href="/riskadventure/editar/${ele.idEvento}"> Editar</a></td>
-		            <td><a class="trash" href="/riskadventure/eliminar/${ele.idEvento}"> Eliminar</a> </td>
+		            <td><a class="trash" href="/riskadventure/eliminareserva/${ele.idEvento}"> Eliminar</a> </td>
 	            </tr>
 	            
 	           </c:forEach>
