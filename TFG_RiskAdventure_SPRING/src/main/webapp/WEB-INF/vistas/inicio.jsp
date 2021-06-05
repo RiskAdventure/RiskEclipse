@@ -29,7 +29,6 @@
         <!-- iconos-->
         <header>
           <div class="row" id="icon">
-          
               <div id="iconos" class="col-md-12 col-xs-12 ">
 				<a href="indexReserva"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
                 <a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>
@@ -52,7 +51,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
+                    <a class="navbar-brand" href="inicio"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
@@ -83,7 +82,7 @@
 				        </a>
 				        <ul class="dropdown-menu">
 				        	<li><a href="blog">BLOG</a></li>
-				          <li><a href="vermasblog">ARTÍCULOS</a></li>
+				          <li><a href="vermasblog">ART&Iacute;CULOS</a></li>
 				          </ul>
                       <li><a id="contacto" href="contacto">CONTACTO</a></li>
                       
@@ -123,7 +122,7 @@
         	<li><a href="aire"><i class="fas fa-search" ></i>AIRE</a></li>
         	<li><a href="packs"><i class="fas fa-search" ></i>PAREJAS</a></li>
         	<li><a href="vermasblog"><i class="fas fa-search" ></i>ARTICULOS</a></li>
-        	<li><a href="politica_privacidad"><i class="fas fa-search" ></i>POLÍTICA</a></li>
+        	<li><a href="politica_privacidad"><i class="fas fa-search" ></i>POL�&Iacute;TICA</a></li>
         	<li><a href="aviso_legal"><i class="fas fa-search" ></i>AVISO</a></li>
         	<li><a href="cookies"><i class="fas fa-search" ></i>COOKIES</a></li>
         	
