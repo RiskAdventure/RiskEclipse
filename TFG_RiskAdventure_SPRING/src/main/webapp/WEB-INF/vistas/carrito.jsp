@@ -120,11 +120,9 @@
         </ul>
         <div id="cover-ctn-search">
         </div>
-<<<<<<< HEAD
-                    <h1>¡Bienvenido/a ${usuario.username}!</h1>
-=======
+
                     <h1>¡Bienvenid@ ${usuario.username}!</h1>
->>>>>>> 1c3815225995e532f365df926cee95ce1b2004da
+
                     
                     <h2>A continuaci&oacute;n, se muestran sus <b>reservas</b>:</h2>
 			        <c:choose>

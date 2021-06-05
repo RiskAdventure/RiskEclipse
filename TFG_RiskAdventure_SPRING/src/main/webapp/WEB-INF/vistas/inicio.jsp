@@ -31,8 +31,8 @@
           <div class="row" id="icon">
           
               <div id="iconos" class="col-md-12 col-xs-12 ">
-				<a href="/riskadventure/verReservas"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
-                <a href="/riskadventure/login"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>
+				<a href="indexReserva"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
+                <a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>
                 <a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
