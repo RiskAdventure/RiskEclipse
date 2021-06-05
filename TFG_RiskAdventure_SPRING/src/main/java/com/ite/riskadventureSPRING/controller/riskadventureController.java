@@ -35,7 +35,7 @@ import com.ite.riskadventureSPRING.modelo.beans.Perfile;
 import com.ite.riskadventureSPRING.modelo.beans.Provincia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
-import com.ite.riskadventureSPRING.modelo.beans.Reserva;
+
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
@@ -71,8 +71,7 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
-		@Autowired
-		IntReservaDao rdao;
+	
 		
 		//Login
 		

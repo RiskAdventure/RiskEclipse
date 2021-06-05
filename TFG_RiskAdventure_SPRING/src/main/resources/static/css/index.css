@@ -15,11 +15,15 @@ header {
   margin-bottom: 10%;
 }
 
+.sesion p{
+	text-align: left;
+}
 
 #icon {
   margin-right: 0px;
   margin-left: 0px;
 }
+
 #iconos i {
   border: none;
   box-shadow: none;
