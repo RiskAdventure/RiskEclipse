@@ -100,7 +100,7 @@
                                                        <!-- SECTION-->
         <!-- buscador oculto -->
    		<div id="ctn-bars-search">
-    			<input type="text" id="inputSearch"  placeholder="¿Qué deseas buscar?">
+    			<input type="text" id="inputSearch"  placeholder="&iquest;Qu&eacute; deseas buscar?">
    		</div>        	
         
         <ul id="listaSearch">
