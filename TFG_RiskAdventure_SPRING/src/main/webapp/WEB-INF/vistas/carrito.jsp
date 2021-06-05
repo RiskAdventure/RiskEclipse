@@ -140,7 +140,7 @@
 					        </table>
 				        </c:when>
 				        <c:otherwise>
-				        	<h2>¡ No tienes reservas actualmente!</h2><br>
+				        	<h2>¡ No tiene reservas actualmente!</h2><br>
 				        	<a href="ofertas"><div class="boton">VOLVER A OFERTAS</div></a>
 				        </c:otherwise>
 			        </c:choose>

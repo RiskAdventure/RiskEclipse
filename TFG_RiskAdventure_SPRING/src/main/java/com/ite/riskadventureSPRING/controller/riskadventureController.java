@@ -516,25 +516,6 @@ import javax.servlet.http.HttpSession;
 			
 		}
 		
-		/*@GetMapping("/procesaReserva/{url}")
-		public String procesarFormulario(Model model, @PathVariable(name = "url") String destino, Evento evento) {
-
-			System.out.println(evento);
-
-			evento.setEstado("activo");
-
-			String mensaje = rdao.insertarReserva(evento);
-
-			System.out.println(evento);
-			
-			System.out.println(mensaje);
-
-			model.addAttribute("mensaje", mensaje);
-			model.addAttribute("urlDestino", "/eventos/"+destino);
-
-			return "forward:/eventos/"+destino;
-
-		}*/
 		
 		
 		
