@@ -410,6 +410,14 @@ import javax.servlet.http.HttpSession;
 			return "carrito";
 			
 		}
+		//formreserva
+		@GetMapping("/formReserva")
+		public String formuRes(Model model) {
+			model.addAttribute("mensaje","Risk Adventure ");
+			
+			return "formReserva";
+			
+		}
 		//-------------------------------------------------------------
 		@GetMapping("/cookies")
 		public String inicio10(Model model) {
