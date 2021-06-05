@@ -473,6 +473,14 @@ import javax.servlet.http.HttpSession;
 			
 		}
 		
+		@GetMapping("/contacto")
+		public String inicio19(Model model) {
+			model.addAttribute("mensaje","Risk Adventure ");
+			
+			return "contacto";
+			
+		}
+		
 		@GetMapping("/admin")
 		public String mostrarActivos(Model model) {
 			
