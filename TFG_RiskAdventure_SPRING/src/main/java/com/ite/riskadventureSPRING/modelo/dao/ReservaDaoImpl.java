@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 import com.ite.riskadventureSPRING.modelo.beans.Reserva;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 import com.ite.riskadventureSPRING.modelo.repository.ReservaRepository;
@@ -20,9 +21,9 @@ public class ReservaDaoImpl implements IntReservaDao{
 		String insertarRdo = "Error desconocido";
 		try {
 			rerepo.save(miReserva);
-			insertarRdo = "Reserva "+miReserva.getIdReserva()+" insertado correctamente";
+			insertarRdo = "Reserva "+miReserva.getIdReserva()+" insertada correctamente";
 		} catch (Exception e) {
-			insertarRdo = "Error al insertar la reserva. Posible error en BBDD";
+			insertarRdo = "Error al insertar la reserva. Posible error de BBDD";
 			e.printStackTrace();
 		}
 		return insertarRdo;
@@ -36,6 +37,7 @@ public class ReservaDaoImpl implements IntReservaDao{
 
 	
 
+	
 	
 
 }

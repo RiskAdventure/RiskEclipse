@@ -36,6 +36,7 @@ import com.ite.riskadventureSPRING.modelo.beans.Provincia;
 import com.ite.riskadventureSPRING.modelo.beans.Reserva;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
+
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
@@ -71,8 +72,12 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
+<<<<<<< HEAD
 		@Autowired
 		IntReservaDao rdao;
+=======
+	
+>>>>>>> 1c3815225995e532f365df926cee95ce1b2004da
 		
 		//Login
 		
@@ -581,6 +586,7 @@ import javax.servlet.http.HttpSession;
 			binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf,false));
 			
 		}
+		
 		
 		
 		

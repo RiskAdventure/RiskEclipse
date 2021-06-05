@@ -29,7 +29,7 @@
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
                 <a href="carrito"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
-                <a href="/riskadventure/login"><i class="fas fa-user" id="login" title="login"></i></a>
+                <a href="/riskadventure/login"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>
                 <a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
@@ -120,7 +120,11 @@
         </ul>
         <div id="cover-ctn-search">
         </div>
+<<<<<<< HEAD
                     <h1>¡Bienvenido/a ${usuario.username}!</h1>
+=======
+                    <h1>¡Bienvenid@ ${usuario.username}!</h1>
+>>>>>>> 1c3815225995e532f365df926cee95ce1b2004da
                     
                     <h2>A continuaci&oacute;n, se muestran sus <b>reservas</b>:</h2>
 			        <c:choose>
@@ -140,8 +144,8 @@
 					        </table>
 				        </c:when>
 				        <c:otherwise>
-				        	<h2>¡ No tienes reservas actualmente!</h2><br>
-				        	<a href="ofertas"><div class="boton">VOLVER A OFERTAS</div></a>
+				        	<h2>¡ No tiene reservas actualmente!</h2><br>
+				        	<a href="tipoOferta"><div class="boton">VOLVER A OFERTAS</div></a>
 				        </c:otherwise>
 			        </c:choose>
                     <br><br>
