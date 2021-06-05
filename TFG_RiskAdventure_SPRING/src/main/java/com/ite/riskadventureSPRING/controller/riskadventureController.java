@@ -33,6 +33,7 @@ import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Experiencia;
 import com.ite.riskadventureSPRING.modelo.beans.Perfile;
 import com.ite.riskadventureSPRING.modelo.beans.Provincia;
+import com.ite.riskadventureSPRING.modelo.beans.Reserva;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 
@@ -71,7 +72,12 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
+<<<<<<< HEAD
+		@Autowired
+		IntReservaDao rdao;
+=======
 	
+>>>>>>> 1c3815225995e532f365df926cee95ce1b2004da
 		
 		//Login
 		
@@ -92,6 +98,39 @@ import javax.servlet.http.HttpSession;
 				}
 		@GetMapping("/index")
 		public String procesarLogin(Authentication aut, Model model, HttpSession misesion) {
+			
+			if(aut!=null) {
+				System.out.println("usuario : " + aut.getName());
+				System.out.println();
+				Usuario usuario=	udao. usuarioPorUser(aut.getName());
+				for (GrantedAuthority ele: aut.getAuthorities())
+					System.out.println("ROL : " + ele.getAuthority());
+				
+				model.addAttribute("mensaje", aut.getAuthorities());
+				misesion.setAttribute("usuario",usuario);
+				
+				return "redirect:/riskadventure/inicio";
+			}else {
+				return "redirect:/riskadventure/indexx";
+			}
+			
+		}
+		@GetMapping("/indexx")
+		public String indexx(Authentication aut, Model model, HttpSession misesion) {
+	
+			System.out.println("usuario : " + aut.getName());
+			System.out.println();
+			Usuario usuario=	udao. usuarioPorUser(aut.getName());
+			for (GrantedAuthority ele: aut.getAuthorities())
+				System.out.println("ROL : " + ele.getAuthority());
+			
+			model.addAttribute("mensaje", aut.getAuthorities());
+			misesion.setAttribute("usuario",usuario);
+			
+			return "eventos";
+		}
+		@GetMapping("/indexLogin")
+		public String indexLogin(Authentication aut, Model model, HttpSession misesion) {
 	
 			System.out.println("usuario : " + aut.getName());
 			System.out.println();
@@ -104,6 +143,7 @@ import javax.servlet.http.HttpSession;
 			
 			return "inicio";
 		}
+		
 		
 		//logout
 		@GetMapping("/logout")
@@ -157,7 +197,7 @@ import javax.servlet.http.HttpSession;
 		}
 		
 		
-		
+		//Hola
 		//controladores de landings---------------------------------
 	
 		@GetMapping("/experiencias")
@@ -320,6 +360,8 @@ import javax.servlet.http.HttpSession;
 			return "blog";
 			
 		}
+		//--------------------------------------------Página de reservas-------------------
+		//Acceso
 		@GetMapping("/carrito")
 		public String inicio8(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");
@@ -327,6 +369,35 @@ import javax.servlet.http.HttpSession;
 			return "carrito";
 			
 		}
+		//Ver reservas por username
+		@GetMapping("/verReservas")
+		public String verReservas(String username, Model model,RedirectAttributes ratt, HttpSession sesion) {
+			
+		    Usuario usuario=(Usuario)sesion.getAttribute("usuario");
+			if(usuario!=null) {
+			List<Reserva> listaReservas=rdao.verReservas(usuario.getUsername());
+			sesion.setAttribute("listaReservas", listaReservas);
+			return "redirect:/riskadventure/carrito";
+			}else {
+				return "redirect:/riskadventure/indexReserva";
+			}
+		}
+		@GetMapping("/indexReserva")
+		public String usuariosReserva(Authentication aut, Model model, HttpSession misesion) {
+	
+			System.out.println("usuario : " + aut.getName());
+			System.out.println();
+			Usuario usuario=	udao. usuarioPorUser(aut.getName());
+			for (GrantedAuthority ele: aut.getAuthorities())
+				System.out.println("ROL : " + ele.getAuthority());
+			
+			model.addAttribute("mensaje", aut.getAuthorities());
+			misesion.setAttribute("usuario",usuario);
+			
+			return "carrito";
+		}
+		
+		//Insertar reserva
 		@GetMapping("/contacto")
 		public String inicio9(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");

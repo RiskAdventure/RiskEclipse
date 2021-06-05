@@ -1,11 +1,15 @@
 package com.ite.riskadventureSPRING.modelo.dao;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 
 import com.ite.riskadventureSPRING.modelo.beans.Reserva;
+import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 import com.ite.riskadventureSPRING.modelo.repository.ReservaRepository;
-
+@Service
 public class ReservaDaoImpl implements IntReservaDao{
 	
 	@Autowired
@@ -24,6 +28,14 @@ public class ReservaDaoImpl implements IntReservaDao{
 		}
 		return insertarRdo;
 	}
+
+	@Override
+	public List<Reserva> verReservas(String username) {
+		// TODO Auto-generated method stub
+		return  rerepo.verReservasUsuario(username);
+	}
+
+	
 
 	
 	

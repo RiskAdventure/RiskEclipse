@@ -52,7 +52,7 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index">HOME</a></li>
+                      <li><a id="home" href="inicio">HOME</a></li>
                       <li class="dropdown">
 				        <a href="experiencias" class="dropdown-toggle" data-toggle="dropdown">
 				          EXPERIENCIAS<b class="caret"></b>
@@ -120,18 +120,22 @@
         </ul>
         <div id="cover-ctn-search">
         </div>
+<<<<<<< HEAD
+                    <h1>¡Bienvenido/a ${usuario.username}!</h1>
+=======
                     <h1>¡Bienvenid@ ${usuario.username}!</h1>
+>>>>>>> 1c3815225995e532f365df926cee95ce1b2004da
                     
                     <h2>A continuaci&oacute;n, se muestran sus <b>reservas</b>:</h2>
 			        <c:choose>
-				        <c:when test="${listaTipoTierra!=null && listaTipoTierra.size()!=0}">
+				        <c:when test="${listaReservas!=null && listaReservas.size()!=0}">
 					        <table border="2">
-					        	<th>idTipo</th><th>Nombre</th>
-					        	<c:forEach var="ele" items="${listaTipoTierra }">
+					        	<th>Id Reserva</th><th>Id Evento</th><th>Username</th><th>Precio Venta</th><th>Observaciones</th><th>Cantidad</th>
+					        	<c:forEach var="ele" items="${listaReservas }">
 					        		<tr>
 					        			<td>${ele.idReserva}</td>
-					        			<td>${ele.idEvento}</td>
-					        			<td>${ele.idUsuario}</td>
+					        			<td>${ele.evento.idEvento}</td>
+					        			<td>${ele.usuario.username}</td>
 					        			<td>${ele.precioVenta}</td>
 					        			<td>${ele.observaciones}</td>
 					        			<td>${ele.cantidad}</td>
