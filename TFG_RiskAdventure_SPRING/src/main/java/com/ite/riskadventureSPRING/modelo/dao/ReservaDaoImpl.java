@@ -39,7 +39,19 @@ public class ReservaDaoImpl implements IntReservaDao{
 	}
 
 	
-
+	@Override
+	public int eliminarReserva(int idReserva) {
+		int filas = 0;
+		
+		try {
+			rerepo.deleteById(idReserva);
+			filas = 1;
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return filas;
+	}
 	
 	
 

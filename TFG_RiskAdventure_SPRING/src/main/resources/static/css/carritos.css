@@ -206,6 +206,20 @@ li:hover {
     text-align: center;
     
   }
+  
+  a.trash{
+	display: block;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.trash:hover{
+	background-color:	orange;
+}
 
 
                                         /*FOOTER-------------COMÚN*/

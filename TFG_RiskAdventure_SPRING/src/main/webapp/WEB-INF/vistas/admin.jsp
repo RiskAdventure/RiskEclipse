@@ -33,6 +33,7 @@
         <h2>Listado de Ofertas activas</h2>
         
         <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a><br>
+        <a href="" class="buttonCTA last">VER RESERVAS USUARIOS</a><br>
         <p>${mensajedelete}</p>
         <p>${mensajeinsert}</p>
         <p>${mensajeupdate }</p>
@@ -57,7 +58,7 @@
 	                <td>${ele.nombre}</td>
 	                <td>${ele.precio} €</td>
 	                <td><a class="edit" href="/riskadventure/editar/${ele.idEvento}"> Editar</a></td>
-		            <td><a class="trash" href="/riskadventure/eliminar/${ele.idEvento}"> Eliminar</a> </td>
+		            <td><a class="trash" href="/riskadventure/eliminareserva/${ele.idEvento}"> Eliminar</a> </td>
 	            </tr>
 	            
 	           </c:forEach>

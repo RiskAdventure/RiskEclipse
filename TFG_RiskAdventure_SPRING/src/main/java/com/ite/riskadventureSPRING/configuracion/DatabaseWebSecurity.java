@@ -40,7 +40,8 @@ protected void configure(HttpSecurity http) throws Exception {
 		"/riskadventure/packs",	"/riskadventure/nosotros",	"/riskadventure/contacto","/riskadventure/experiencias",
 		"/riskadventure/tierra","/riskadventure/agua","/riskadventure/aire","/riskadventure/ofertas","/riskadventure/blog","/riskadventure/aviso_legal",
 		"/riskadventure/cookies", "/riskadventure/politica_privacidad","/riskadventure/vermasblog","/riskadventure/tipoOferta","/riskadventure/detalleOferta",
-		"/riskadventure/tipoOfertaDestacado",
+		"/riskadventure/tipoOfertaDestacado","/riskadventure/tipoTierra","/riskadventure/tierraProvincia","/riskadventure/tipoAgua","/riskadventure/aguaProvincia",
+		"/riskadventure/tipoAire","/riskadventure/aireProvincia",
 		"/imagenes/**",  "/js/**").permitAll()
 
 		.antMatchers("/css/**","/riskadventure/inicio","/riskadventure/logout","/riskadventure/registro",  "/imagenes/**",  "/js/**").permitAll()

@@ -26,7 +26,7 @@
 <div class="container">
   <div class="row" id="logo">
     <div class="col-md-1">
-      <a href="index"><img src="../imagenes/favicon_risk.png"></a>
+      <a href="inicio"><img src="../imagenes/favicon_risk.png"></a>
     </div>
     <div class="col-md-10" id="texto">
       <p>Login RISK ADVENTURE </p>
