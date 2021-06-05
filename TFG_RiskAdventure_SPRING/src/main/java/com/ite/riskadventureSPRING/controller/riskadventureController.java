@@ -394,13 +394,23 @@ import javax.servlet.http.HttpSession;
 		}
 		
 		//Insertar reserva
-		@GetMapping("/contacto")
-		public String inicio9(Model model) {
+		
+				
+		@GetMapping("/cogeReserva")
+		public String cogereserva(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");
 			
-			return "contacto";
+			return "formReserva";
 			
 		}
+		@PostMapping("/insertaReserva")
+		public String insertareserva(Model model) {
+			model.addAttribute("mensaje","Risk Adventure ");
+			
+			return "carrito";
+			
+		}
+		//-------------------------------------------------------------
 		@GetMapping("/cookies")
 		public String inicio10(Model model) {
 			model.addAttribute("mensaje","Risk Adventure ");
