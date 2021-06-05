@@ -17,11 +17,12 @@
 
 <body>
 		
-		
+		<a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
     	<h1>PANEL DE RESERVA</h1>
     	
 	    <header>
-	        <a href="/riskadventure/admin"><i class="fas fa-arrow-left"></i> Volver a OFERTAS</a>
+	        <a href="/riskadventure/tipoOferta"><i class="fas fa-arrow-left"></i> Volver a OFERTAS</a>
+	        
 	    </header>
 	    
 	    <div>
