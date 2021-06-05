@@ -137,9 +137,10 @@
 					        			<td>${ele.precioVenta}</td>
 					        			<td>${ele.observaciones}</td>
 					        			<td>${ele.cantidad}</td>
-					        		</tr>
-					        	</c:forEach>
-					        </table>
+					        		</tr>					        		
+					        	</c:forEach>					        	
+					        </table><br>
+					       <a href="tipoOferta"><div class="boton">VOLVER A OFERTAS</div></a>
 				        </c:when>
 				        <c:otherwise>
 				        	<h2>¡ No tiene reservas actualmente!</h2><br>
