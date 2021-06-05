@@ -33,6 +33,7 @@
         <h2>Listado de Ofertas activas</h2>
         
         <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a><br>
+        <a href="" class="buttonCTA last">VER RESERVAS USUARIOS</a><br>
         <p>${mensajedelete}</p>
         <p>${mensajeinsert}</p>
         <p>${mensajeupdate }</p>
