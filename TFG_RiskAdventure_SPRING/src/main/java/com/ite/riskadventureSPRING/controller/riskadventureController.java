@@ -72,13 +72,9 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
-<<<<<<< HEAD
 		@Autowired
 		IntReservaDao rdao;
-=======
-	
->>>>>>> 1c3815225995e532f365df926cee95ce1b2004da
-		
+
 		//Login
 		
 		//Controlador pagina inicio-------------------------------------
