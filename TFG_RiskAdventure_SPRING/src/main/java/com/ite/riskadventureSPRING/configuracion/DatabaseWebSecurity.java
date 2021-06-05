@@ -34,7 +34,11 @@ protected void configure(HttpSecurity http) throws Exception {
 //		"/bootstrap/**",  "/images/**",  "/tinymce/**",  "/logos/**").permitAll()
 		
 		// Las vistas públicas no requieren autenticación
-		.antMatchers("/css/**","/riskadventure/inicio","/riskadventure/logout","/riskadventure/registro",  "/imagenes/**",  "/js/**").permitAll()
+		.antMatchers("/css/**","/riskadventure/inicio","/riskadventure/eventos","/riskadventure/logout",
+		"/riskadventure/registro","/riskadventure/eventos","/riskadventure/empresas",
+		"/riskadventure/packs",	"/riskadventure/nosotros",	"/riskadventure/contacto","/riskadventure/experiencias",
+		"/riskadventure/tierra","/riskadventure/agua","/riskadventure/aire","/riskadventure/ofertas","/riskadventure/blog",
+		"/imagenes/**",  "/js/**").permitAll()
 		
 		// Asignar permisos a URLs por ROLES
 		.antMatchers("/riskadventure/admin").hasAnyAuthority("ADMIN")
