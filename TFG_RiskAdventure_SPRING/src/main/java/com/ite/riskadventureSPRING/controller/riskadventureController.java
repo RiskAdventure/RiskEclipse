@@ -390,7 +390,7 @@ import javax.servlet.http.HttpSession;
 			model.addAttribute("mensaje", aut.getAuthorities());
 			misesion.setAttribute("usuario",usuario);
 			
-			return "carrito";
+			return "redirect:/riskadventure/verReservas";
 		}
 		
 		//Insertar reserva
