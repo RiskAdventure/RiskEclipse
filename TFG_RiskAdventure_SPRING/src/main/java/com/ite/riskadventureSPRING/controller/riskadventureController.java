@@ -35,6 +35,7 @@ import com.ite.riskadventureSPRING.modelo.beans.Perfile;
 import com.ite.riskadventureSPRING.modelo.beans.Provincia;
 import com.ite.riskadventureSPRING.modelo.beans.Tipo;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
+import com.ite.riskadventureSPRING.modelo.beans.Reserva;
 import com.ite.riskadventureSPRING.modelo.dao.IntEmpresaDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntEventoDao;
 import com.ite.riskadventureSPRING.modelo.dao.IntExperienciaDao;
@@ -70,6 +71,8 @@ import javax.servlet.http.HttpSession;
 		IntUsuarioDao udao;
 		@Autowired
 		IntPerfilDao pedao;
+		@Autowired
+		IntReservaDao rdao;
 		
 		//Login
 		
@@ -513,6 +516,26 @@ import javax.servlet.http.HttpSession;
 			binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf,false));
 			
 		}
+		
+		/*@GetMapping("/procesaReserva/{url}")
+		public String procesarFormulario(Model model, @PathVariable(name = "url") String destino, Evento evento) {
+
+			System.out.println(evento);
+
+			evento.setEstado("activo");
+
+			String mensaje = rdao.insertarReserva(evento);
+
+			System.out.println(evento);
+			
+			System.out.println(mensaje);
+
+			model.addAttribute("mensaje", mensaje);
+			model.addAttribute("urlDestino", "/eventos/"+destino);
+
+			return "forward:/eventos/"+destino;
+
+		}*/
 		
 		
 		
