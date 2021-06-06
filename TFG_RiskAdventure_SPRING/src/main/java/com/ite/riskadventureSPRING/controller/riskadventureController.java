@@ -688,6 +688,30 @@ import javax.servlet.http.HttpSession;
 			 
 		}
 		
+		//Elimina la reserva con el "id" que le pasemos de cualquier usuario
+				@GetMapping("/eliminareservausuario/{id}")
+				public String eliminarReservaUsuario(RedirectAttributes ratt, Model model, @PathVariable(name="id") int  idReserva) {
+						
+					String mensajedelete;
+						
+					int eliminado = rdao.eliminarReserva(idReserva);
+						
+					if(eliminado == 1) {
+						mensajedelete = "<span style=\"color: green;\">Se ha eliminado la reserva</span>";
+						System.out.println(mensajedelete);
+					} else {
+						mensajedelete = "<span style=\"color: red;\">Ha habido un error al intentar eliminar la reserva<span>";
+						System.out.println(mensajedelete);
+					}
+						
+					ratt.addFlashAttribute("mensajedelete", mensajedelete);
+						
+					List<Reserva> listado = rdao.verReservas("activo");
+					model.addAttribute("listadoActivos", listado);
+					return "redirect:/riskadventure/admin";	
+					
+				}
+		
 
 		
 		//Clase que formatea la fecha para que al traerla de un form no de error
