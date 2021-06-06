@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Añadir Reservas de Usuario</title>
+		<title>A&ntilde;adir reservas de usuario</title>
 	    <meta charset="UTF-8">   
 	    <!-- Link to CSS file -->
 	    <link href="<c:url value="/css/admin.css" />" rel="stylesheet">
@@ -26,7 +26,7 @@
 	    
 	    <div>
 	        <h2>Confirma la cantidad de asistentes y pulse RESERVAR  </h2>
-	        <h3>Serás dirigido al panel de reservas para que puedas visualizarla</h3>
+	        <h3>Ser&aacute;s dirigido al panel de reservas para que puedas visualizarla</h3>
 	       <form action="insertaReserva" id="new-event" method="post">
         	
         	
@@ -40,7 +40,7 @@
   			<input type="number" id="edate" name="precioVenta" value="${miOferta.precio}" disabled><br><br>
   			
   			<label for="edescription">Observaciones:</label><br>
-  			<textarea id="edescription" name="observaciones" placeholder="Escriba cualquier cosa que quiera indicarnos"></textarea> <br><br>
+  			<textarea id="edescription" name="observaciones" placeholder="Escriba lo que quiera indicarnos"></textarea> <br><br>
   			  			
   			<label for="eduration">Cantidad:</label><br>
   			<input type="number" id="eduration" name="cantidad" ><br><br>
