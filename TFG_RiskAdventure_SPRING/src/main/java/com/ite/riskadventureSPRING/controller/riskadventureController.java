@@ -431,17 +431,22 @@ import javax.servlet.http.HttpSession;
 			System.out.println(reserva.getObservaciones());
 			System.out.println(reserva.getCantidad());
 			System.out.println(reserva.getIdReserva());
-			System.out.println(miEvento.getIdEvento());
 			
+			
+			reserva.setUsuario(user);
+			System.out.println(reserva.getUsuario().getUsername());
+			reserva.setEvento(miEvento);
+			System.out.println(reserva.getEvento().getIdEvento());
+			reserva.setPrecioVenta(miEvento.getPrecio());
 			int reservaOk=rdao.insertarReserva(reserva);
 			if(reservaOk==1) {
-				insertarReserva = "Reservada oferta con exito: ";//+reserva.getEvento().getDescripcion();
-				ratt.addFlashAttribute("insertarReserva",insertarReserva);
+				insertarReserva = "Reservada oferta con id: ["+reserva.getIdReserva()+"] y nombre: "+reserva.getEvento().getNombre()+"satisfactoriamente";//+reserva.getEvento().getDescripcion();
+				ses.setAttribute("insertarReserva",insertarReserva);
 			}else {
 				insertarReserva = "La oferta: no se reservó ";//+reserva.getEvento().getDescripcion()+" no se pudo reservar";
-				ratt.addFlashAttribute("insertarReserva",insertarReserva);
+				ses.setAttribute("insertarReserva",insertarReserva);
 			}
-			return "redirect:/riskadventure/carrito";
+			return "redirect:/riskadventure/indexReserva";
 			
 		}
 		//formreserva

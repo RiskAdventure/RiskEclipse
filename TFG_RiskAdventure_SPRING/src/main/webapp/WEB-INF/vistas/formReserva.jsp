@@ -39,7 +39,7 @@
   			<input type="number" id="edate" name="precioVenta" value="${miOferta.precio}" disabled><br><br>
   			
   			<label for="edescription">Observaciones:</label><br>
-  			<textarea id="edescription" name="descripcion" placeholder="Escriba cualquier cosa que quiera indicarnos"></textarea> <br><br>
+  			<textarea id="edescription" name="observaciones" placeholder="Escriba cualquier cosa que quiera indicarnos"></textarea> <br><br>
   			  			
   			<label for="eduration">Cantidad:</label><br>
   			<input type="number" id="eduration" name="cantidad" ><br><br>
