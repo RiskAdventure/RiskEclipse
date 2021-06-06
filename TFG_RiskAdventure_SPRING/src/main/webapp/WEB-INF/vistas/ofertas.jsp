@@ -189,7 +189,7 @@
 			        			<td>${ele.duracion}</td>
 			        			<td>${ele.precio}&euro;</td>
 			        			<td><a href="/riskadventure/detalleOferta?idEvento=${ele.idEvento }"><div class="ofertas" >Detalle</div></a></td>
-			        			<td><a href="carrito"><div class="ofertas">Reservar</div></a></td>
+			        			<td><a href="/riskadventure/cogeReserva?idEvento=${ele.idEvento }"><div class="ofertas">Reservar</div></a></td>
 			        			
 			        		</tr>
 			        	</c:forEach>
