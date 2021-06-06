@@ -13,3 +13,4 @@ public interface IntReservaDao {
 	int eliminarReserva(int idReserva);
 	List<Reserva> verTodasReservas();
 
+}

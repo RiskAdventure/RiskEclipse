@@ -60,11 +60,7 @@ public class ReservaDaoImpl implements IntReservaDao{
 		return rerepo.findAll();
 	}
 	
-	@Override
-	public List<Reserva> verTodas() {
-		// TODO Auto-generated method stub
-		return rerepo.findAll();
-	}
+	
 	
 
 }
