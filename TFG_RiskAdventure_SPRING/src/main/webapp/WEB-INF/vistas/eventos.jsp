@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,10 +33,25 @@
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
 				<a href="indexReserva"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
-                <a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>
-                <a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
+				
+				<sec:authorize access="hasAnyAuthority('ADMIN')">
+			      	<a href=/riskadventure/admin><i class="fas fa-user-cog" id="admon"></i></a> 
+			     </sec:authorize>
+			     <sec:authorize access="isAnonymous()">
+						<a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>			
+						
+				</sec:authorize>
+                <sec:authorize access="hasAnyAuthority('ADMIN','WEB')">
+						<i class="fas fa-user" id="loginIn" title="login"></i>${usuario.username}			
+						
+				</sec:authorize>
+                <sec:authorize access="isAuthenticated()">
+					<a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
+				</sec:authorize>
+                
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
+
           </div>
           
          <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->

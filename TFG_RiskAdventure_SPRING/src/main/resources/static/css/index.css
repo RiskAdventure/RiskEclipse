@@ -30,18 +30,25 @@ header {
   padding: 0.5vw;
   border-radius: 50%;
   background-color: #e6ebf0;
+ 
 }
 #iconos {
   text-align: right;
   padding-right: 2vw;
 }
 
-#admon{
-	color: #ba9e38;
-	margin-left: 7%;
+#carrito {
+	margin-right: 7%;
 }
 
+#admon{
+	color: #ba9e38;
 
+}
+
+#login{
+	margin-left: 7%; 
+}
 
 #logout {
   margin-left: 7%;

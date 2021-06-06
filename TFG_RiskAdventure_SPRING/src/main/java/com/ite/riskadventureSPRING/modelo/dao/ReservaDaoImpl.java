@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.ite.riskadventureSPRING.modelo.beans.Evento;
 import com.ite.riskadventureSPRING.modelo.beans.Reserva;
 import com.ite.riskadventureSPRING.modelo.beans.Usuario;
 import com.ite.riskadventureSPRING.modelo.repository.ReservaRepository;
@@ -59,6 +60,11 @@ public class ReservaDaoImpl implements IntReservaDao{
 		return rerepo.findAll();
 	}
 	
+	@Override
+	public List<Reserva> verTodas() {
+		// TODO Auto-generated method stub
+		return rerepo.findAll();
+	}
 	
 
 }

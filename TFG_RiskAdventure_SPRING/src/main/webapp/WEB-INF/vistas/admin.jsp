@@ -3,6 +3,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -58,7 +59,7 @@
 	                <td>${ele.nombre}</td>
 	                <td>${ele.precio} €</td>
 	                <td><a class="edit" href="/riskadventure/editar/${ele.idEvento}"> Editar</a></td>
-		            <td><a class="trash" href="/riskadventure/eliminareserva/${ele.idEvento}"> Eliminar</a> </td>
+		            <td><a class="trash" href="/riskadventure/eliminar/${ele.idEvento}"> Eliminar</a> </td>
 	            </tr>
 	            
 	           </c:forEach>
