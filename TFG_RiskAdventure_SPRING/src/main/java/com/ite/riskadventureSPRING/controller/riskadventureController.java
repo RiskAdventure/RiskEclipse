@@ -105,6 +105,7 @@ import javax.servlet.http.HttpSession;
 				model.addAttribute("mensaje", aut.getAuthorities());
 				misesion.setAttribute("usuario",usuario);
 				
+				
 				return "redirect:/riskadventure/inicio";
 			}else {
 				return "redirect:/riskadventure/indexx";
@@ -139,6 +140,7 @@ import javax.servlet.http.HttpSession;
 			misesion.setAttribute("usuario",usuario);
 			
 			return "inicio";
+
 		}
 		
 		
