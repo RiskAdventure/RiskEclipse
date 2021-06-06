@@ -441,7 +441,7 @@ import javax.servlet.http.HttpSession;
 			reserva.setPrecioVenta(miEvento.getPrecio());
 			int reservaOk=rdao.insertarReserva(reserva);
 			if(reservaOk==1) {
-				insertarReserva = "Reservada oferta con id: ["+reserva.getIdReserva()+"] y nombre: "+reserva.getEvento().getNombre()+"satisfactoriamente";//+reserva.getEvento().getDescripcion();
+				insertarReserva = "<b>Reservada oferta</b> con id: ["+reserva.getIdReserva()+"] y nombre: "+reserva.getEvento().getNombre()+" <b>satisfactoriamente</b>";//+reserva.getEvento().getDescripcion();
 				ses.setAttribute("insertarReserva",insertarReserva);
 			}else {
 				insertarReserva = "La oferta: no se reservó ";//+reserva.getEvento().getDescripcion()+" no se pudo reservar";
