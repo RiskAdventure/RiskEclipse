@@ -43,7 +43,7 @@
   			<textarea id="edescription" name="observaciones" placeholder="Escriba lo que quiera indicarnos"></textarea> <br><br>
   			  			
   			<label for="eduration">Cantidad:</label><br>
-  			<input type="number" id="eduration" name="cantidad" ><br><br>
+  			<input type="number" id="eduration" name="cantidad" required><br><br>
   			
   					
   			<br><br>
