@@ -38,9 +38,28 @@ header {
   padding-right: 2vw;
 }
 
-#login {
+#carrito {
+	margin-right: 7%;
+}
+
+#admon{
+	color: #ba9e38;
+
+}
+
+#login{
+	margin-left: 7%; 
+}
+
+#logout {
   margin-left: 7%;
 }
+#logout:hover {
+  cursor: pointer;
+  background-color: #ba9e38;
+  color: white;
+}
+
 #buscar {
   margin-left: 7%;
 }
@@ -54,22 +73,16 @@ header {
   background-color: #ba9e38;
   color: white;
 }
-#logout {
-  margin-left: 7%;
- }
-#logout:hover {
-  cursor: pointer;
-  background-color: #ba9e38;
-  color: white;
- }
 
 #login:hover {
   cursor: pointer;
   background-color: #ba9e38;
   color: white;
 }
-
-
+#loginIn{
+	cursor:auto;
+	background-color: #e6ebf04b;
+}
 /* MENÚ NAV INTEGRADO EN EL HEADER */
 a {
   text-decoration: none !important;
