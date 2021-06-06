@@ -11,5 +11,5 @@ public interface IntReservaDao {
 	public int insertarReserva(Reserva miReserva);
 	List<Reserva> verReservas(String username);
 	int eliminarReserva(int idReserva);
-	List<Reserva> verTodas();
-}
+	List<Reserva> verTodasReservas();
+

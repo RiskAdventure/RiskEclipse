@@ -485,8 +485,16 @@ import javax.servlet.http.HttpSession;
 			
 		}
 		
-	
-		
+		//Ver todas reservas en el panel admin
+		@GetMapping("/todasReservas")
+		public String todasReservas(HttpSession sesion) {
+			
+				List<Reserva> listReservas=rdao.verTodasReservas();
+				sesion.setAttribute("listReservas",listReservas);
+			
+			return "redirect:/riskadventure/admin";
+			
+		}
 		
 		
 		//-------------------------------------------------------------
