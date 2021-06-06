@@ -66,6 +66,8 @@
 		    <artifactId>spring-security-taglibs</artifactId>
 		    <version>5.4.5</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs -->
+		
 		
 		
 	</dependencies>
