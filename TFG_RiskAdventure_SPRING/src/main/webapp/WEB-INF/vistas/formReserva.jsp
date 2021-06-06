@@ -1,7 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 
 <!DOCTYPE html>
 <html>
@@ -27,7 +26,7 @@
 	    <div>
 	        <h2>Confirma la cantidad de asistentes y pulse RESERVAR  </h2>
 	        <h3>Serás dirigido al panel de reservas para que puedas visualizarla</h3>
-	       <form action="/riskadventure/insertaReserva" id="new-event" method="post">
+	       <form action="insertaReserva" id="new-event" method="post">
         	
         	
         	<label for="eid">Id de la Oferta:</label><br>

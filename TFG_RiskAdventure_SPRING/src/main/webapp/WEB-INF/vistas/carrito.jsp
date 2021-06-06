@@ -124,6 +124,7 @@
                     <h1>¡Bienvenid@ ${usuario.username}!</h1>
 
                     <h3>${insertarReserva}</h3>
+                    <p>${miOferta.idEvento}</p>
                     <h2>A continuaci&oacute;n, se muestran sus <b>reservas</b>:</h2>
 			        <c:choose>
 				        <c:when test="${listaReservas!=null && listaReservas.size()!=0}">
