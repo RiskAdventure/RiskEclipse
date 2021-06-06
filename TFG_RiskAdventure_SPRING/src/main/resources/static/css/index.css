@@ -36,9 +36,15 @@ header {
   padding-right: 2vw;
 }
 
-#login {
-  margin-left: 7%;
+#admon{
+	color: #ba9e38;
+	margin-left: 7%;
 }
+
+#login {
+ 
+}
+
 
 #logout {
   margin-left: 7%;
