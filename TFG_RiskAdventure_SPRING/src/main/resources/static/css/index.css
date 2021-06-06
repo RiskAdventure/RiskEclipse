@@ -71,6 +71,10 @@ header {
   background-color: #ba9e38;
   color: white;
 }
+#loginIn{
+	cursor:auto;
+	background-color: #e6ebf04b;
+}
 
 
 /* MENÚ NAV INTEGRADO EN EL HEADER */

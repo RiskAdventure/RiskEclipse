@@ -35,13 +35,16 @@
 				<a href="indexReserva"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
 				
 				<sec:authorize access="hasAnyAuthority('ADMIN')">
-			      	<i class="fas fa-user-cog" id="admon"></i>
+			      	<a href=/riskadventure/admin><i class="fas fa-user-cog" id="admon"></i></a> 
 			     </sec:authorize>
 			     <sec:authorize access="isAnonymous()">
 						<a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>			
 						
 				</sec:authorize>
-                
+                <sec:authorize access="hasAnyAuthority('ADMIN','WEB')">
+						<i class="fas fa-user" id="loginIn" title="login"></i>${usuario.username}			
+						
+				</sec:authorize>
                 <sec:authorize access="isAuthenticated()">
 					<a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
 				</sec:authorize>
