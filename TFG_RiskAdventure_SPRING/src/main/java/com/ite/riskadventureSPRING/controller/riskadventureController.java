@@ -492,7 +492,15 @@ import javax.servlet.http.HttpSession;
 				List<Reserva> listReservas=rdao.verTodasReservas();
 				sesion.setAttribute("listReservas",listReservas);
 			
-			return "redirect:/riskadventure/admin";
+			return "redirect:/riskadventure/adminreservasusuarios";
+			
+		}
+		
+		@GetMapping("/adminreservasusuarios")
+		public String inicio20(Model model) {
+			model.addAttribute("mensaje","Risk Adventure ");
+			
+			return "adminreservasusuarios";
 			
 		}
 		
@@ -680,16 +688,7 @@ import javax.servlet.http.HttpSession;
 			 
 		}
 		
-		//Botón del panel de administración para er todas las reservas de todos los usuarios
-		@GetMapping("/todasReservas")
-		public String reserva(Model model) {
-			model.addAttribute("mensaje","Risk Adventure ");
-			List<Reserva> listaReserva = rdao.verTodas();
-			model.addAttribute("listaReserva", listaReserva);
-			
-			return "redirect:/riskadventure/admin";
-			
-		}
+
 		
 		//Clase que formatea la fecha para que al traerla de un form no de error
 		public void initBinder(WebDataBinder binder) {
