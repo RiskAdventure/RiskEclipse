@@ -413,11 +413,12 @@ import javax.servlet.http.HttpSession;
 		@GetMapping("/cogeReserva")
 		public String cogereserva(RedirectAttributes ratt, Model model, @RequestParam(name = "idEvento") int idEvento,HttpSession sesionre) {
 			Evento miOferta=evdao.mostrarEvento(idEvento);
+			
 			System.out.println(miOferta.getIdEvento()+"oferta");
 			sesionre.setAttribute("miOferta", miOferta);
 			Usuario usuario=(Usuario)sesionre.getAttribute("usuario");
 			if(usuario!=null) {
-				return "redirect:/riskadventure/formReserva";
+				return "formReserva";
 			}else {
 				return "redirect:/riskadventure/indexMiReserva";
 			}
@@ -426,16 +427,27 @@ import javax.servlet.http.HttpSession;
 		@PostMapping("/insertaReserva")
 		public String insertareserva(Model model,Reserva reserva, RedirectAttributes ratt, HttpSession ses) {
 			String insertarReserva;
+			Usuario user=(Usuario)ses.getAttribute("usuario");
+			Evento miEvento=(Evento)ses.getAttribute("miOferta");
+			System.out.println(reserva.getObservaciones());
+			System.out.println(reserva.getCantidad());
+			System.out.println(reserva.getIdReserva());
 			
+			
+			reserva.setUsuario(user);
+			System.out.println(reserva.getUsuario().getUsername());
+			reserva.setEvento(miEvento);
+			System.out.println(reserva.getEvento().getIdEvento());
+			reserva.setPrecioVenta(miEvento.getPrecio());
 			int reservaOk=rdao.insertarReserva(reserva);
 			if(reservaOk==1) {
-				insertarReserva = "Reservada oferta con exito: ";//+reserva.getEvento().getDescripcion();
-				ratt.addFlashAttribute("insertarReserva",insertarReserva);
+				insertarReserva = "Reservada oferta con id: ["+reserva.getIdReserva()+"] y nombre: "+reserva.getEvento().getNombre()+"satisfactoriamente";//+reserva.getEvento().getDescripcion();
+				ses.setAttribute("insertarReserva",insertarReserva);
 			}else {
 				insertarReserva = "La oferta: no se reservó ";//+reserva.getEvento().getDescripcion()+" no se pudo reservar";
-				ratt.addFlashAttribute("insertarReserva",insertarReserva);
+				ses.setAttribute("insertarReserva",insertarReserva);
 			}
-			return "redirect:/riskadventure/carrito";
+			return "redirect:/riskadventure/indexReserva";
 			
 		}
 		//formreserva
