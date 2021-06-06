@@ -67,7 +67,7 @@
 					        			<td>${ele.precioVenta}</td>
 					        			<td>${ele.observaciones}</td>
 					        			<td>${ele.cantidad}</td>
-					        			<td><a class="trash" href="/riskadventure/eliminareserva/${ele.idReserva}">Eliminar</a></td>
+					        			<td><a class="trash" href="/riskadventure/eliminareservausuario/${ele.idReserva}">Eliminar</a></td>
 					        			
 					        		</tr>					        		
 					        	</c:forEach>					        	
