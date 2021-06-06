@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,6 +20,7 @@
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
+  
 
     <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirÃ¡ hacer
      nuestra pÃ¡gina responsive y que se adapte a diferentes tamaÃ±os de pantalla. Para ello nos serviremos tambiÃ©n
@@ -31,9 +33,19 @@
           <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
 				<a href="indexReserva"><i class="fas fa-ticket-alt" id="carrito" title="reservas"></i></a>
-				<i class="fas fa-user-cog" id="admon"></i>
-                <a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>
-                <a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
+				
+				<sec:authorize access="hasAnyAuthority('ADMIN')">
+			      	<i class="fas fa-user-cog" id="admon"></i>
+			     </sec:authorize>
+			     <sec:authorize access="isAnonymous()">
+						<a href="/riskadventure/index"><i class="fas fa-user" id="login" title="login"></i>${usuario.username}</a>			
+						
+				</sec:authorize>
+                
+                <sec:authorize access="isAuthenticated()">
+					<a href="/riskadventure/logout"><i class="fas fa-sign-out-alt" id="logout" title="logout"></i></a>
+				</sec:authorize>
+                
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
 
