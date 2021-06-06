@@ -52,6 +52,12 @@ public class ReservaDaoImpl implements IntReservaDao{
 		
 		return filas;
 	}
+
+	@Override
+	public List<Reserva> verTodasReservas() {
+		
+		return rerepo.findAll();
+	}
 	
 	
 

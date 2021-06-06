@@ -33,7 +33,7 @@
         <h2>Listado de Ofertas activas</h2>
         
         <a href="/riskadventure/create" class="buttonCTA last">CREAR NUEVA OFERTA</a><br>
-        <a href="" class="buttonCTA last">VER RESERVAS USUARIOS</a><br>
+        <a href="/riskadventure/todasReservas" class="buttonCTA last">VER RESERVAS USUARIOS</a><br>
         <p>${mensajedelete}</p>
         <p>${mensajeinsert}</p>
         <p>${mensajeupdate }</p>
@@ -67,6 +67,40 @@
            
         </table>
         
+        <table>
+            
+           
+           <c:choose>
+				        <c:when test="${listReservas!=null && listReservas.size()!=0}">
+					        <table border="2">
+					        	<th>Id Reserva</th>
+					        	<th>Id Evento</th>
+					        	<th>Username</th>
+					        	<th>Precio Venta</th>
+					        	<th>Observaciones</th>
+					        	<th>Cantidad</th>
+					        	<th>Eliminar</th>
+					        	<c:forEach var="ele" items="${listReservas }">
+					        		<tr>
+					        			<td>${ele.idReserva}</td>
+					        			<td>${ele.evento.idEvento}</td>
+					        			<td>${ele.usuario.username}</td>
+					        			<td>${ele.precioVenta}</td>
+					        			<td>${ele.observaciones}</td>
+					        			<td>${ele.cantidad}</td>
+					        			<td><a class="trash" href="/riskadventure/eliminareserva/${ele.idReserva}">Eliminar</a></td>
+					        		</tr>					        		
+					        	</c:forEach>					        	
+					        </table><br>
+					       <a href="tipoOferta"><div class="boton">VOLVER A OFERTAS</div></a>
+				        </c:when>
+				        <c:otherwise>
+				        	<h2>¡ No tiene reservas actualmente!</h2><br>
+				        	<a href="tipoOferta"><div class="boton">VOLVER A OFERTAS</div></a>
+				        </c:otherwise>
+			        </c:choose>
+           
+        </table>
         
         
         </div>
