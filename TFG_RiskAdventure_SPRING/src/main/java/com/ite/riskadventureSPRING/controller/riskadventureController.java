@@ -551,7 +551,7 @@ import javax.servlet.http.HttpSession;
 			return "contacto";
 			
 		}
-		
+		//--------------------------------------------Página de ADMIN-------------------
 		@GetMapping("/admin")
 		public String mostrarActivos(Model model) {
 			
@@ -670,6 +670,17 @@ import javax.servlet.http.HttpSession;
 			
 			return "redirect:/riskadventure/admin";				 
 			 
+		}
+		
+		//Botón del panel de administración para er todas las reservas de todos los usuarios
+		@GetMapping("/todasReservas")
+		public String reserva(Model model) {
+			model.addAttribute("mensaje","Risk Adventure ");
+			List<Reserva> listaReserva = rdao.verTodas();
+			model.addAttribute("listaReserva", listaReserva);
+			
+			return "redirect:/riskadventure/admin";
+			
 		}
 		
 		//Clase que formatea la fecha para que al traerla de un form no de error
